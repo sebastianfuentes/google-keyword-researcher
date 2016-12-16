@@ -1,0 +1,14 @@
+{
+  "name": "google keyword research tool",
+  "version": "1.0.0",
+  "description": "google scraper for seo keyword research automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "google": "^2.1.0"
+  }
+}
