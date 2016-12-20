@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "google": "^2.1.0"
+    "google": "^2.1.0",
+    "url": "^0.11.0"
   }
 }
