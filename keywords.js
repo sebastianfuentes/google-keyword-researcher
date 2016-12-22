@@ -33,7 +33,7 @@ exports.cleanKeywords = (keywords) => {
 					keyword: keyword.Keyword,
 					average: keyword['Avg. Monthly Searches (exact match only)']
 			};
-			if (newKeyword.average.length > 0 || newKeyword.average != "0" || newKeyword.keyword.length > 0){
+			if (newKeyword.average > 200 && newKeyword.keyword.length > 0 && !newKeyword.keyword.match(/\uFFFD/g)){
 				cleanedKeywords.push(newKeyword);
 			}
 		}
@@ -41,12 +41,12 @@ exports.cleanKeywords = (keywords) => {
 	});
 	cleanKeywords.then((res) => {
 		search.searchInGoogle(res);
+		fs.writeFile("./cleanedJson.json", JSON.stringify(res, null, 2),(err) => {
+	    if(err) return console.log(err);
+			console.log("The cleaned keywords were saved!");
+		});
 	})
 	.catch((err) => {
 		console.log(err);
 	});
 };
-
-// exports.returnJson = (json) => {
-// 	return json;
-// };

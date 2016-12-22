@@ -4,4 +4,4 @@
 
 const keywords = require('./keywords.js');
 
-let cleanedKeywords = keywords.init('keywords.csv', true);
+let cleanedKeywords = keywords.init();

@@ -11,20 +11,21 @@ let removeDomainChars = /\bpr\b|\bes\b|\ben\b|\bwww\b|\bin\b|\bcom\b|\bco\b|\buk
 google.tld = process.argv[2] || ".com.mx";
 google.lang =  process.argv[3] || "es";
 google.resultsPerPage = 10;
+google.nextText = google.lang == "en" ? "Next" : "Siguiente"
 
 exports.saveResults = (results) => {
+	console.log(results);
 	for (let i = 0; i < results.length; i++) {
 		let result = {
 			Keyword: results[i].query,
 			MarketShare:results[i].links
 		}
-		console.log(result);
 		for (let j = 0; j < result.MarketShare.length; j++) {
 			let page = result.MarketShare[j];
 			if (page.title.match(/(images|imagenes)\s(.*)\s/ig) || page.link == null) page.title = "Google Images";
 			else {
 				let newTitle = url.parse(page.link);
-				newTitle = newTitle.host.replace(removeDomainChars, "");
+				newTitle = newTitle.host.replace(removeDomainChars, " ");
 				page.title = newTitle.replace(/\b\w/g, l => l.toUpperCase());
 			}
 			page.position = j+1;
@@ -48,6 +49,7 @@ exports.searchInGoogle = (queries) => {
 			setTimeout((query) => {
 				google(query, (err, res) => {
 					if (err) console.error(err)
+					console.log(`Looking up ${query}`);
 					resolve(res);
 				});
 			}, time, query.keyword);
