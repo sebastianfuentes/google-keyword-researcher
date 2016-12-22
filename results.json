@@ -1,279 +1,101 @@
 [
 	{
-		"Keyword": "fondos de pantalla",
+		"Keyword": "iphone",
 		"MarketShare": [
 			{
-				"title": "Google Images",
-				"link": null,
-				"description": "",
-				"href": null,
+				"title": "Apple",
+				"link": "http://www.apple.com/mx/iphone/",
+				"description": "Descubre el iPhone, el dispositivo móvil más poderoso del mundo. Explora el \niPhone 7, el iPhone 7 Plus y el iPhone 6s.iPhone SE - La presentación - Especificaciones - ...El iPhone 7 Plus viene con nuevas cámaras de 12 MP con gran ...El iPhone 7 llega con un rendimiento y una duración de ...Cambia tu móvil por un iPhone desde 15,98 € al mes ...First, choose iPhone 6s or iPhone 6s Plus. Get free next day ...Compra accesorios para el iPhone de Apple, como fundas para el ...",
+				"href": "http://www.apple.com/mx/iphone/",
 				"position": 1
 			},
 			{
-				"title": "Pinterest",
-				"link": "https://es.pinterest.com/explore/fondos-de-pantalla-951361127909/",
-				"description": "Encuentra y guarda ideas sobre Fondos De Pantalla en Pinterest, el catálogo \nglobal de ideas. | Ver más sobre Fondos Para Iphone, Fondos y Patrones.",
-				"href": "https://es.pinterest.com/explore/fondos-de-pantalla-951361127909/",
-				"position": 2
-			},
-			{
-				"title": "365imagenesbonitas",
-				"link": "http://www.365imagenesbonitas.com/fondos-de-pantalla",
-				"description": "Fondos de pantalla para descargar Gratis a tu celular, tablet o PC, imágenes \nbonitas para personalizar tu teléfono con animales, automóvil, deportes y ...",
-				"href": "http://www.365imagenesbonitas.com/fondos-de-pantalla",
-				"position": 3
-			},
-			{
-				"title": "Google Images",
-				"link": "http://www.fonditos.com/",
-				"description": "FONDITOS: Los mejores fondos de pantalla, imagenes, paisajes, wallpapers y \nfondos de escritorio, wallpapers gratis, bellos paisajes e imagenes para ...",
-				"href": "http://www.fonditos.com/",
-				"position": 4
-			},
-			{
 				"title": "Google Images",
 				"link": null,
 				"description": "",
 				"href": null,
+				"position": 2
+			},
+			{
+				"title": "Wikipedia",
+				"link": "https://es.wikipedia.org/wiki/IPhone",
+				"description": "iPhone es una línea de teléfonos inteligentes de alta gama diseñada y \ncomercializada por Apple Inc. Ejecuta el sistema operativo móvil iOS antes \nconocido ...",
+				"href": "https://es.wikipedia.org/wiki/IPhone",
+				"position": 3
+			},
+			{
+				"title": "Celularesmercadolibre",
+				"link": "http://celulares.mercadolibre.com.mx/iphone/",
+				"description": "Encuentra Celulares iPhone en Mercado Libre México. Descubre la mejor forma \nde comprar online.",
+				"href": "http://celulares.mercadolibre.com.mx/iphone/",
+				"position": 4
+			},
+			{
+				"title": "Tiendatelmex",
+				"link": "https://tienda.telmex.com/shell/af/core/nav/categoryBrowse.do?categoryId=-9919",
+				"description": "A Kit Apple Iphone 6s Plus 16GB Gris Espacial Pantalla: 5.5\" Sistema Operativo: \niOS 9. Procesador: A9 de 64 Bits 18 meses: $1,332. A Kit Apple Iphone 6s ...",
+				"href": "https://tienda.telmex.com/shell/af/core/nav/categoryBrowse.do?categoryId=-9919",
 				"position": 5
 			},
 			{
-				"title": "Playgoogle",
-				"link": "https://play.google.com/store/apps/details?id=com.google.android.apps.wallpaper&hl=es",
-				"description": "Aprovecha al máximo tu pantalla con maravillosos fondos de pantalla y \nfunciones avanzadas. Selecciona tus propias fotos, una imagen de la colección \nde ...",
-				"href": "https://play.google.com/store/apps/details?id=com.google.android.apps.wallpaper&hl=es",
+				"title": "Iphonetelcel",
+				"link": "http://iphone.telcel.com/",
+				"description": "El iPhone 7 y el iPhone 7 Plus son resistentes a las salpicaduras, al agua y al \npolvo, y fueron probados en condiciones de laboratorio controladas, con una ...",
+				"href": "http://iphone.telcel.com/",
 				"position": 6
 			},
 			{
-				"title": "Computerhoy",
-				"link": "http://computerhoy.com/noticias/moviles/25-mejores-fondos-pantalla-wallpapers-android-24073",
-				"description": "25 Abr 2015 ... En la red existen millones de fondos de pantalla para Android, y agrupados en \ndiferentes categorías. Hoy te dejamos los 25 mejores ...",
-				"href": "http://computerhoy.com/noticias/moviles/25-mejores-fondos-pantalla-wallpapers-android-24073",
+				"title": "Applesfera",
+				"link": "http://www.applesfera.com/categoria/iphone",
+				"description": "iPhone: Apple estudia fabricar sus productos en India, pero quiere algo a cambio\n.Luz verde: la apertura de un centro de I+D en Indonesia hace que...",
+				"href": "http://www.applesfera.com/categoria/iphone",
 				"position": 7
-			},
-			{
-				"title": "Supportmicrosoft",
-				"link": "https://support.microsoft.com/es-mx/help/17780/featured-wallpapers",
-				"description": "Para obtener un fondo para el escritorio (papel tapiz), haz clic en Consíguelo ... \nTambién puedes usar un fondo de escritorio como pantalla de bloqueo o como ...",
-				"href": "https://support.microsoft.com/es-mx/help/17780/featured-wallpapers",
-				"position": 8
-			},
-			{
-				"title": "Fondos12",
-				"link": "http://www.fondos12.com/",
-				"description": "Sitio web con los mejores fondos de pantalla, fondos de escritorio y wallpapers \nen alta resolución HD para descargar totalmente gratis.",
-				"href": "http://www.fondos12.com/",
-				"position": 9
-			},
-			{
-				"title": "Nationalgeographic",
-				"link": "http://nationalgeographic.es/fotografia/fondos-de-escritorio",
-				"description": "National Geographic España te ofrece los Fondos de Pantalla más \nespectaculares con fotos del mundo que nos rodea. Imágenes espectaculares \nsobre...",
-				"href": "http://nationalgeographic.es/fotografia/fondos-de-escritorio",
-				"position": 10
 			}
 		]
 	},
 	{
-		"Keyword": "mejores celulares",
+		"Keyword": "smartphone",
 		"MarketShare": [
 			{
-				"title": "Cnet",
-				"link": "https://www.cnet.com/es/temas/telefonos-moviles/los-mejores-celulares/",
-				"description": "",
-				"href": "https://www.cnet.com/es/temas/telefonos-moviles/los-mejores-celulares/",
+				"title": "Wikipedia",
+				"link": "https://es.wikipedia.org/wiki/Tel%C3%A9fono_inteligente",
+				"description": "El teléfono inteligente (smartphone en inglés) es un tipo de teléfono móvil \nconstruido sobre una plataforma informática móvil, con mayor capacidad de ...",
+				"href": "https://es.wikipedia.org/wiki/Tel%C3%A9fono_inteligente",
 				"position": 1
 			},
 			{
-				"title": "Cnet",
-				"link": "https://www.cnet.com/es/temas/telefonos-moviles/los-mejores-celulares/android/",
-				"description": "hace 3 días ... Eres fanático de Android o quieres un celular Android? Te presentamos los \nmejores celulares Android de 2016. Comparación y precio de ...",
-				"href": "https://www.cnet.com/es/temas/telefonos-moviles/los-mejores-celulares/android/",
+				"title": "Areatecnologia",
+				"link": "http://www.areatecnologia.com/Que-es-un-smartphone.htm",
+				"description": "Qúe es un Smartphone? Esta pregunta que se hace mucha gente la vamos a \nresponder de forma clara y sencilla. SmartPhones y Caracteristicas de un ...",
+				"href": "http://www.areatecnologia.com/Que-es-un-smartphone.htm",
 				"position": 2
 			},
 			{
-				"title": "Cnet",
-				"link": "https://www.cnet.com/es/temas/telefonos-moviles/los-mejores-celulares/",
-				"description": "hace 3 días ... Lista de los mejores celulares 2016 en diferentes categorías. Los mejores \ncelulares Android, Windows, iOS (iPhone) u otros del momento.",
-				"href": "https://www.cnet.com/es/temas/telefonos-moviles/los-mejores-celulares/",
+				"title": "Sonymobile",
+				"link": "http://www.sonymobile.com/mx/products/phones/",
+				"description": "Descubre la variedad de smartphones de Xperia™ galardonados de Sony. \nRepletos de entretenimiento, con tecnología Android. Encuentra tu compañero \nideal ...",
+				"href": "http://www.sonymobile.com/mx/products/phones/",
 				"position": 3
-			},
-			{
-				"title": "Cnet",
-				"link": "https://www.cnet.com/es/imagenes/celulares-buenos-bonitos-y-baratos-fotos/",
-				"description": "30 Nov 2016 ... Estos son los mejores celulares en la actualidad de US$250 o menos (con un \npar de excepciones que cuestan un poco más). Nota del editor: ...",
-				"href": "https://www.cnet.com/es/imagenes/celulares-buenos-bonitos-y-baratos-fotos/",
-				"position": 4
-			},
-			{
-				"title": "Youtube",
-				"link": "https://www.youtube.com/watch?v=RhPDD4zz0kw",
-				"description": "",
-				"href": "https://www.youtube.com/watch?v=RhPDD4zz0kw",
-				"position": 5
-			},
-			{
-				"title": "Geektopia",
-				"link": "https://www.geektopia.es/es/technology/2013/07/13/noticias/los-cinco-mejores-smartphones-android-del-momento.html",
-				"description": "12 Dic 2016 ... Los mejores teléfonos de gama alta Android (las phablets están en otros \nartículos), teniendo en cuenta en parte la calidad/precio pero sobre ...",
-				"href": "https://www.geektopia.es/es/technology/2013/07/13/noticias/los-cinco-mejores-smartphones-android-del-momento.html",
-				"position": 6
-			},
-			{
-				"title": "El-Mejor",
-				"link": "https://www.el-mejor.com/celular-telefono-movil-del-mundo-cual-es/",
-				"description": "Cuál es el MEJOR CELULAR del Mundo 2016 ➨➨ AQUÍ tienes la Lista de 10 \nMarcas de Celulares y 【TELEFONOS】. Los Mejores 【MOVILES】 del Mercado !",
-				"href": "https://www.el-mejor.com/celular-telefono-movil-del-mundo-cual-es/",
-				"position": 7
-			},
-			{
-				"title": "Blogdeapps",
-				"link": "http://blogdeapps.com/los-10-mejores-celulares-actuales/",
-				"description": "12 Ene 2015 ... Aquí encontrarás la lista con los 10 mejores celulares del 2016, elegidos \nespecialmente para los usuarios tecnológicos más exigentes.",
-				"href": "http://blogdeapps.com/los-10-mejores-celulares-actuales/",
-				"position": 8
-			},
-			{
-				"title": "Eltiempo",
-				"link": "http://www.eltiempo.com/multimedia/fotos/tecnologia/top-10-los-mejores-celulares-del-momento/16059976",
-				"description": "'Top' 10: los mejores celulares del momento. Escoger un celular hoy en día no es \ntarea sencilla, precisamente por la cantidad de referencias que están ...",
-				"href": "http://www.eltiempo.com/multimedia/fotos/tecnologia/top-10-los-mejores-celulares-del-momento/16059976",
-				"position": 9
-			},
-			{
-				"title": "T-Mobile",
-				"link": "http://es.t-mobile.com/offer/best-value-smartphones.html",
-				"description": "Crees que un excelente smartphone es demasiado caro? Encuentra los mejores \ncelulares baratos en las ofertas de T-Mobile. ¡Haz tu pedido hoy y recibe envío ...",
-				"href": "http://es.t-mobile.com/offer/best-value-smartphones.html",
-				"position": 10
 			},
 			{
 				"title": "Lg",
 				"link": "http://www.lg.com/mx/smartphones",
-				"description": "Si buscas un celular inteligente más fino, portátil y ligero, en LG te ofrecemos \nuna gran gama de opciones de Smartphones con visualización de alta definición\n, ...",
+				"description": "Smartphone LG: Un completo centro de comunicación y entretenimiento móvil \nmultimedia portátil de atractivo y cómodo diseño.",
 				"href": "http://www.lg.com/mx/smartphones",
-				"position": 11
-			}
-		]
-	},
-	{
-		"Keyword": "moto z",
-		"MarketShare": [
-			{
-				"title": "Motorola",
-				"link": "https://www.motorola.com.mx/moto-mods",
-				"description": "El smartphone, transformado. Presentamos Moto Z + Moto Mods. Tu smartphone \nse convierte en proyector de películas, radiograbador, fuente de alimentación y ...",
-				"href": "https://www.motorola.com.mx/moto-mods",
-				"position": 1
-			},
-			{
-				"title": "Motorola",
-				"link": "https://www.motorola.com.mx/products/moto-z-play",
-				"description": "Moto Z Play: Lo máximo en energía. Posibilidades ilimitadas. Se transforma con \nMoto Mods. El smartphone Moto con la batería más duradera hasta ahora.",
-				"href": "https://www.motorola.com.mx/products/moto-z-play",
-				"position": 2
-			},
-			{
-				"title": "Motorola",
-				"link": "https://www.motorola.com.mx/products/moto-z",
-				"description": "Moto Mods™. Transforma tu smartphone con la adhesión magnética de los Moto \nMods™. Más información. Diseño Quad HD de 5.5\", resistente y ultradelgado.",
-				"href": "https://www.motorola.com.mx/products/moto-z",
-				"position": 3
-			},
-			{
-				"title": "Att",
-				"link": "https://www.att.com.mx/celulares/att-mexico-motorola-moto-z.html",
-				"description": "Estrena un Motorola Moto Z con un plan todo incluido de ATT.",
-				"href": "https://www.att.com.mx/celulares/att-mexico-motorola-moto-z.html",
 				"position": 4
 			},
 			{
-				"title": "Gsmarena",
-				"link": "http://www.gsmarena.com/motorola_moto_z-8094.php",
-				"description": "Motorola Moto Z Android smartphone. Announced 2016, June. Features 3G, 5.5\n″ AMOLED capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.",
-				"href": "http://www.gsmarena.com/motorola_moto_z-8094.php",
+				"title": "Lomasnuevo",
+				"link": "http://www.lomasnuevo.net/smartphones/",
+				"description": "Lo más nuevo en Smartphones - Samsung, iPhone, Motorola, Huawei, Sony, etc.",
+				"href": "http://www.lomasnuevo.net/smartphones/",
 				"position": 5
 			},
 			{
-				"title": "Cnet",
-				"link": "https://www.cnet.com/es/analisis/motorola-moto-z/",
-				"description": "22 Jul 2016 ... El celular Motorola Moto Z es uno de los celulares más delgados del mundo, \nofrece excelente desempeño y tiene diseño modular (Moto Mods) ...",
-				"href": "https://www.cnet.com/es/analisis/motorola-moto-z/",
-				"position": 6
-			},
-			{
-				"title": "Smart-Gsm",
-				"link": "http://www.smart-gsm.com/moviles/motorola-moto-z",
-				"description": "Especificaciones y caracteristicas del Motorola Moto Z, mas comentarios de \nusuarios y fotos. Características avanzadas y ratings.",
-				"href": "http://www.smart-gsm.com/moviles/motorola-moto-z",
-				"position": 7
-			},
-			{
-				"title": "Motorola",
-				"link": "https://www.motorola.com/us/products/moto-z-droid-edition",
-				"description": "The world's thinnest premium smartphone, Moto Z transforms with Moto Mods™. \nTurn your phone into a movie projector, stereo speaker, or battery powerhouse.",
-				"href": "https://www.motorola.com/us/products/moto-z-droid-edition",
-				"position": 8
-			},
-			{
-				"title": "Motorola",
-				"link": "http://www.motorola.in/products/moto-z",
-				"description": "Moto Mods™. Transform your phone by magnetically clicking Moto Mods™ onto \nyour phone. Learn more. Durable, ultra-thin 14 cm (5.5\") Quad HD design.",
-				"href": "http://www.motorola.in/products/moto-z",
-				"position": 9
-			},
-			{
-				"title": "Xataka",
-				"link": "http://www.xataka.com.mx/analisis/moto-z-analisis",
-				"description": "7 Oct 2016 ... Hoy es el turno de analizar la propuesta de Motorola, quizá la apuesta más \narriesgada de la compañía a la fecha. El Moto Z, su teléfono ...",
-				"href": "http://www.xataka.com.mx/analisis/moto-z-analisis",
-				"position": 10
-			}
-		]
-	},
-	{
-		"Keyword": "s7 edge",
-		"MarketShare": [
-			{
-				"title": "Samsung",
-				"link": "http://www.samsung.com/mx/smartphones/galaxy-s7/overview/",
-				"description": "Así luce el equilibrio perfecto entre forma y funcionalidad. Descubre por qué \nGalaxy S7 y S7 edge son lo mejor hasta ahora.",
-				"href": "http://www.samsung.com/mx/smartphones/galaxy-s7/overview/",
-				"position": 1
-			},
-			{
-				"title": "Gsmarena",
-				"link": "http://www.gsmarena.com/samsung_galaxy_s7_edge-7945.php",
-				"description": "Samsung Galaxy S7 edge Android smartphone. Announced 2016, February. \nFeatures 3G, 5.5″ Super AMOLED capacitive touchscreen, 12 MP camera, Wi-Fi\n, ...",
-				"href": "http://www.gsmarena.com/samsung_galaxy_s7_edge-7945.php",
-				"position": 2
-			},
-			{
-				"title": "T-Mobile",
-				"link": "https://es.t-mobile.com/cell-phone/samsung-galaxy-s7-edge",
-				"description": "hace 11 horas ... Get the Samsung Galaxy S7 Edge from T-Mobile with unlimited data and Free \nShipping! Check out more of our great deals here!",
-				"href": "https://es.t-mobile.com/cell-phone/samsung-galaxy-s7-edge",
-				"position": 3
-			},
-			{
-				"title": "Verizonwireless",
-				"link": "https://es.verizonwireless.com/smartphones/samsung-galaxy-s7-edge/",
-				"description": "El Samsung Galaxy S7 edge es el smartphone indispensable para tu vida. Panel \ncon borde extendido para más experiencias y diseño resistente al agua.",
-				"href": "https://es.verizonwireless.com/smartphones/samsung-galaxy-s7-edge/",
-				"position": 4
-			},
-			{
-				"title": "Computerhoy",
-				"link": "http://computerhoy.com/fichas/samsung-galaxy-s7-edge",
-				"description": "Ficha técnica del Samsung Galaxy S7 Edge, con características, \nespecificaciones y mejores precios, opiniones, noticias y el análisis más \ncompleto.",
-				"href": "http://computerhoy.com/fichas/samsung-galaxy-s7-edge",
-				"position": 5
-			},
-			{
-				"title": "Att",
-				"link": "https://www.att.com.mx/celulares/att-mexico-samsung-galaxy-s7-edge.html",
-				"description": "Estrena un Samsung Galaxy S7 edge con un plan todo incluido de ATT.",
-				"href": "https://www.att.com.mx/celulares/att-mexico-samsung-galaxy-s7-edge.html",
+				"title": "Celularesmercadolibre",
+				"link": "http://celulares.mercadolibre.com.mx/",
+				"description": "Encuentra Celulares y Smartphones en Mercado Libre México. Descubre la \nmejor forma de comprar online.",
+				"href": "http://celulares.mercadolibre.com.mx/",
 				"position": 6
 			},
 			{
@@ -284,25 +106,379 @@
 				"position": 7
 			},
 			{
-				"title": "Att",
-				"link": "https://www.att.com/cellphones/samsung/galaxy-s7-edge.html",
-				"description": "The Galaxy S7 edge. Key features include 5.5-inch dual-edge display, world's \nfirst dual-pixel camera, and up to 256 GB of expandable memory (card sold ...",
-				"href": "https://www.att.com/cellphones/samsung/galaxy-s7-edge.html",
+				"title": "Google Images",
+				"link": null,
+				"description": "",
+				"href": null,
 				"position": 8
 			},
 			{
-				"title": "Three",
-				"link": "http://www.three.co.uk/samsung/galaxy-s7-edge",
-				"description": "Check out the Samsung Galaxy S7 Edge on Pay Monthly and get 3 months free, \non the network built for the internet.",
-				"href": "http://www.three.co.uk/samsung/galaxy-s7-edge",
+				"title": "Linio",
+				"link": "https://www.linio.com.mx/c/celulares-y-tablets/celulares-y-smartphones",
+				"description": "Venta de celulares en México. Elige el smartphone que más te guste y \naprovecha los meses sin intereses y las ofertas de celulares ¡Compra online!",
+				"href": "https://www.linio.com.mx/c/celulares-y-tablets/celulares-y-smartphones",
 				"position": 9
 			},
 			{
-				"title": "Carphonewarehouse",
-				"link": "https://www.carphonewarehouse.com/samsung/galaxy-s7-edge.html",
-				"description": "Looking for the best Galaxy S7 Edge deals, contracts and upgrades? We \ncompare the UK's widest range of networks. And if you find it cheaper anywhere \nelse, ...",
-				"href": "https://www.carphonewarehouse.com/samsung/galaxy-s7-edge.html",
+				"title": "Tecnomagazine",
+				"link": "http://tecnomagazine.net/tecnologia/telefonos-moviles/",
+				"description": "Smartphones chinos “Maxx” repuntan en ventas a nivel mundial · Móviles 0 \nComentarios · D1C, el primer smartphone Android de la Nokia · Móviles 2 ...",
+				"href": "http://tecnomagazine.net/tecnologia/telefonos-moviles/",
 				"position": 10
+			}
+		]
+	},
+	{
+		"Keyword": "iphone 5",
+		"MarketShare": [
+			{
+				"title": "Celularesmercadolibre",
+				"link": "http://celulares.mercadolibre.com.mx/iphone/iphone-5/",
+				"description": "Iphone 5 16gb Celular Seminuevo Promocion $2990 Envio Gratis · Iphone 5 \n16gb Celular ... Celular Apple Iphone 5 16gb 12 Meses Garantia Envió Gratis.",
+				"href": "http://celulares.mercadolibre.com.mx/iphone/iphone-5/",
+				"position": 1
+			},
+			{
+				"title": "Apple",
+				"link": "http://www.apple.com/mx/iphone/",
+				"description": "Descubre el iPhone, el dispositivo móvil más poderoso del mundo. Explora el \niPhone 7, el iPhone 7 Plus y el iPhone 6s.",
+				"href": "http://www.apple.com/mx/iphone/",
+				"position": 2
+			},
+			{
+				"title": "Smart-Gsm",
+				"link": "http://www.smart-gsm.com/moviles/apple-iphone-5",
+				"description": "Especificaciones y caracteristicas del Apple iPhone 5, mas comentarios de \nusuarios y fotos. Características avanzadas y ratings.",
+				"href": "http://www.smart-gsm.com/moviles/apple-iphone-5",
+				"position": 3
+			},
+			{
+				"title": "Telcel",
+				"link": "http://www.telcel.com/personas/equipos/telefonos-y-smartphones/apple/iphone-5",
+				"description": "Llega a México uno de los teléfonos más esperados. Es ligero y delgado, el \nnuevo iPhone 5 quiere rescribir la historia de la telefonía móvil con su Sistema ...",
+				"href": "http://www.telcel.com/personas/equipos/telefonos-y-smartphones/apple/iphone-5",
+				"position": 4
+			},
+			{
+				"title": "Gsmarena",
+				"link": "http://www.gsmarena.com/apple_iphone_5-4910.php",
+				"description": "Apple iPhone 5 smartphone. Announced 2012, September. Features 3G, 4.0″ \nLED-backlit IPS LCD display, 8 MP camera, Wi-Fi, GPS, Bluetooth.",
+				"href": "http://www.gsmarena.com/apple_iphone_5-4910.php",
+				"position": 5
+			},
+			{
+				"title": "Wikipedia",
+				"link": "https://es.wikipedia.org/wiki/IPhone_5",
+				"description": "El iPhone 5 es un teléfono inteligente de alta gama desarrollado por Apple Inc. \nFue presentado como la sexta generación de iPhone el 12 de septiembre de ...",
+				"href": "https://es.wikipedia.org/wiki/IPhone_5",
+				"position": 6
+			},
+			{
+				"title": "Celularesmercadolibre",
+				"link": "http://celulares.mercadolibre.com.co/iphone/iphone-5/",
+				"description": "Apple Iphone 5 16 Gb Gms Desbloqueados, Espacio Gris · Apple Iphone 5 16 ... \nIphone 5 16gb Nuevos !!super Promo!!obsequios,sellados+fact · Iphone 5 16gb ...",
+				"href": "http://celulares.mercadolibre.com.co/iphone/iphone-5/",
+				"position": 7
+			},
+			{
+				"title": "Imore",
+				"link": "http://www.imore.com/iphone-5",
+				"description": "On September 12, 2012 Phil Schiller announced the biggest thing to happen to \nthe iPhone since the original iPhone. Big as in in thinner and lighter. Big as in a ...",
+				"href": "http://www.imore.com/iphone-5",
+				"position": 8
+			},
+			{
+				"title": "Cnet",
+				"link": "https://www.cnet.com/es/analisis/apple-iphone-5/resena/",
+				"description": "26 Ago 2013 ... Lo bueno El iPhone 5 añade todo lo que queríamos que tuviera el iPhone 4S: 4G \nLTE, una pantalla más grande y larga, navegación paso a ...",
+				"href": "https://www.cnet.com/es/analisis/apple-iphone-5/resena/",
+				"position": 9
+			},
+			{
+				"title": "Ipadizate",
+				"link": "http://www.ipadizate.es/tag/iphone-5/",
+				"description": "iPhone 5 de Apple: Noticias, Análisis, Características y Especificaciones \nTécnicas del iPhone más rápido y más fino de todos los tiempos.",
+				"href": "http://www.ipadizate.es/tag/iphone-5/",
+				"position": 10
+			}
+		]
+	},
+	{
+		"Keyword": "iphone 4",
+		"MarketShare": [
+			{
+				"title": "Celularesmercadolibre",
+				"link": "http://celulares.mercadolibre.com.mx/iphone/iphone-4/",
+				"description": "Encuentra iPhone 4 en Mercado Libre México. Descubre la mejor forma de \ncomprar online.",
+				"href": "http://celulares.mercadolibre.com.mx/iphone/iphone-4/",
+				"position": 1
+			},
+			{
+				"title": "Wikipedia",
+				"link": "https://es.wikipedia.org/wiki/IPhone_4",
+				"description": "El iPhone 4 fue un teléfono inteligente de gama alta, presentado como la cuarta \ngeneración de iPhone el 24 de junio de 2010. Originalmente, Apple solo lo ...",
+				"href": "https://es.wikipedia.org/wiki/IPhone_4",
+				"position": 2
+			},
+			{
+				"title": "Smart-Gsm",
+				"link": "http://www.smart-gsm.com/moviles/apple-iphone-4",
+				"description": "Especificaciones y caracteristicas del Apple iPhone 4, mas comentarios de \nusuarios y fotos. Características avanzadas y ratings.",
+				"href": "http://www.smart-gsm.com/moviles/apple-iphone-4",
+				"position": 3
+			},
+			{
+				"title": "Apple",
+				"link": "http://www.apple.com/mx/iphone/",
+				"description": "Descubre el iPhone, el dispositivo móvil más poderoso del mundo. Explora el \niPhone 7, el iPhone 7 Plus y el iPhone 6s.",
+				"href": "http://www.apple.com/mx/iphone/",
+				"position": 4
+			},
+			{
+				"title": "Gsmarena",
+				"link": "http://www.gsmarena.com/apple_iphone_4-3275.php",
+				"description": "Apple iPhone 4 smartphone. Announced 2010, June. Features 3G, 3.5″ LED-\nbacklit IPS LCD display, 5 MP camera, Wi-Fi, GPS, Bluetooth.",
+				"href": "http://www.gsmarena.com/apple_iphone_4-3275.php",
+				"position": 5
+			},
+			{
+				"title": "Quesabesde",
+				"link": "http://www.quesabesde.com/moviles/apple-iphone-4-16-gb",
+				"description": "Apple iPhone 4 (16 GB), precios, análisis, opiniones, especificaciones, tiendas, \nvídeos, fotos y noticias. Todo sobre Apple iPhone 4 (16 GB)",
+				"href": "http://www.quesabesde.com/moviles/apple-iphone-4-16-gb",
+				"position": 6
+			},
+			{
+				"title": "Quesabesde",
+				"link": "http://www.quesabesde.com/moviles/apple-iphone-4-8-gb",
+				"description": "Apple iPhone 4 (8 GB), precios, análisis, opiniones, especificaciones, tiendas, \nvídeos, fotos y noticias. Todo sobre Apple iPhone 4 (8 GB)",
+				"href": "http://www.quesabesde.com/moviles/apple-iphone-4-8-gb",
+				"position": 7
+			},
+			{
+				"title": "Google Images",
+				"link": null,
+				"description": "",
+				"href": null,
+				"position": 8
+			},
+			{
+				"title": "Xataka",
+				"link": "http://www.xataka.com/moviles/iphone-4-lo-veras-mejor-en-todos-los-sentidos",
+				"description": "7 Jun 2010 ... iPhone 4, toda la información, características, datos y fotos del nuevo teléfono de \nApple con mejor pantalla Retina Display, giroscopio y ...",
+				"href": "http://www.xataka.com/moviles/iphone-4-lo-veras-mejor-en-todos-los-sentidos",
+				"position": 9
+			},
+			{
+				"title": "Applesfera",
+				"link": "http://www.applesfera.com/tag/iphone-4",
+				"description": "iPhone 4, la evolución del iPhone se hace realidad Mucho hemos hablado del \nnuevo iPhone, incluso me atrevería a decir más que cuando se...",
+				"href": "http://www.applesfera.com/tag/iphone-4",
+				"position": 10
+			}
+		]
+	},
+	{
+		"Keyword": "new iphone",
+		"MarketShare": [
+			{
+				"title": "Apple",
+				"link": "http://www.apple.com/iphone-7/",
+				"description": "iPhone 7 now has the best performance and battery life ever, as well as new \nfinishes, water resistance, and stereo speakers.",
+				"href": "http://www.apple.com/iphone-7/",
+				"position": 1
+			},
+			{
+				"title": "Apple",
+				"link": "http://www.apple.com/iphone-se/",
+				"description": "With an A9 chip and a 12MP camera, iPhone SE delivers incredible ... or search \nfor something specific, quickly discover and download new apps with a tap.",
+				"href": "http://www.apple.com/iphone-se/",
+				"position": 2
+			},
+			{
+				"title": "Apple",
+				"link": "http://www.apple.com/iphone/",
+				"description": "Join the iPhone Upgrade Program. Get a new iPhone every year*; Choose your \ncarrier; Low monthly payments; iPhone protection with AppleCare+. See how it ...",
+				"href": "http://www.apple.com/iphone/",
+				"position": 3
+			},
+			{
+				"title": "Apple",
+				"link": "http://www.apple.com/iphone/trade-up/",
+				"description": "Trade in your eligible smartphone and get credit to lower the full cost of a new \niPhone or to reduce the monthly payments with your carrier.",
+				"href": "http://www.apple.com/iphone/trade-up/",
+				"position": 4
+			},
+			{
+				"title": "Google Images",
+				"link": null,
+				"description": "",
+				"href": null,
+				"position": 5
+			},
+			{
+				"title": "Macrumors",
+				"link": "http://www.macrumors.com/roundup/iphone-8/",
+				"description": "Apple has a major iPhone redesign planned for 2017, with a glass body and ... \nThe new iPhone may be sold alongside upgraded (but standard) 4.7 and 5.5-\ninch ...",
+				"href": "http://www.macrumors.com/roundup/iphone-8/",
+				"position": 6
+			},
+			{
+				"title": "Macrumors",
+				"link": "http://www.macrumors.com/roundup/iphone-7/",
+				"description": "The New iPhone 7 and iPhone 7 Plus; How to Buy ... Apple says the iPhone 7 \nand the iPhone 7 Plus, ...",
+				"href": "http://www.macrumors.com/roundup/iphone-7/",
+				"position": 7
+			},
+			{
+				"title": "Forbes",
+				"link": "http://www.forbes.com/sites/gordonkelly/2016/11/15/apple-leak-reveals-new-iphone-oled/",
+				"description": "15 Nov 2016 ... Having last week confirmed the 2017 iPhone SE update has been scrapped, a \nnew research note from Kuo obtained by MacRumors explains ...",
+				"href": "http://www.forbes.com/sites/gordonkelly/2016/11/15/apple-leak-reveals-new-iphone-oled/",
+				"position": 8
+			},
+			{
+				"title": "Forbes",
+				"link": "http://www.forbes.com/sites/gordonkelly/2016/11/09/apple-iphone-2017-cancellation/",
+				"description": "9 Nov 2016 ... Apple Leak Reveals Massive New iPhone Cancellation. Gordon Kelly , \nContributor. Ming-Chi Kuo is at it again. The KGI Securities analyst ...",
+				"href": "http://www.forbes.com/sites/gordonkelly/2016/11/09/apple-iphone-2017-cancellation/",
+				"position": 9
+			},
+			{
+				"title": "Forbes",
+				"link": "http://www.forbes.com/sites/gordonkelly/2016/12/19/apple-iphone-8-oled-curve-design/",
+				"description": "2 days ago ... Apple's new iPhone design just got a lot more exciting...",
+				"href": "http://www.forbes.com/sites/gordonkelly/2016/12/19/apple-iphone-8-oled-curve-design/",
+				"position": 10
+			}
+		]
+	},
+	{
+		"Keyword": "iphone 3gs",
+		"MarketShare": [
+			{
+				"title": "Wikipedia",
+				"link": "https://es.wikipedia.org/wiki/IPhone_3GS",
+				"description": "El iPhone 3GS fue un teléfono inteligente de gama alta presentado como la \ntercera generación de iPhone, sucesor del iPhone 3G, y anunciado el 8 de junio \nde ...",
+				"href": "https://es.wikipedia.org/wiki/IPhone_3GS",
+				"position": 1
+			},
+			{
+				"title": "Celularesmercadolibre",
+				"link": "http://celulares.mercadolibre.com.mx/iphone/iphone-3gs/",
+				"description": "Encuentra iPhone 3GS en Mercado Libre México. Descubre la mejor forma de \ncomprar online.",
+				"href": "http://celulares.mercadolibre.com.mx/iphone/iphone-3gs/",
+				"position": 2
+			},
+			{
+				"title": "Smart-Gsm",
+				"link": "http://www.smart-gsm.com/moviles/apple-iphone-3gs",
+				"description": "Especificaciones y caracteristicas del Apple iPhone 3G S, mas comentarios de ... \n5 VS iPhone 4S VS iPhone 4 VS iPhone 3Gs VS iPhone 3G VS iPhone 2G .",
+				"href": "http://www.smart-gsm.com/moviles/apple-iphone-3gs",
+				"position": 3
+			},
+			{
+				"title": "Google Images",
+				"link": null,
+				"description": "",
+				"href": null,
+				"position": 4
+			},
+			{
+				"title": "Gsmarena",
+				"link": "http://www.gsmarena.com/apple_iphone_3gs-2826.php",
+				"description": "Apple iPhone 3GS smartphone. Announced 2009, June. Features 3G, 3.5″ TFT \ncapacitive touchscreen, 3.15 MP camera, Wi-Fi, GPS, Bluetooth.",
+				"href": "http://www.gsmarena.com/apple_iphone_3gs-2826.php",
+				"position": 5
+			},
+			{
+				"title": "Supportapple",
+				"link": "https://support.apple.com/kb/SP565?viewlocale=es_ES",
+				"description": "1 Jul 2012 ... Dimensiones y peso1. Alto: 115,5 mm; Ancho: 62,1 mm; Fondo: 12,3 mm; Peso: \n135 gramos. Redes móviles e inalámbricas. UMTS/HSDPA ...",
+				"href": "https://support.apple.com/kb/SP565?viewlocale=es_ES",
+				"position": 6
+			},
+			{
+				"title": "Youtube",
+				"link": "https://www.youtube.com/watch?v=jZZSdNda2wM",
+				"description": "",
+				"href": "https://www.youtube.com/watch?v=jZZSdNda2wM",
+				"position": 7
+			},
+			{
+				"title": "Youtube",
+				"link": "https://www.youtube.com/watch?v=Ja4GKQ2gyDc",
+				"description": "",
+				"href": "https://www.youtube.com/watch?v=Ja4GKQ2gyDc",
+				"position": 8
+			},
+			{
+				"title": "Argimplus",
+				"link": "http://www.argimplus.net/celular/1686/apple+iphone+3gs",
+				"description": "Pantalla táctil de 3.5 pulgadas, cámara de 3.15 MP, reproduce y graba video, \nsistema operativo iOS, posee además GPS, Bluetooth y memoria interna desde ...",
+				"href": "http://www.argimplus.net/celular/1686/apple+iphone+3gs",
+				"position": 9
+			},
+			{
+				"title": "Ebay",
+				"link": "http://www.ebay.com/sch/Apple-iPhone-3GS/9355/bn_3910509/i.html",
+				"description": "Shop from the world's largest selection and best deals for Apple iPhone 3GS. \nShop with confidence on eBay!",
+				"href": "http://www.ebay.com/sch/Apple-iPhone-3GS/9355/bn_3910509/i.html",
+				"position": 10
+			}
+		]
+	},
+	{
+		"Keyword": "apple iphone",
+		"MarketShare": [
+			{
+				"title": "Apple",
+				"link": "http://www.apple.com/mx/iphone/",
+				"description": "Descubre el iPhone, el dispositivo móvil más poderoso del mundo. Explora el \niPhone 7, el iPhone 7 Plus y el iPhone 6s.Elige entre los colores plata, oro, gris espacial y oro rosa ...El iPhone 7 llega con un rendimiento y una duración de ...All Colors: Pink Sand Pink Sand: Sea Blue Sea Blue: Ocean ...Learn how to set up and use your iPhone. Find all the topics ...iPhone SE - La presentación - Especificaciones - ...Compra accesorios para el iPhone de Apple, como fundas para el ...",
+				"href": "http://www.apple.com/mx/iphone/",
+				"position": 1
+			},
+			{
+				"title": "Apple",
+				"link": "http://www.apple.com/mx/",
+				"description": "Descubre la MacBook Pro, el iPhone 7 y los AirPods. Explora el iPad, el Apple \nWatch, iOS, watchOS, macOS y más. Visita el sitio para más información.",
+				"href": "http://www.apple.com/mx/",
+				"position": 2
+			},
+			{
+				"title": "Apple",
+				"link": "http://www.apple.com/es/shop/browse/finance/loan",
+				"description": "Financia tus compras en la tienda apple.com con el Banco Cetelem S.A. Compra \na plazos un iPad, iPhone, Mac y mucho más.",
+				"href": "http://www.apple.com/es/shop/browse/finance/loan",
+				"position": 3
+			},
+			{
+				"title": "Google Images",
+				"link": null,
+				"description": "",
+				"href": null,
+				"position": 4
+			},
+			{
+				"title": "Supportapple",
+				"link": "https://support.apple.com/en-us/HT202033",
+				"description": "15 Dec 2016 ... Learn how to set up your iPhone, iPad, or iPod touch.",
+				"href": "https://support.apple.com/en-us/HT202033",
+				"position": 5
+			},
+			{
+				"title": "Appleidapple",
+				"link": "https://appleid.apple.com/",
+				"description": "Your Apple ID is the account you use for all Apple services.",
+				"href": "https://appleid.apple.com/",
+				"position": 6
+			},
+			{
+				"title": "Telcel",
+				"link": "http://www.telcel.com/personas/equipos/telefonos-y-smartphones/apple/iphone-6",
+				"description": "El iPhone 6 no es simplemente más grande, es mejor. Más grande, pero \nasombrosamente delgado. Más poderoso, pero increíblemente eficiente. El \nvidrio que ...",
+				"href": "http://www.telcel.com/personas/equipos/telefonos-y-smartphones/apple/iphone-6",
+				"position": 7
 			}
 		]
 	}
