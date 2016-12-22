@@ -13,8 +13,9 @@ google.lang =  process.argv[3] || "es";
 google.resultsPerPage = 10;
 google.nextText = google.lang == "en" ? "Next" : "Siguiente"
 
+
+// clean and save the file with all the search results and positions
 exports.saveResults = (results) => {
-	console.log(results);
 	for (let i = 0; i < results.length; i++) {
 		let result = {
 			Keyword: results[i].query,
@@ -25,7 +26,9 @@ exports.saveResults = (results) => {
 			if (page.title.match(/(images|imagenes)\s(.*)\s/ig) || page.link == null) page.title = "Google Images";
 			else {
 				let newTitle = url.parse(page.link);
-				newTitle = newTitle.host.replace(removeDomainChars, " ");
+				newTitle = newTitle.host
+					.replace(removeDomainChars, " ")
+					.trim();
 				page.title = newTitle.replace(/\b\w/g, l => l.toUpperCase());
 			}
 			page.position = j+1;
@@ -41,6 +44,7 @@ exports.saveResults = (results) => {
 	});
 }
 
+// scrape the results from google for each keyword
 exports.searchInGoogle = (queries) => {
 	let time = 0;
 	let lookup = [];
@@ -53,11 +57,11 @@ exports.searchInGoogle = (queries) => {
 					resolve(res);
 				});
 			}, time, query.keyword);
+			// delay time to avoid google from blocking the ip
 			time += 15000;
 		});
 		lookup.push(promise);
 	}
-
 	Promise.all(lookup).then((res) => {
 		this.saveResults(res);
 	})
