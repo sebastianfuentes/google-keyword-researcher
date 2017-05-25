@@ -2,9 +2,9 @@
 
 const csv2json = require('csv2json');
 const fs = require('fs');
-const search = require('./search.js');
+const search = require('./search');
 
-exports.init = (file = 'keywords.csv', newFile = false) =>{
+exports.init = (file = './csv/keywords2.csv', newFile = true) =>{
 	// default parameters in case csv is already parsed
 	if (newFile) {
 		// read the csv and parse it to json
@@ -13,17 +13,16 @@ exports.init = (file = 'keywords.csv', newFile = false) =>{
 				// Defaults to comma. 
 				separator: ','
 			}))
-			.pipe(fs.createWriteStream('keywords.json'))
+			.pipe(fs.createWriteStream('json/keywords.json'))
 			.on('finish',() => {
 				// if finished parsing read the json into a variable
-				this.readJson('./keywords.json');
+				this.readJson('json/keywords.json');
 			});
-	} else this.readJson('./keywords.json');
+	} else this.readJson('json/keywords.json');
 	// if json already parsed just read it
 };
 
 exports.readJson = (file) => {
-	// read the json and remove al non useful parameters
 	fs.readFile(file, 'utf8',(err, data) => {
 	  if (err) throw err;
 	  this.cleanKeywords(JSON.parse(data));
@@ -40,18 +39,15 @@ exports.cleanKeywords = (keywords) => {
 					average: keyword['Avg. Monthly Searches (exact match only)']
 			};
 			// clean empty keywords or with less than 200 hundred monthly average searches
-			if (newKeyword.average > 200 && newKeyword.keyword.length > 0 && !newKeyword.keyword.match(/\uFFFD/g)){
+			if (newKeyword.average > 200 && newKeyword.keyword.length > 0 && !newKeyword.keyword.match(/\uFFFD/g))
 				cleanedKeywords.push(newKeyword);
-			}
 		}
 		resolve(cleanedKeywords);
 	});
 	cleanKeywords.then((res) => {
 		search.searchInGoogle(res);
-		// start the search and save the cleaned keywords
-		fs.writeFile("./cleanedJson.json", JSON.stringify(res, null, 2),(err) => {
+		fs.writeFile("json/cleanedJson.json", JSON.stringify(res, null, 2),(err) => {
 	    if(err) return console.log(err);
-			console.log("The cleaned keywords were saved!");
 		});
 	})
 	.catch((err) => {

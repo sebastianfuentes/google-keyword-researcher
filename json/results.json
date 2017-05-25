@@ -1,0 +1,534 @@
+[
+	{
+		"Keyword": "iphone",
+		"MarketShare": [
+			{
+				"title": "Google News",
+				"link": null,
+				"description": "",
+				"href": null,
+				"position": 1
+			},
+			{
+				"title": "Apple",
+				"link": "https://www.apple.com/mx/iphone/",
+				"description": "Descubre el iPhone, el dispositivo móvil más poderoso del mundo. Explora el \niPhone 7, el iPhone 7 Plus y el iPhone 6s.",
+				"href": "https://www.apple.com/mx/iphone/",
+				"position": 2
+			},
+			{
+				"title": "Wikipedia",
+				"link": "https://es.wikipedia.org/wiki/IPhone",
+				"description": "iPhone es una línea de teléfonos inteligentes de alta gama diseñada y \ncomercializada por Apple Inc. Ejecuta el sistema operativo móvil iOS, conocido \nhasta ...",
+				"href": "https://es.wikipedia.org/wiki/IPhone",
+				"position": 3
+			},
+			{
+				"title": "Celulares Mercadolibre",
+				"link": "http://celulares.mercadolibre.com.mx/iphone/",
+				"description": "Encuentra Celulares iPhone en Mercado Libre México. Descubre la mejor forma \nde comprar online.",
+				"href": "http://celulares.mercadolibre.com.mx/iphone/",
+				"position": 4
+			},
+			{
+				"title": "Tienda Telmex",
+				"link": "https://tienda.telmex.com/shell/af/core/nav/categoryBrowse.do?categoryId=-9919",
+				"description": "A Kit Apple iPhone 5S 16GB Silver R9 Pantalla: 4\" Potente chip A7 con \narquitectura de 64 bits. Touch ID: identificador de huellas digitales 18 meses: \n$461.",
+				"href": "https://tienda.telmex.com/shell/af/core/nav/categoryBrowse.do?categoryId=-9919",
+				"position": 5
+			},
+			{
+				"title": "Tiendas Mediamarkt",
+				"link": "https://tiendas.mediamarkt.es/apple-iphone",
+				"description": "El iPhone de Apple en Media Markt, compra tu iPhone con la garantía de Media \nMarkt y recibelo en menos de 48h.",
+				"href": "https://tiendas.mediamarkt.es/apple-iphone",
+				"position": 6
+			},
+			{
+				"title": "Liverpool",
+				"link": "https://www.liverpool.com.mx/tienda/iphone/cat4720039",
+				"description": "Tienda online con la selección más grande en tecnología, línea blanca, computo, \nsmarthphones, juguet.",
+				"href": "https://www.liverpool.com.mx/tienda/iphone/cat4720039",
+				"position": 7
+			},
+			{
+				"title": "Applesfera",
+				"link": "https://www.applesfera.com/categoria/iphone",
+				"description": "iPhone: Apple renueva su sitio web 'Switch' para animar a los usuarios de \nAndroid a dar el salto a iOS .92% de fidelidad en USA y una cuota de...",
+				"href": "https://www.applesfera.com/categoria/iphone",
+				"position": 8
+			},
+			{
+				"title": "Claro",
+				"link": "http://www.claro.com.co/personas/tienda/iphone/",
+				"description": "¡Hay un iPhone para cada uno! Encuentra en Claro el iPhone con las \ncaracterísticas que te hacen feliz en el diseño que tanto amas, para que disfrutes \nuna ...",
+				"href": "http://www.claro.com.co/personas/tienda/iphone/",
+				"position": 9
+			},
+			{
+				"title": "Iphone Telcel",
+				"link": "http://iphone.telcel.com/",
+				"description": "El iPhone 7 y el iPhone 7 Plus son resistentes a las salpicaduras, al agua y al \npolvo, y fueron probados en condiciones de laboratorio controladas, con una ...",
+				"href": "http://iphone.telcel.com/",
+				"position": 10
+			},
+			{
+				"title": "Bug Page",
+				"link": null,
+				"description": "",
+				"href": null,
+				"position": 11
+			}
+		]
+	},
+	{
+		"Keyword": "smartphone",
+		"MarketShare": [
+			{
+				"title": "Wikipedia",
+				"link": "https://es.wikipedia.org/wiki/Tel%C3%A9fono_inteligente",
+				"description": "El teléfono inteligente (smartphone en inglés) es un tipo de teléfono móvil \nconstruido sobre una plataforma informática móvil, con mayor capacidad de ...",
+				"href": "https://es.wikipedia.org/wiki/Tel%C3%A9fono_inteligente",
+				"position": 1
+			},
+			{
+				"title": "Areatecnologia",
+				"link": "http://www.areatecnologia.com/Que-es-un-smartphone.htm",
+				"description": "Entra y Aprende Todo sobre un Smartphone: Qué es un Smartphone, \nCaracteristicas de un Smartphone y Errores a la Hora de Comprar uno. Los \nTelefonos ...",
+				"href": "http://www.areatecnologia.com/Que-es-un-smartphone.htm",
+				"position": 2
+			},
+			{
+				"title": "Google News",
+				"link": null,
+				"description": "",
+				"href": null,
+				"position": 3
+			},
+			{
+				"title": "Sams",
+				"link": "https://www.sams.com.mx/smartphones-y-accesorios",
+				"description": "Encuentra smartphones y celulares desbloqueados, accesorios para celulares y \nmucho más en Sam's Club México. Con tu membresía disfruta de los grandes ...",
+				"href": "https://www.sams.com.mx/smartphones-y-accesorios",
+				"position": 4
+			},
+			{
+				"title": "Lg",
+				"link": "http://www.lg.com/mx/smartphones",
+				"description": "Smartphone LG: Un completo centro de comunicación y entretenimiento móvil \nmultimedia portátil de atractivo y cómodo diseño.",
+				"href": "http://www.lg.com/mx/smartphones",
+				"position": 5
+			},
+			{
+				"title": "Samsung",
+				"link": "http://www.samsung.com/mx/smartphones/",
+				"description": "Visita Samsung para encontrar smartphones. Encuentra toda la información de \nnuestros productos y soporte de Samsung.",
+				"href": "http://www.samsung.com/mx/smartphones/",
+				"position": 6
+			},
+			{
+				"title": "Linio",
+				"link": "https://www.linio.com.mx/c/celulares-y-tablets/celulares-y-smartphones",
+				"description": "Venta de celulares en México. Elige el smartphone que más te guste y \naprovecha los meses sin intereses y las ofertas de celulares ¡Compra online!",
+				"href": "https://www.linio.com.mx/c/celulares-y-tablets/celulares-y-smartphones",
+				"position": 7
+			},
+			{
+				"title": "Xataka",
+				"link": "https://www.xataka.com.mx/tag/smartphone",
+				"description": "Smartphone:Los cuatro inventos que hacen que tomar una selfie sea más fácil.¿\nTe toca cambiar de móvil? A mi también y ya cambié.¿Y si los smartphones...",
+				"href": "https://www.xataka.com.mx/tag/smartphone",
+				"position": 8
+			},
+			{
+				"title": "Elektra",
+				"link": "https://www.elektra.com.mx/celulares-desbloqueados/category/celulares-desbloqueados",
+				"description": "Con los Smartphones de la marca Lava que Elektra.com.mx tiene para ti te \nmantendrás comunicado, al mismo tiempo que disfrutas de las mejores \naplicaciones ...",
+				"href": "https://www.elektra.com.mx/celulares-desbloqueados/category/celulares-desbloqueados",
+				"position": 9
+			},
+			{
+				"title": "Definicion De",
+				"link": "http://definicion.de/smartphone/",
+				"description": "El término smartphone pertenece a la lengua inglesa y hace referencia a aquello \nque, en nuestro idioma, conocemos como teléfono inteligente. Se trata de un ...",
+				"href": "http://definicion.de/smartphone/",
+				"position": 10
+			}
+		]
+	},
+	{
+		"Keyword": "new iphone",
+		"MarketShare": [
+			{
+				"title": "Macrumors",
+				"link": "https://www.macrumors.com/roundup/iphone-8/",
+				"description": "Apple has a major iPhone redesign planned for 2017, with a glass body and ... \nThe new iPhone may be sold alongside upgraded (but standard) 4.7 and 5.5-\ninch ...",
+				"href": "https://www.macrumors.com/roundup/iphone-8/",
+				"position": 1
+			},
+			{
+				"title": "Forbes",
+				"link": "http://www.forbes.com/sites/gordonkelly/2017/05/07/iphone-8-iphone-7s-glass-design-battery-touch-id/",
+				"description": "7 May 2017 ... iPhone 8 and iPhone 7S buyers may be disappointed according to a major new \nreport...",
+				"href": "http://www.forbes.com/sites/gordonkelly/2017/05/07/iphone-8-iphone-7s-glass-design-battery-touch-id/",
+				"position": 2
+			},
+			{
+				"title": "Support Apple",
+				"link": "https://support.apple.com/explore/new-to-iphone",
+				"description": "Learn how to set up and use your new iPhone. Whether you're making the switch \nfrom Android or this is your first iPhone, we're here to help.",
+				"href": "https://support.apple.com/explore/new-to-iphone",
+				"position": 3
+			},
+			{
+				"title": "Google Images",
+				"link": null,
+				"description": "",
+				"href": null,
+				"position": 4
+			},
+			{
+				"title": "Apple",
+				"link": "https://www.apple.com/iphone-7/",
+				"description": "iPhone 7 dramatically improves the most important aspects of the iPhone \nexperience. It introduces advanced new camera systems. The best performance \nand ...",
+				"href": "https://www.apple.com/iphone-7/",
+				"position": 5
+			},
+			{
+				"title": "Apple",
+				"link": "https://www.apple.com/iphone/",
+				"description": "Join the iPhone Upgrade Program. Get a new iPhone every year*; Works with \nyour carrier; Low payments from $32.41/month1; AppleCare+ coverage included.",
+				"href": "https://www.apple.com/iphone/",
+				"position": 6
+			},
+			{
+				"title": "Apple",
+				"link": "https://www.apple.com/iphone/trade-up/",
+				"description": "Just trade in your eligible smartphone, and then use the credit to lower the full \ncost of a new iPhone or to reduce the monthly payments with your carrier.1 ...",
+				"href": "https://www.apple.com/iphone/trade-up/",
+				"position": 7
+			},
+			{
+				"title": "Cnet",
+				"link": "https://www.cnet.com/products/apple-iphone-8/preview/",
+				"description": "7 May 2017 ... For now, we're calling it the iPhone 8, though we don't know officially what the \ncompany will call it. As seen most recently with the new iPad ...",
+				"href": "https://www.cnet.com/products/apple-iphone-8/preview/",
+				"position": 8
+			},
+			{
+				"title": "Google News",
+				"link": "http://www.techradar.com/news/phone-and-communications/mobile-phones/iphone-8-1329124",
+				"description": "18 May 2017 ... The iPhone 8 release date is the routine new iPhone rumor we expect to stay the \nsame every year, but Apple may do something different here, ...",
+				"href": "http://www.techradar.com/news/phone-and-communications/mobile-phones/iphone-8-1329124",
+				"position": 9
+			},
+			{
+				"title": "Walmart",
+				"link": "https://www.walmart.com/browse/cell-phones/new-iphone-6s-plus/1105910_1127173_2946938",
+				"description": "Shop for New iPhone 6s Plus in New iPhones. Buy products such as Apple \niPhone 6S Plus 32GB GSM 4G LTE Dual-Core Smartphone with 12MP Camera ...",
+				"href": "https://www.walmart.com/browse/cell-phones/new-iphone-6s-plus/1105910_1127173_2946938",
+				"position": 10
+			}
+		]
+	},
+	{
+		"Keyword": "celular smartphone",
+		"MarketShare": [
+			{
+				"title": "Celulares Mercadolibre",
+				"link": "http://celulares.mercadolibre.com.mx/",
+				"description": "Encuentra Celulares y Smartphones en Mercado Libre México. Descubre la \nmejor forma de comprar online.",
+				"href": "http://celulares.mercadolibre.com.mx/",
+				"position": 1
+			},
+			{
+				"title": "Linio",
+				"link": "https://www.linio.com.mx/c/celulares-y-tablets/celulares-y-smartphones",
+				"description": "Venta de celulares en México. Elige el smartphone que más te guste y \naprovecha los meses sin intereses y las ofertas de celulares ¡Compra online!",
+				"href": "https://www.linio.com.mx/c/celulares-y-tablets/celulares-y-smartphones",
+				"position": 2
+			},
+			{
+				"title": "Cnet",
+				"link": "https://www.cnet.com/es/temas/celulares/los-mejores-celulares/",
+				"description": "12 May 2017 ... Lista de los mejores celulares 2016 en diferentes categorías. Los mejores \ncelulares Android, Windows, iOS (iPhone) u otros del momento.",
+				"href": "https://www.cnet.com/es/temas/celulares/los-mejores-celulares/",
+				"position": 3
+			},
+			{
+				"title": "Google Images",
+				"link": null,
+				"description": "",
+				"href": null,
+				"position": 4
+			},
+			{
+				"title": "Sams",
+				"link": "https://www.sams.com.mx/smartphones-y-accesorios",
+				"description": "Encuentra smartphones y celulares desbloqueados, accesorios para celulares y \nmucho más en Sam's Club México. Con tu membresía disfruta de los grandes ...",
+				"href": "https://www.sams.com.mx/smartphones-y-accesorios",
+				"position": 5
+			},
+			{
+				"title": "Informatica-Hoy   Ar",
+				"link": "http://www.informatica-hoy.com.ar/smartphones/Diferencias-smartphone-celular.php",
+				"description": "Si estas por comprar un movil, este articulo seguramente te va a aclarar algunas \ndudas. Explicamos las diferencias entre smartphone y telefono celular, que ...",
+				"href": "http://www.informatica-hoy.com.ar/smartphones/Diferencias-smartphone-celular.php",
+				"position": 6
+			},
+			{
+				"title": "Lg",
+				"link": "http://www.lg.com/mx/celulares",
+				"description": "En LG encontrarás desde celulares Touch a celulares 3G, siempre a punta de \nvanguardia. ... LG V20 | El primer smartphone con Android 7.0 Nougat · \nLGH990T.",
+				"href": "http://www.lg.com/mx/celulares",
+				"position": 7
+			},
+			{
+				"title": "Wikipedia",
+				"link": "https://es.wikipedia.org/wiki/Tel%C3%A9fono_inteligente",
+				"description": "El teléfono inteligente (smartphone en inglés) es un tipo de teléfono móvil \nconstruido sobre .... Commons · Buscador histórico de Smartphones Buscador \nhistórico de Smartphones; Blackberry Passport El Teléfono Celular mas seguro.",
+				"href": "https://es.wikipedia.org/wiki/Tel%C3%A9fono_inteligente",
+				"position": 8
+			},
+			{
+				"title": "Celulares Mercadolibre",
+				"link": "http://celulares.mercadolibre.com.co/",
+				"description": "Encuentra Celulares y Smartphones en Mercado Libre Colombia. Descubre la \nmejor forma de comprar online.",
+				"href": "http://celulares.mercadolibre.com.co/",
+				"position": 9
+			},
+			{
+				"title": "Youtube",
+				"link": "https://www.youtube.com/watch?v=h2i2d5MND5w",
+				"description": "",
+				"href": "https://www.youtube.com/watch?v=h2i2d5MND5w",
+				"position": 10
+			}
+		]
+	},
+	{
+		"Keyword": "smartphone samsung",
+		"MarketShare": [
+			{
+				"title": "Samsung",
+				"link": "http://www.samsung.com/mx/smartphones/all-smartphones/",
+				"description": "Conoce las últimas características e innovaciones disponibles en los \nsmartphones de Samsung.",
+				"href": "http://www.samsung.com/mx/smartphones/all-smartphones/",
+				"position": 1
+			},
+			{
+				"title": "Samsung",
+				"link": "http://www.samsung.com/latin/smartphones/all-smartphones/",
+				"description": "Selecciona y compara las más recientes innovaciones y funciones disponibles \nen los smartphones.",
+				"href": "http://www.samsung.com/latin/smartphones/all-smartphones/",
+				"position": 2
+			},
+			{
+				"title": "Samsung",
+				"link": "http://www.samsung.com/es/smartphones/all-smartphones/",
+				"description": "Descubre toda la gama de smartphones Samsung Galaxy. Teléfonos Android \npotentes y resistentes con conectividad 4G, Dual SIM y pantalla de alta definición\n.",
+				"href": "http://www.samsung.com/es/smartphones/all-smartphones/",
+				"position": 3
+			},
+			{
+				"title": "Samsung",
+				"link": "http://www.samsung.com/es/smartphones/",
+				"description": "Descubre toda la gama de smartphones Samsung Galaxy. Teléfonos Android \npotentes y resistentes con conectividad 4G, Dual SIM y pantalla de alta definición\n.",
+				"href": "http://www.samsung.com/es/smartphones/",
+				"position": 4
+			},
+			{
+				"title": "Samsung",
+				"link": "http://www.samsung.com/mx/smartphones/",
+				"description": "Visita Samsung para encontrar smartphones. Encuentra toda la información de \nnuestros productos y soporte de Samsung.",
+				"href": "http://www.samsung.com/mx/smartphones/",
+				"position": 5
+			},
+			{
+				"title": "Samsung",
+				"link": "http://www.samsung.com/co/smartphones/all-smartphones/",
+				"description": "Selecciona y compara las más recientes innovaciones y funciones disponibles \nen los smartphones.",
+				"href": "http://www.samsung.com/co/smartphones/all-smartphones/",
+				"position": 6
+			},
+			{
+				"title": "Samsung",
+				"link": "http://www.samsung.com/mx/support/category/mobile/mobiledevice/smartphone",
+				"description": "Samsung Open the Menu. Close the Menu. Capa OpenSearch. Teclado para \nintroducir la búsqueda. Buscar Cerrar la capa de búsqueda. Buscar historial.",
+				"href": "http://www.samsung.com/mx/support/category/mobile/mobiledevice/smartphone",
+				"position": 7
+			},
+			{
+				"title": "Samsung",
+				"link": "http://www.samsung.com/es/consumer/mobile-devices/smartphones/galaxy-s/SM-G900FZKAPHE",
+				"description": "Samsung Galaxy S5, el smartphone Android con pulsómetro, lector de huellas \ndactilares, 4G, WiFi, modo ultra ahorro de batería, resistente al agua y al polvo.",
+				"href": "http://www.samsung.com/es/consumer/mobile-devices/smartphones/galaxy-s/SM-G900FZKAPHE",
+				"position": 8
+			},
+			{
+				"title": "Samsung",
+				"link": "http://www.samsung.com/ar/smartphones/",
+				"description": "Visitá Samsung para encontrar teléfonos celulares. Vas a encontrar reseñas de \nlos productos, respuestas e información de ayuda.",
+				"href": "http://www.samsung.com/ar/smartphones/",
+				"position": 9
+			},
+			{
+				"title": "Google Images",
+				"link": null,
+				"description": "",
+				"href": null,
+				"position": 10
+			}
+		]
+	},
+	{
+		"Keyword": "samsung smartphone",
+		"MarketShare": [
+			{
+				"title": "Samsung",
+				"link": "http://www.samsung.com/mx/smartphones/all-smartphones/",
+				"description": "Conoce las últimas características e innovaciones disponibles en los \nsmartphones de Samsung.",
+				"href": "http://www.samsung.com/mx/smartphones/all-smartphones/",
+				"position": 1
+			},
+			{
+				"title": "Samsung",
+				"link": "http://www.samsung.com/mx/smartphones/",
+				"description": "Visita Samsung para encontrar smartphones. Encuentra toda la información de \nnuestros productos y soporte de Samsung.",
+				"href": "http://www.samsung.com/mx/smartphones/",
+				"position": 2
+			},
+			{
+				"title": "Samsung",
+				"link": "http://www.samsung.com/es/smartphones/all-smartphones/",
+				"description": "Descubre toda la gama de smartphones Samsung Galaxy. Teléfonos Android \npotentes y resistentes con conectividad 4G, Dual SIM y pantalla de alta definición\n.",
+				"href": "http://www.samsung.com/es/smartphones/all-smartphones/",
+				"position": 3
+			},
+			{
+				"title": "Samsung",
+				"link": "http://www.samsung.com/latin/smartphones/all-smartphones/",
+				"description": "Selecciona y compara las más recientes innovaciones y funciones disponibles \nen los smartphones.",
+				"href": "http://www.samsung.com/latin/smartphones/all-smartphones/",
+				"position": 4
+			},
+			{
+				"title": "Google News",
+				"link": null,
+				"description": "",
+				"href": null,
+				"position": 5
+			},
+			{
+				"title": "Samsung",
+				"link": "http://www.samsung.com/es/smartphones/",
+				"description": "Descubre toda la gama de smartphones Samsung Galaxy. Teléfonos Android \npotentes y resistentes con conectividad 4G, Dual SIM y pantalla de alta definición\n.",
+				"href": "http://www.samsung.com/es/smartphones/",
+				"position": 6
+			},
+			{
+				"title": "Samsung",
+				"link": "http://www.samsung.com/mx/support/category/mobile/mobiledevice/smartphone",
+				"description": "Teclado para introducir la búsqueda. Buscar Cerrar la capa de búsqueda. \nBuscar historial. BORRAR HISTORIAL. No hay sugerencias ...",
+				"href": "http://www.samsung.com/mx/support/category/mobile/mobiledevice/smartphone",
+				"position": 7
+			},
+			{
+				"title": "Samsung",
+				"link": "http://www.samsung.com/co/smartphones/all-smartphones/",
+				"description": "Selecciona y compara las más recientes innovaciones y funciones disponibles \nen los smartphones.",
+				"href": "http://www.samsung.com/co/smartphones/all-smartphones/",
+				"position": 8
+			},
+			{
+				"title": "Samsung",
+				"link": "http://www.samsung.com/us/mobile/phones/",
+				"description": "Unlocked by Samsung lets you pick more than just your smartphone. You can \nchoose your carrier, data plan, services, features and apps, so you can get your ...",
+				"href": "http://www.samsung.com/us/mobile/phones/",
+				"position": 9
+			},
+			{
+				"title": "Samsung",
+				"link": "http://www.samsung.com/co/smartphones/",
+				"description": "Visita Samsung para ver los teléfonos móviles. Allí encontrarás opiniones, \nrespuestas e información de soporte de los productos.",
+				"href": "http://www.samsung.com/co/smartphones/",
+				"position": 10
+			}
+		]
+	},
+	{
+		"Keyword": "smartphone barato",
+		"MarketShare": [
+			{
+				"title": "Celulares Mercadolibre",
+				"link": "http://celulares.mercadolibre.com.mx/celulares-baratos",
+				"description": "Encuentra Celulares Baratos - Celulares y Smartphones en Mercado Libre \nMéxico. Descubre la mejor forma de comprar online.",
+				"href": "http://celulares.mercadolibre.com.mx/celulares-baratos",
+				"position": 1
+			},
+			{
+				"title": "Smartphones-Baratos",
+				"link": "http://smartphones-baratos.com/",
+				"description": "En Smartphones Baratos analizamos y comparamos los mejores móviles libres \nbaratos del mercado para que puedas elegir bien.",
+				"href": "http://smartphones-baratos.com/",
+				"position": 2
+			},
+			{
+				"title": "Cnet",
+				"link": "https://www.cnet.com/es/imagenes/celulares-buenos-bonitos-y-baratos-fotos/",
+				"description": "24 Mar 2017 ... Cuando se trata de teléfonos baratos y buenos, vivimos en un mundo donde \nestos dispositivos no escasean. Los precios han bajado y el ...",
+				"href": "https://www.cnet.com/es/imagenes/celulares-buenos-bonitos-y-baratos-fotos/",
+				"position": 3
+			},
+			{
+				"title": "Xatakamovil",
+				"link": "https://www.xatakamovil.com/mercado/buenos-bonitos-y-los-mas-baratos-20-moviles-con-mucho-que-decir",
+				"description": "El único requisito para elegir a los mejores móviles más baratos, más allá de un \nprecio bajo, es que al menos cuenten con un mínimo de 1 GB de RAM y 8 GB ...",
+				"href": "https://www.xatakamovil.com/mercado/buenos-bonitos-y-los-mas-baratos-20-moviles-con-mucho-que-decir",
+				"position": 4
+			},
+			{
+				"title": "Elandroidelibre Elespanol",
+				"link": "https://elandroidelibre.elespanol.com/2016/02/freedom-251-el-smartphone-mas-barato.html",
+				"description": "17 Feb 2016 ... En la India ya pueden reservar el smartphone más barato del mundo: el \nFreedom 251 costará únicamente 3,3€ y corre sobre Android 5.1 ...",
+				"href": "https://elandroidelibre.elespanol.com/2016/02/freedom-251-el-smartphone-mas-barato.html",
+				"position": 5
+			},
+			{
+				"title": "Linio",
+				"link": "https://www.linio.com.mx/c/celulares-y-tablets/celulares-y-smartphones",
+				"description": "Venta de celulares en México. Elige el smartphone que más te guste y \naprovecha los meses sin intereses y las ofertas de celulares ¡Compra online!",
+				"href": "https://www.linio.com.mx/c/celulares-y-tablets/celulares-y-smartphones",
+				"position": 6
+			},
+			{
+				"title": "Prensalibre",
+				"link": "http://www.prensalibre.com/tecnologia/estos-son-los-smartphones-mas-baratos-del-mundo",
+				"description": "4 Nov 2016 ... El Freedom 251, de US$4, fue presentado este año como el smartphone más \nbarato del mundo, aunque ahora hay otros fabricantes que se ...",
+				"href": "http://www.prensalibre.com/tecnologia/estos-son-los-smartphones-mas-baratos-del-mundo",
+				"position": 7
+			},
+			{
+				"title": "Xataka",
+				"link": "https://www.xataka.com/moviles/lo-barato-no-sale-caro-sale-trol-asi-es-la-experiencia-con-un-smartphone-de-24-euros",
+				"description": "15 Abr 2017 ... Lo barato no sale caro, sale trol: así es la experiencia con un ... invade la primera \nola de nostalgia a la era pre-smartphone, cuando los móviles ...",
+				"href": "https://www.xataka.com/moviles/lo-barato-no-sale-caro-sale-trol-asi-es-la-experiencia-con-un-smartphone-de-24-euros",
+				"position": 8
+			},
+			{
+				"title": "20minutos",
+				"link": "http://www.20minutos.es/noticia/2364553/0/smartphones/baratos/telefonos/",
+				"description": "5 Feb 2015 ... En el mundo de los smartphones las grandes marcas luchan duramente por \nrecibir el mayor reconocimiento y las mejores críticas para sus ...",
+				"href": "http://www.20minutos.es/noticia/2364553/0/smartphones/baratos/telefonos/",
+				"position": 9
+			},
+			{
+				"title": "Expansion",
+				"link": "http://expansion.mx/negocios/2013/12/20/el-smartphone-barato-conquista-mexico",
+				"description": "24 Dic 2013 ... La baja en los precios de teléfonos inteligentes ha impulsado su penetración en \nel mercado mexicano; firmas como Alcatel han aprovechado ...",
+				"href": "http://expansion.mx/negocios/2013/12/20/el-smartphone-barato-conquista-mexico",
+				"position": 10
+			}
+		]
+	}
+]
