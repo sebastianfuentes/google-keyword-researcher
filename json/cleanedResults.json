@@ -1,604 +1,784 @@
 [
 	{
-		"Keyword": "iphone",
+		"Keyword": "seguro de vida",
 		"MarketShare": [
 			{
-				"title": "Google News",
-				"link": null,
+				"title": "Condusef Gob",
+				"link": "http://www.condusef.gob.mx/Revista/index.php/seguros/vida/499-seguro-de-vida",
 				"description": "",
-				"href": null,
+				"href": "http://www.condusef.gob.mx/Revista/index.php/seguros/vida/499-seguro-de-vida",
 				"position": 1,
-				"visibility": 33750
+				"visibility": 1650
 			},
 			{
-				"title": "Apple",
-				"link": "https://www.apple.com/mx/iphone/",
-				"description": "Descubre el iPhone, el dispositivo móvil más poderoso del mundo. Explora el \niPhone 7, el iPhone 7 Plus y el iPhone 6s.",
-				"href": "https://www.apple.com/mx/iphone/",
+				"title": "Metlife",
+				"link": "http://www.metlife.com.mx/personas/seguro-vida/index.html",
+				"description": "¿Qué es un seguro de vida? Protege a quienes dependen económicamente de ti \nen el caso de que llegaras a faltar, además de que te puede dar otros ...",
+				"href": "http://www.metlife.com.mx/personas/seguro-vida/index.html",
 				"position": 2,
-				"visibility": 20250
+				"visibility": 990
 			},
 			{
-				"title": "Wikipedia",
-				"link": "https://es.wikipedia.org/wiki/IPhone",
-				"description": "iPhone es una línea de teléfonos inteligentes de alta gama diseñada y \ncomercializada por Apple Inc. Ejecuta el sistema operativo móvil iOS, conocido \nhasta ...",
-				"href": "https://es.wikipedia.org/wiki/IPhone",
+				"title": "Condusef Gob",
+				"link": "http://www.condusef.gob.mx/Revista/index.php/seguros/vida/499-seguro-de-vida",
+				"description": "De ahí la relevancia de contar con un seguro de vida que pueda proteger \neconómicamente a tu familia o beneficiario(s) en caso de un evento \ndesfavorable.",
+				"href": "http://www.condusef.gob.mx/Revista/index.php/seguros/vida/499-seguro-de-vida",
 				"position": 3,
-				"visibility": 13500
+				"visibility": 660
 			},
 			{
-				"title": "Celulares Mercadolibre",
-				"link": "http://celulares.mercadolibre.com.mx/iphone/",
-				"description": "Encuentra Celulares iPhone en Mercado Libre México. Descubre la mejor forma \nde comprar online.",
-				"href": "http://celulares.mercadolibre.com.mx/iphone/",
+				"title": "Segurosbancomer",
+				"link": "https://www.segurosbancomer.com.mx/seguros/tleu/segurosban/vida-y-familia/index.jsp",
+				"description": "Seguros de proteccion familiar individuales con el fin de asegurar rentas ... El \nseguro de vida con el que el bienestar de tu familia estará garantizado.",
+				"href": "https://www.segurosbancomer.com.mx/seguros/tleu/segurosban/vida-y-familia/index.jsp",
 				"position": 4,
-				"visibility": 9450
+				"visibility": 462.00000000000006
 			},
 			{
-				"title": "Tienda Telmex",
-				"link": "https://tienda.telmex.com/shell/af/core/nav/categoryBrowse.do?categoryId=-9919",
-				"description": "A Kit Apple iPhone 5S 16GB Silver R9 Pantalla: 4\" Potente chip A7 con \narquitectura de 64 bits. Touch ID: identificador de huellas digitales 18 meses: \n$461.",
-				"href": "https://tienda.telmex.com/shell/af/core/nav/categoryBrowse.do?categoryId=-9919",
+				"title": "Gnp",
+				"link": "https://www.gnp.com.mx/wps/portal/portalesgnp/anexos/temas-interes/seguros-vida/diferencia-entre-seguros-de-vida",
+				"description": "Conoces las diferencias entre Seguros de Vida? GNP te brinda asesoría para \nque compares por que de todos los Seguros en México, GNP es tu mejor opción.",
+				"href": "https://www.gnp.com.mx/wps/portal/portalesgnp/anexos/temas-interes/seguros-vida/diferencia-entre-seguros-de-vida",
 				"position": 5,
-				"visibility": 6750
+				"visibility": 330
 			},
 			{
-				"title": "Tiendas Mediamarkt",
-				"link": "https://tiendas.mediamarkt.es/apple-iphone",
-				"description": "El iPhone de Apple en Media Markt, compra tu iPhone con la garantía de Media \nMarkt y recibelo en menos de 48h.",
-				"href": "https://tiendas.mediamarkt.es/apple-iphone",
+				"title": "Mapfre",
+				"link": "https://www.mapfre.com.mx/seguros-mx/particulares/seguros-de-vida/vida/",
+				"description": "Los Seguros de Vida MAPFRE están orientados a proteger la economía familiar \ny a garantizar su bienestar a lo largo de los años. Para ello, los Seguros de ...",
+				"href": "https://www.mapfre.com.mx/seguros-mx/particulares/seguros-de-vida/vida/",
 				"position": 6,
-				"visibility": 4050
+				"visibility": 198
 			},
 			{
-				"title": "Liverpool",
-				"link": "https://www.liverpool.com.mx/tienda/iphone/cat4720039",
-				"description": "Tienda online con la selección más grande en tecnología, línea blanca, computo, \nsmarthphones, juguet.",
-				"href": "https://www.liverpool.com.mx/tienda/iphone/cat4720039",
+				"title": "Axa",
+				"link": "https://axa.mx/web/seguro-de-vida",
+				"description": "Seguros de Vida y Ahorro de AXA Seguros. Consulta nuestros planes en \nseguros de cáncer, seguros para el retiro, seguros educativos y de protección al\n ...",
+				"href": "https://axa.mx/web/seguro-de-vida",
 				"position": 7,
-				"visibility": 2700
+				"visibility": 132
 			},
 			{
-				"title": "Applesfera",
-				"link": "https://www.applesfera.com/categoria/iphone",
-				"description": "iPhone: Apple renueva su sitio web 'Switch' para animar a los usuarios de \nAndroid a dar el salto a iOS .92% de fidelidad en USA y una cuota de...",
-				"href": "https://www.applesfera.com/categoria/iphone",
+				"title": "Banamex",
+				"link": "https://www.banamex.com/landings/seguros-de-vida/index.htm",
+				"description": "Conoce los tipos de seguros de vida para proteger a aquellos que amas, \nasegura su futuro ya sea con un seguro de muerte o un seguro para proteger los\n ...",
+				"href": "https://www.banamex.com/landings/seguros-de-vida/index.htm",
 				"position": 8,
-				"visibility": 2700
+				"visibility": 132
 			},
 			{
-				"title": "Claro",
-				"link": "http://www.claro.com.co/personas/tienda/iphone/",
-				"description": "¡Hay un iPhone para cada uno! Encuentra en Claro el iPhone con las \ncaracterísticas que te hacen feliz en el diseño que tanto amas, para que disfrutes \nuna ...",
-				"href": "http://www.claro.com.co/personas/tienda/iphone/",
+				"title": "Generaldeseguros",
+				"link": "http://www.generaldeseguros.mx/seguro-de-vida-microseguro-de-vida/",
+				"description": "Ellos siempre te recordarán con gratitud con… Microseguro Vida. ¿Qué es? Es la \nmejor protección que puedes dejar a tu familia en caso de que fallezcas.",
+				"href": "http://www.generaldeseguros.mx/seguro-de-vida-microseguro-de-vida/",
 				"position": 9,
-				"visibility": 2700
-			},
-			{
-				"title": "Iphone Telcel",
-				"link": "http://iphone.telcel.com/",
-				"description": "El iPhone 7 y el iPhone 7 Plus son resistentes a las salpicaduras, al agua y al \npolvo, y fueron probados en condiciones de laboratorio controladas, con una ...",
-				"href": "http://iphone.telcel.com/",
-				"position": 10,
-				"visibility": 2700
-			}
-		],
-		"Searches": "135000"
-	},
-	{
-		"Keyword": "smartphone",
-		"MarketShare": [
-			{
-				"title": "Wikipedia",
-				"link": "https://es.wikipedia.org/wiki/Tel%C3%A9fono_inteligente",
-				"description": "El teléfono inteligente (smartphone en inglés) es un tipo de teléfono móvil \nconstruido sobre una plataforma informática móvil, con mayor capacidad de ...",
-				"href": "https://es.wikipedia.org/wiki/Tel%C3%A9fono_inteligente",
-				"position": 1,
-				"visibility": 5550
-			},
-			{
-				"title": "Areatecnologia",
-				"link": "http://www.areatecnologia.com/Que-es-un-smartphone.htm",
-				"description": "Entra y Aprende Todo sobre un Smartphone: Qué es un Smartphone, \nCaracteristicas de un Smartphone y Errores a la Hora de Comprar uno. Los \nTelefonos ...",
-				"href": "http://www.areatecnologia.com/Que-es-un-smartphone.htm",
-				"position": 2,
-				"visibility": 3330
+				"visibility": 132
 			},
 			{
 				"title": "Google News",
 				"link": null,
 				"description": "",
 				"href": null,
-				"position": 3,
-				"visibility": 2220
-			},
-			{
-				"title": "Sams",
-				"link": "https://www.sams.com.mx/smartphones-y-accesorios",
-				"description": "Encuentra smartphones y celulares desbloqueados, accesorios para celulares y \nmucho más en Sam's Club México. Con tu membresía disfruta de los grandes ...",
-				"href": "https://www.sams.com.mx/smartphones-y-accesorios",
-				"position": 4,
-				"visibility": 1554.0000000000002
-			},
-			{
-				"title": "Lg",
-				"link": "http://www.lg.com/mx/smartphones",
-				"description": "Smartphone LG: Un completo centro de comunicación y entretenimiento móvil \nmultimedia portátil de atractivo y cómodo diseño.",
-				"href": "http://www.lg.com/mx/smartphones",
-				"position": 5,
-				"visibility": 1110
-			},
-			{
-				"title": "Samsung",
-				"link": "http://www.samsung.com/mx/smartphones/",
-				"description": "Visita Samsung para encontrar smartphones. Encuentra toda la información de \nnuestros productos y soporte de Samsung.",
-				"href": "http://www.samsung.com/mx/smartphones/",
-				"position": 6,
-				"visibility": 666
-			},
-			{
-				"title": "Linio",
-				"link": "https://www.linio.com.mx/c/celulares-y-tablets/celulares-y-smartphones",
-				"description": "Venta de celulares en México. Elige el smartphone que más te guste y \naprovecha los meses sin intereses y las ofertas de celulares ¡Compra online!",
-				"href": "https://www.linio.com.mx/c/celulares-y-tablets/celulares-y-smartphones",
-				"position": 7,
-				"visibility": 444
-			},
-			{
-				"title": "Xataka",
-				"link": "https://www.xataka.com.mx/tag/smartphone",
-				"description": "Smartphone:Los cuatro inventos que hacen que tomar una selfie sea más fácil.¿\nTe toca cambiar de móvil? A mi también y ya cambié.¿Y si los smartphones...",
-				"href": "https://www.xataka.com.mx/tag/smartphone",
-				"position": 8,
-				"visibility": 444
-			},
-			{
-				"title": "Elektra",
-				"link": "https://www.elektra.com.mx/celulares-desbloqueados/category/celulares-desbloqueados",
-				"description": "Con los Smartphones de la marca Lava que Elektra.com.mx tiene para ti te \nmantendrás comunicado, al mismo tiempo que disfrutas de las mejores \naplicaciones ...",
-				"href": "https://www.elektra.com.mx/celulares-desbloqueados/category/celulares-desbloqueados",
-				"position": 9,
-				"visibility": 444
-			},
-			{
-				"title": "Definicion De",
-				"link": "http://definicion.de/smartphone/",
-				"description": "El término smartphone pertenece a la lengua inglesa y hace referencia a aquello \nque, en nuestro idioma, conocemos como teléfono inteligente. Se trata de un ...",
-				"href": "http://definicion.de/smartphone/",
 				"position": 10,
-				"visibility": 444
+				"visibility": 132
+			},
+			{
+				"title": "Expansion",
+				"link": "http://expansion.mx/mi-dinero/2015/04/30/4-opciones-de-seguro-de-vida-cual-te-conviene",
+				"description": "4 May 2015 ... En México, 8 millones de personas cuentan con un seguro de vida individual, lo \nque representa que solo el 15% de la población ...",
+				"href": "http://expansion.mx/mi-dinero/2015/04/30/4-opciones-de-seguro-de-vida-cual-te-conviene",
+				"position": 11,
+				"visibility": 132
 			}
 		],
-		"Searches": "22200"
+		"Searches": " 6600"
 	},
 	{
-		"Keyword": "new iphone",
+		"Keyword": "aseguradoras",
 		"MarketShare": [
 			{
-				"title": "Macrumors",
-				"link": "https://www.macrumors.com/roundup/iphone-8/",
-				"description": "Apple has a major iPhone redesign planned for 2017, with a glass body and ... \nThe new iPhone may be sold alongside upgraded (but standard) 4.7 and 5.5-\ninch ...",
-				"href": "https://www.macrumors.com/roundup/iphone-8/",
+				"title": "Amis",
+				"link": "http://www.amis.org.mx/amis/directorio.html",
+				"description": "ASEGURADORA INTERACCIONES, S.A. 5326-8600. Reforma No. 383 Piso 5, \nCuauhatemoc, C.P. 6500, Ciudad de México interacciones.com ...",
+				"href": "http://www.amis.org.mx/amis/directorio.html",
+				"position": 2,
+				"visibility": 660
+			},
+			{
+				"title": "Cnsf Gob  :8090",
+				"link": "http://www.cnsf.gob.mx:8090/ListaInstituciones.aspx",
+				"description": "Aseguradora Interacciones, S.A. de C.V., Grupo Financiero Interacciones, Sitio \nde la Compañia · Nota de Revelación · Directorio. Aseguradora Patrimonial ...",
+				"href": "http://www.cnsf.gob.mx:8090/ListaInstituciones.aspx",
+				"position": 3,
+				"visibility": 440
+			},
+			{
+				"title": "Segurosdeautos",
+				"link": "http://www.segurosdeautos.com.mx/aseguradoras.html",
+				"description": "Contamos con las mejores aseguradoras en México, cotiza y encuentra el mejor \nseguro de autos llámanos hoy mismo 5650 5000 o 5650 8888.",
+				"href": "http://www.segurosdeautos.com.mx/aseguradoras.html",
+				"position": 4,
+				"visibility": 308.00000000000006
+			},
+			{
+				"title": "Autocompara",
+				"link": "https://www.autocompara.com/ExpressoAutoCompara/aseguradoras.htm",
+				"description": "Con más de 50 años de experiencia, hoy en día ABA Seguros forma parte de las \ncompañías más grandes de México en el ramo de autos y según encuestas ...",
+				"href": "https://www.autocompara.com/ExpressoAutoCompara/aseguradoras.htm",
+				"position": 5,
+				"visibility": 220
+			},
+			{
+				"title": "Enciclopediafinanciera",
+				"link": "http://www.enciclopediafinanciera.com/sistemafinanciero/aseguradoras.htm",
+				"description": "Una aseguradora, es aquel intermediario financiero que proporciona cobertura, \nen forma de compensación resultante de la pérdida, daño, lesión, tratamiento o ...",
+				"href": "http://www.enciclopediafinanciera.com/sistemafinanciero/aseguradoras.htm",
+				"position": 6,
+				"visibility": 132
+			},
+			{
+				"title": "Google News",
+				"link": null,
+				"description": "",
+				"href": null,
+				"position": 7,
+				"visibility": 88
+			},
+			{
+				"title": "Nadaessegurotusegurosi",
+				"link": "http://www.nadaessegurotusegurosi.com.mx/aseguradoras.html?ID=1",
+				"description": "DIRECTORIO DE ASEGURADORAS. Conoce a nuestras aseguradoras \nasociadas, hay una cerca de tu localidad preparada para ofrecerte el mejor \nservicio.",
+				"href": "http://www.nadaessegurotusegurosi.com.mx/aseguradoras.html?ID=1",
+				"position": 8,
+				"visibility": 88
+			},
+			{
+				"title": "Abchospital",
+				"link": "http://www.abchospital.com/aseguradoras/",
+				"description": "Aseguradoras. ACE Seguros S.A. AIG México, Compañia de Seguros de Vida \nS.A. de C.V. AIG México Seguros Interamericana S.A. de C.V. Allianz Mexico, \nS.A. ...",
+				"href": "http://www.abchospital.com/aseguradoras/",
+				"position": 9,
+				"visibility": 88
+			},
+			{
+				"title": "Rankia",
+				"link": "https://www.rankia.mx/blog/aseguradoras-y-seguros/3063269-mejores-aseguradoras-auto-2017",
+				"description": "1 Ene 2017 ... En el siguiente espacio les traemos el ranking de las mejores aseguradoras de \nauto para el 2017. El seguro de automóvil es indispensable ...",
+				"href": "https://www.rankia.mx/blog/aseguradoras-y-seguros/3063269-mejores-aseguradoras-auto-2017",
+				"position": 10,
+				"visibility": 88
+			},
+			{
+				"title": "Directorio",
+				"link": "http://www.directorio.com.mx/seguros/",
+				"description": "Bienvenido al directorio mexicano de seguros, aseguradores y aseguradoras \npara Mexico / México / Mejico! Estamos para servirte lo mejor posible.",
+				"href": "http://www.directorio.com.mx/seguros/",
+				"position": 11,
+				"visibility": 88
+			}
+		],
+		"Searches": " 4400"
+	},
+	{
+		"Keyword": "cotizar seguro",
+		"MarketShare": [
+			{
+				"title": "Autocompara",
+				"link": "https://www.autocompara.com/ExpressoAutoCompara/cotizacion.htm",
+				"description": "Elige, compara y adquiere tu seguro en 3 sencillos pasos. Selecciona el plan \nque más te convenga con el tipo de pago que prefieras. Vehículo: ...",
+				"href": "https://www.autocompara.com/ExpressoAutoCompara/cotizacion.htm",
+				"position": 1,
+				"visibility": 475
+			},
+			{
+				"title": "Segurointeligente",
+				"link": "https://segurointeligente.mx/Seguros-de-auto/cotiza.aspx",
+				"description": "Cotización de seguros con asesoría personalizada y call center especializado en \n... Cotiza con las 8 mejores aseguradoras y obtén el mejor seguro de auto.",
+				"href": "https://segurointeligente.mx/Seguros-de-auto/cotiza.aspx",
+				"position": 2,
+				"visibility": 285
+			},
+			{
+				"title": "Axa",
+				"link": "https://axa.mx/web/cotizador-autos",
+				"description": "Con el cotizador de seguros de auto de AXA Seguros podrás cotizar tu seguro \nde auto con nosotros para conocer su precio y coberturas.",
+				"href": "https://axa.mx/web/cotizador-autos",
+				"position": 3,
+				"visibility": 190
+			},
+			{
+				"title": "Cotizatuseguro Hdi",
+				"link": "https://cotizatuseguro.hdi.com.mx/",
+				"description": "Encuentra a tu agente más cercano y recibe atención personalizada!.¡Cotízalo \nAhora!",
+				"href": "https://cotizatuseguro.hdi.com.mx/",
+				"position": 4,
+				"visibility": 133
+			},
+			{
+				"title": "Qualitas",
+				"link": "https://www.qualitas.com.mx/portal/fr/web/qualitas/cotizador-publico",
+				"description": "Todos los derecho reservados Quálitas Compañía de Seguros S.A. de C.V. / \nAviso de Privacidad. Recomendamos IE8/Chrome/Firefox + Flash Player + \nAcrobat ...",
+				"href": "https://www.qualitas.com.mx/portal/fr/web/qualitas/cotizador-publico",
+				"position": 5,
+				"visibility": 95
+			},
+			{
+				"title": "Mapfre",
+				"link": "https://www.mapfre.com.mx/seguros-mx/particulares/seguros-de-auto/auto/",
+				"description": "Seguros para autos MAPFRE. Los seguros más completos al mejor precio. \nCotiza tu seguro de auto online simple y rápidamente.",
+				"href": "https://www.mapfre.com.mx/seguros-mx/particulares/seguros-de-auto/auto/",
+				"position": 6,
+				"visibility": 57
+			},
+			{
+				"title": "Segurosbanamex",
+				"link": "https://www.segurosbanamex.com.mx/segurosBanamex/seguro-auto-banamex-contratacion-paso-uno.jsp",
+				"description": "Seguro de Auto Banamex. Cotiza y contrata tu seguro en tres pasos. 1. Datos \nbásicos del vehículo 2. Tu cotización 3. Datos adicionales y medio de pago ...",
+				"href": "https://www.segurosbanamex.com.mx/segurosBanamex/seguro-auto-banamex-contratacion-paso-uno.jsp",
+				"position": 7,
+				"visibility": 38
+			},
+			{
+				"title": "Wibe",
+				"link": "https://www.wibe.com/cotizadores/seguro-auto/",
+				"description": "Producto operado por Seguros BBVA Bancomer, S.A. de C.V., Grupo Financiero \nBBVA Bancomer. Aviso de privacidad. Condiciones Legales. Error. Operativa ...",
+				"href": "https://www.wibe.com/cotizadores/seguro-auto/",
+				"position": 8,
+				"visibility": 38
+			},
+			{
+				"title": "Elaguila",
+				"link": "https://www.elaguila.com.mx/",
+				"description": "Cotiza y Contrata en Línea, solo debes llenar unos pequeños campos con las \ninformacion de tu coche y datos personales, no dejes pasar más tiempo.",
+				"href": "https://www.elaguila.com.mx/",
+				"position": 9,
+				"visibility": 38
+			},
+			{
+				"title": "S",
+				"link": "http://www.s.com.mx/auto/cotiza.aspx",
+				"description": "Seguros s.com.mx - cotiza, compra, imprime. Seguro de auto. Compara precios · \nRenueva tu seguro ... Cotiza tu seguro de auto. Ver última cotización guardada ...",
+				"href": "http://www.s.com.mx/auto/cotiza.aspx",
+				"position": 10,
+				"visibility": 38
+			}
+		],
+		"Searches": " 1900"
+	},
+	{
+		"Keyword": "seguro medico",
+		"MarketShare": [
+			{
+				"title": "Metlife",
+				"link": "http://www.metlife.com.mx/personas/seguro-medico/index.html",
+				"description": "¿Por qué tener un seguro de gastos médicos? Porque te ayuda a atender tus \nrequerimientos de gastos médicos, evitando en lo posible las repercusiones ...",
+				"href": "http://www.metlife.com.mx/personas/seguro-medico/index.html",
+				"position": 1,
+				"visibility": 325
+			},
+			{
+				"title": "Metlife",
+				"link": "http://www.metlife.com.mx/gobierno/gobierno-federal/seguro-medico.html",
+				"description": "¡Bienvenido a casa! A partir del 16 de mayo del 2016 cuentas con la protección \ndel seguro de Gastos Médicos Mayores de MetLife. Queremos que obtengas el ...",
+				"href": "http://www.metlife.com.mx/gobierno/gobierno-federal/seguro-medico.html",
+				"position": 2,
+				"visibility": 195
+			},
+			{
+				"title": "Axa",
+				"link": "https://axa.mx/web/seguro-de-salud",
+				"description": "AXA Seguros te brinda respaldo económico ante gastos médicos no \nprogramados. Consulta nuestros planes y protege tu salud.",
+				"href": "https://axa.mx/web/seguro-de-salud",
+				"position": 3,
+				"visibility": 130
+			},
+			{
+				"title": "Gnp",
+				"link": "https://www.gnp.com.mx/wps/portal/portalesgnp/anexos/temas-interes/seguro-medico/como-elegir-tu-seguro-medico",
+				"description": "Seguro Medico: Linea Azul Flexible, Personal, Seguros de Gastos Médicos. En \nGNP creamos un Seguro Médico de acuerdo a tus necesidades, descubre los ...",
+				"href": "https://www.gnp.com.mx/wps/portal/portalesgnp/anexos/temas-interes/seguro-medico/como-elegir-tu-seguro-medico",
+				"position": 4,
+				"visibility": 91.00000000000001
+			},
+			{
+				"title": "Mapfre",
+				"link": "https://www.mapfre.com.mx/seguros-mx/particulares/seguros-de-gastos-medicos/medicos/",
+				"description": "Un seguro de gastos médicos te brinda cobertura y protección ante cualquier \neventualidad en tu salud. Contrata tu seguro de gastos médicos con MAPFRE.",
+				"href": "https://www.mapfre.com.mx/seguros-mx/particulares/seguros-de-gastos-medicos/medicos/",
+				"position": 5,
+				"visibility": 65
+			},
+			{
+				"title": "Mapfre",
+				"link": "https://www.mapfre.com.mx/seguros-mx/particulares/seguros-de-gastos-medicos/medicos/gastos-medicos-mayores/",
+				"description": "Con el Seguro de Gastos Médicos Mayores MAPFRE, quedarán cubiertos todos \nlos gastos médicos (quirúrgicos, de análisis, de medicamentos, etc.) requeridos ...",
+				"href": "https://www.mapfre.com.mx/seguros-mx/particulares/seguros-de-gastos-medicos/medicos/gastos-medicos-mayores/",
+				"position": 6,
+				"visibility": 39
+			},
+			{
+				"title": "Segurosbanorte",
+				"link": "http://www.segurosbanorte.com.mx/gastos-medicos/medico-total.html",
+				"description": "Seguros Banorte te ofrece protección, contra enfermedades graves que se ... a ti \ny a tu familia en los gastos médicos originados por enfermedad o accidente, ...",
+				"href": "http://www.segurosbanorte.com.mx/gastos-medicos/medico-total.html",
+				"position": 7,
+				"visibility": 26
+			},
+			{
+				"title": "Google News",
+				"link": null,
+				"description": "",
+				"href": null,
+				"position": 8,
+				"visibility": 26
+			},
+			{
+				"title": "Allianz",
+				"link": "https://www.allianz.com.mx/seguro-medico",
+				"description": "Texto_GMMI. Gastos Médicos Mayores Individual ... Acordeon_GMMI. Seguro de \nGastos Médicos ... Tabulador de honorarios médicos (GUA). Es el monto ...",
+				"href": "https://www.allianz.com.mx/seguro-medico",
+				"position": 9,
+				"visibility": 26
+			},
+			{
+				"title": "Condusef Gob",
+				"link": "http://www.condusef.gob.mx/Revista/index.php/seguros/gastos-medicos/231-no-esperes-que-las-enfermedades-lleguen-mejor-preve",
+				"description": "En el mercado puedes encontrar opciones como seguros de salud y seguros de \ngastos médicos mayores, pero la clave está en entender cómo funciona cada ...",
+				"href": "http://www.condusef.gob.mx/Revista/index.php/seguros/gastos-medicos/231-no-esperes-que-las-enfermedades-lleguen-mejor-preve",
+				"position": 10,
+				"visibility": 26
+			}
+		],
+		"Searches": " 1300"
+	},
+	{
+		"Keyword": "aseguradoras en mexico",
+		"MarketShare": [
+			{
+				"title": "Amis",
+				"link": "http://www.amis.org.mx/amis/directorio.html",
+				"description": "ACE SEGUROS, S.A. DE C.V.. 5726-3780. Av. Paseo de la Reforma No. 250, \nPiso 15, Col. Juárez, Cuauhtémoc, C.P. 06600, Ciudad de México ace-smeweb.",
+				"href": "http://www.amis.org.mx/amis/directorio.html",
+				"position": 1,
+				"visibility": 325
+			},
+			{
+				"title": "Segurosdeautos",
+				"link": "http://www.segurosdeautos.com.mx/aseguradoras.html",
+				"description": "Contamos con las mejores aseguradoras en México, cotiza y encuentra el mejor \nseguro de autos llámanos hoy mismo 5650 5000 o 5650 8888.",
+				"href": "http://www.segurosdeautos.com.mx/aseguradoras.html",
+				"position": 2,
+				"visibility": 195
+			},
+			{
+				"title": "Cnsf Gob  :8090",
+				"link": "http://www.cnsf.gob.mx:8090/ListaInstituciones.aspx",
+				"description": "AIG Seguros México, S.A. de C.V., Sitio de la Compañia · Nota de Revelación · \nDirectorio. Allianz México, S.A., Compañía de Seguros, Sitio de la Compañia ...",
+				"href": "http://www.cnsf.gob.mx:8090/ListaInstituciones.aspx",
+				"position": 3,
+				"visibility": 130
+			},
+			{
+				"title": "Rankia",
+				"link": "https://www.rankia.mx/blog/aseguradoras-y-seguros/3063269-mejores-aseguradoras-auto-2017",
+				"description": "1 Ene 2017 ... En el siguiente espacio les traemos el ranking de las mejores aseguradoras de \nauto para el 2017. El seguro de automóvil es indispensable ...",
+				"href": "https://www.rankia.mx/blog/aseguradoras-y-seguros/3063269-mejores-aseguradoras-auto-2017",
+				"position": 4,
+				"visibility": 91.00000000000001
+			},
+			{
+				"title": "Google Images",
+				"link": null,
+				"description": "",
+				"href": null,
+				"position": 5,
+				"visibility": 65
+			},
+			{
+				"title": "Gnp",
+				"link": "https://www.gnp.com.mx/wps/portal/portalesgnp/anexos/temas-interes/servicios-cliente/gnp-entre-las-companias-de-seguros-en-mexico",
+				"description": "GNP (Grupo Nacional Provincial) es una de las mejores y más importantes \ncompañías de seguros en México.",
+				"href": "https://www.gnp.com.mx/wps/portal/portalesgnp/anexos/temas-interes/servicios-cliente/gnp-entre-las-companias-de-seguros-en-mexico",
+				"position": 6,
+				"visibility": 39
+			},
+			{
+				"title": "Amis",
+				"link": "http://www.amis.com.mx/",
+				"description": "Asociación Mexicana de Instituciones de Seguros ... CONVENCIÓN. El evento \nmás importante en la industria de seguros. Leer más ... C.P. 01040, México D.F. ...",
+				"href": "http://www.amis.com.mx/",
+				"position": 7,
+				"visibility": 26
+			},
+			{
+				"title": "Autocompara",
+				"link": "https://www.autocompara.com/ExpressoAutoCompara/aseguradoras.htm",
+				"description": "Con más de 50 años de experiencia, hoy en día ABA Seguros forma parte de las \ncompañías más grandes de México en el ramo de autos y según encuestas ...",
+				"href": "https://www.autocompara.com/ExpressoAutoCompara/aseguradoras.htm",
+				"position": 8,
+				"visibility": 26
+			},
+			{
+				"title": "Carmudi",
+				"link": "https://www.carmudi.com.mx/journal/las-mejores-companias-aseguradoras-de-mexico/",
+				"description": "14 Mar 2014 ... Decidirse por contratar una compañía aseguradora en ocasiones resulta tan \nestresante como el escoger el mismo auto. Pero si acabas de ...",
+				"href": "https://www.carmudi.com.mx/journal/las-mejores-companias-aseguradoras-de-mexico/",
+				"position": 9,
+				"visibility": 26
+			},
+			{
+				"title": "Nadaessegurotusegurosi",
+				"link": "http://www.nadaessegurotusegurosi.com.mx/aseguradoras.html?ID=1",
+				"description": "Conoce a nuestras aseguradoras asociadas, hay una cerca de tu localidad ... 47-\nA Piso 1, Bosques de las Lomas, C.P. 5120, México D.F., 5258-5800.",
+				"href": "http://www.nadaessegurotusegurosi.com.mx/aseguradoras.html?ID=1",
+				"position": 10,
+				"visibility": 26
+			}
+		],
+		"Searches": " 1300"
+	},
+	{
+		"Keyword": "seguros medicos",
+		"MarketShare": [
+			{
+				"title": "Metlife",
+				"link": "http://www.metlife.com.mx/personas/seguro-medico/index.html",
+				"description": "¿Por qué tener un seguro de gastos médicos? Porque te ayuda a atender tus \nrequerimientos de gastos médicos, evitando en lo posible las repercusiones ...",
+				"href": "http://www.metlife.com.mx/personas/seguro-medico/index.html",
 				"position": 1,
 				"visibility": 220
 			},
 			{
-				"title": "Forbes",
-				"link": "http://www.forbes.com/sites/gordonkelly/2017/05/07/iphone-8-iphone-7s-glass-design-battery-touch-id/",
-				"description": "7 May 2017 ... iPhone 8 and iPhone 7S buyers may be disappointed according to a major new \nreport...",
-				"href": "http://www.forbes.com/sites/gordonkelly/2017/05/07/iphone-8-iphone-7s-glass-design-battery-touch-id/",
+				"title": "Axa",
+				"link": "https://axa.mx/web/seguro-de-salud",
+				"description": "AXA Seguros te brinda respaldo económico ante gastos médicos no \nprogramados. Consulta nuestros planes y protege tu salud.",
+				"href": "https://axa.mx/web/seguro-de-salud",
 				"position": 2,
 				"visibility": 132
 			},
 			{
-				"title": "Support Apple",
-				"link": "https://support.apple.com/explore/new-to-iphone",
-				"description": "Learn how to set up and use your new iPhone. Whether you're making the switch \nfrom Android or this is your first iPhone, we're here to help.",
-				"href": "https://support.apple.com/explore/new-to-iphone",
+				"title": "Mapfre",
+				"link": "https://www.mapfre.com.mx/seguros-mx/particulares/seguros-de-gastos-medicos/medicos/",
+				"description": "Ante cualquier tipo de problema de salud, por enfermedad o accidente, los \nSeguros de Gastos Médicos MAPFRE te garantizan con todas sus modalidades \nde ...",
+				"href": "https://www.mapfre.com.mx/seguros-mx/particulares/seguros-de-gastos-medicos/medicos/",
 				"position": 3,
 				"visibility": 88
 			},
 			{
-				"title": "Google Images",
-				"link": null,
-				"description": "",
-				"href": null,
+				"title": "Gnp",
+				"link": "https://www.gnp.com.mx/wps/portal/portalesgnp/personas/gastos-medicos/cotizador-salud/cotiza-gastos-medicos",
+				"description": "¡Bienvenido al cotizador de Gastos Médicos Mayores! ... ¿Actualmente cuentas \ncon un Seguro de GMM que te otorga tu empresa como prestación? Sí No.",
+				"href": "https://www.gnp.com.mx/wps/portal/portalesgnp/personas/gastos-medicos/cotizador-salud/cotiza-gastos-medicos",
 				"position": 4,
 				"visibility": 61.60000000000001
 			},
 			{
-				"title": "Apple",
-				"link": "https://www.apple.com/iphone-7/",
-				"description": "iPhone 7 dramatically improves the most important aspects of the iPhone \nexperience. It introduces advanced new camera systems. The best performance \nand ...",
-				"href": "https://www.apple.com/iphone-7/",
+				"title": "Gnp",
+				"link": "https://www.gnp.com.mx/wps/portal/portalesgnp/anexos/temas-interes/gastos-medicos/como-anticipar-tus-gastos-medicos",
+				"description": "Un Seguro de Gastos Médicos, te brinda cobertura y protección ante cualquier \neventualidad. Consulta los diferentes Seguros Médicos de GNP.",
+				"href": "https://www.gnp.com.mx/wps/portal/portalesgnp/anexos/temas-interes/gastos-medicos/como-anticipar-tus-gastos-medicos",
 				"position": 5,
 				"visibility": 44
 			},
 			{
-				"title": "Apple",
-				"link": "https://www.apple.com/iphone/",
-				"description": "Join the iPhone Upgrade Program. Get a new iPhone every year*; Works with \nyour carrier; Low payments from $32.41/month1; AppleCare+ coverage included.",
-				"href": "https://www.apple.com/iphone/",
+				"title": "Gnp",
+				"link": "https://www.gnp.com.mx/wps/portal/portalesgnp/anexos/temas-interes/seguro-medico/como-elegir-tu-seguro-medico",
+				"description": "Seguro Medico: Linea Azul Flexible, Personal, Seguros de Gastos Médicos. En \nGNP creamos un Seguro Médico de acuerdo a tus necesidades, descubre los ...",
+				"href": "https://www.gnp.com.mx/wps/portal/portalesgnp/anexos/temas-interes/seguro-medico/como-elegir-tu-seguro-medico",
 				"position": 6,
 				"visibility": 26.4
 			},
 			{
-				"title": "Apple",
-				"link": "https://www.apple.com/iphone/trade-up/",
-				"description": "Just trade in your eligible smartphone, and then use the credit to lower the full \ncost of a new iPhone or to reduce the monthly payments with your carrier.1 ...",
-				"href": "https://www.apple.com/iphone/trade-up/",
+				"title": "Segurosbanorte",
+				"link": "http://www.segurosbanorte.com.mx/gastos-medicos/medico-total.html",
+				"description": "Hemos diseñado este producto, que te ofrece cobertura a ti y a tu familia en los \ngastos médicos originados por enfermedad o accidente, de acuerdo a las ...",
+				"href": "http://www.segurosbanorte.com.mx/gastos-medicos/medico-total.html",
 				"position": 7,
 				"visibility": 17.6
 			},
 			{
-				"title": "Cnet",
-				"link": "https://www.cnet.com/products/apple-iphone-8/preview/",
-				"description": "7 May 2017 ... For now, we're calling it the iPhone 8, though we don't know officially what the \ncompany will call it. As seen most recently with the new iPad ...",
-				"href": "https://www.cnet.com/products/apple-iphone-8/preview/",
+				"title": "Segurossaludbancomer",
+				"link": "http://www.segurossaludbancomer.com/",
+				"description": "Qu  es Seguros Salud Bancomer? L nea de Negocio Informaci n Financiera \nSeguro M dico Bancomer Respaldo Cirug aSegura BBVA Bancomer ...",
+				"href": "http://www.segurossaludbancomer.com/",
 				"position": 8,
 				"visibility": 17.6
 			},
 			{
-				"title": "Google News",
-				"link": "http://www.techradar.com/news/phone-and-communications/mobile-phones/iphone-8-1329124",
-				"description": "18 May 2017 ... The iPhone 8 release date is the routine new iPhone rumor we expect to stay the \nsame every year, but Apple may do something different here, ...",
-				"href": "http://www.techradar.com/news/phone-and-communications/mobile-phones/iphone-8-1329124",
+				"title": "Bbvasegurossalud",
+				"link": "https://www.bbvasegurossalud.com.mx/",
+				"description": "Bienvenidos a Seguros Salud Bancomer. La aseguradora especializada en \nseguros de salud médicos más importante del país, ofreciendo productos de \nSalud, ...",
+				"href": "https://www.bbvasegurossalud.com.mx/",
 				"position": 9,
 				"visibility": 17.6
 			},
 			{
-				"title": "Walmart",
-				"link": "https://www.walmart.com/browse/cell-phones/new-iphone-6s-plus/1105910_1127173_2946938",
-				"description": "Shop for New iPhone 6s Plus in New iPhones. Buy products such as Apple \niPhone 6S Plus 32GB GSM 4G LTE Dual-Core Smartphone with 12MP Camera ...",
-				"href": "https://www.walmart.com/browse/cell-phones/new-iphone-6s-plus/1105910_1127173_2946938",
-				"position": 10,
+				"title": "Segurosatlas",
+				"link": "http://www.segurosatlas.com.mx/PersonaGastosMedicos.html",
+				"description": "Seguros de Gastos Médicos para personas. Med Óptimo. Protección familiar \nideal para hacer frente a los gastos originados por tratamientos o emergencias ...",
+				"href": "http://www.segurosatlas.com.mx/PersonaGastosMedicos.html",
+				"position": 11,
 				"visibility": 17.6
 			}
 		],
-		"Searches": "880"
+		"Searches": " 880"
 	},
 	{
-		"Keyword": "celular smartphone",
+		"Keyword": "compañias de seguros",
 		"MarketShare": [
 			{
-				"title": "Celulares Mercadolibre",
-				"link": "http://celulares.mercadolibre.com.mx/",
-				"description": "Encuentra Celulares y Smartphones en Mercado Libre México. Descubre la \nmejor forma de comprar online.",
-				"href": "http://celulares.mercadolibre.com.mx/",
-				"position": 1,
-				"visibility": 120
-			},
-			{
-				"title": "Linio",
-				"link": "https://www.linio.com.mx/c/celulares-y-tablets/celulares-y-smartphones",
-				"description": "Venta de celulares en México. Elige el smartphone que más te guste y \naprovecha los meses sin intereses y las ofertas de celulares ¡Compra online!",
-				"href": "https://www.linio.com.mx/c/celulares-y-tablets/celulares-y-smartphones",
-				"position": 2,
-				"visibility": 72
-			},
-			{
-				"title": "Cnet",
-				"link": "https://www.cnet.com/es/temas/celulares/los-mejores-celulares/",
-				"description": "12 May 2017 ... Lista de los mejores celulares 2016 en diferentes categorías. Los mejores \ncelulares Android, Windows, iOS (iPhone) u otros del momento.",
-				"href": "https://www.cnet.com/es/temas/celulares/los-mejores-celulares/",
-				"position": 3,
-				"visibility": 48
-			},
-			{
-				"title": "Google Images",
-				"link": null,
-				"description": "",
-				"href": null,
-				"position": 4,
-				"visibility": 33.6
-			},
-			{
-				"title": "Sams",
-				"link": "https://www.sams.com.mx/smartphones-y-accesorios",
-				"description": "Encuentra smartphones y celulares desbloqueados, accesorios para celulares y \nmucho más en Sam's Club México. Con tu membresía disfruta de los grandes ...",
-				"href": "https://www.sams.com.mx/smartphones-y-accesorios",
-				"position": 5,
-				"visibility": 24
-			},
-			{
-				"title": "Informatica-Hoy   Ar",
-				"link": "http://www.informatica-hoy.com.ar/smartphones/Diferencias-smartphone-celular.php",
-				"description": "Si estas por comprar un movil, este articulo seguramente te va a aclarar algunas \ndudas. Explicamos las diferencias entre smartphone y telefono celular, que ...",
-				"href": "http://www.informatica-hoy.com.ar/smartphones/Diferencias-smartphone-celular.php",
-				"position": 6,
-				"visibility": 14.399999999999999
-			},
-			{
-				"title": "Lg",
-				"link": "http://www.lg.com/mx/celulares",
-				"description": "En LG encontrarás desde celulares Touch a celulares 3G, siempre a punta de \nvanguardia. ... LG V20 | El primer smartphone con Android 7.0 Nougat · \nLGH990T.",
-				"href": "http://www.lg.com/mx/celulares",
-				"position": 7,
-				"visibility": 9.6
-			},
-			{
-				"title": "Wikipedia",
-				"link": "https://es.wikipedia.org/wiki/Tel%C3%A9fono_inteligente",
-				"description": "El teléfono inteligente (smartphone en inglés) es un tipo de teléfono móvil \nconstruido sobre .... Commons · Buscador histórico de Smartphones Buscador \nhistórico de Smartphones; Blackberry Passport El Teléfono Celular mas seguro.",
-				"href": "https://es.wikipedia.org/wiki/Tel%C3%A9fono_inteligente",
-				"position": 8,
-				"visibility": 9.6
-			},
-			{
-				"title": "Celulares Mercadolibre",
-				"link": "http://celulares.mercadolibre.com.co/",
-				"description": "Encuentra Celulares y Smartphones en Mercado Libre Colombia. Descubre la \nmejor forma de comprar online.",
-				"href": "http://celulares.mercadolibre.com.co/",
-				"position": 9,
-				"visibility": 9.6
-			},
-			{
-				"title": "Youtube",
-				"link": "https://www.youtube.com/watch?v=h2i2d5MND5w",
-				"description": "",
-				"href": "https://www.youtube.com/watch?v=h2i2d5MND5w",
-				"position": 10,
-				"visibility": 9.6
-			}
-		],
-		"Searches": "480"
-	},
-	{
-		"Keyword": "smartphone samsung",
-		"MarketShare": [
-			{
-				"title": "Samsung",
-				"link": "http://www.samsung.com/mx/smartphones/all-smartphones/",
-				"description": "Conoce las últimas características e innovaciones disponibles en los \nsmartphones de Samsung.",
-				"href": "http://www.samsung.com/mx/smartphones/all-smartphones/",
-				"position": 1,
-				"visibility": 250
-			},
-			{
-				"title": "Samsung",
-				"link": "http://www.samsung.com/latin/smartphones/all-smartphones/",
-				"description": "Selecciona y compara las más recientes innovaciones y funciones disponibles \nen los smartphones.",
-				"href": "http://www.samsung.com/latin/smartphones/all-smartphones/",
-				"position": 2,
-				"visibility": 150
-			},
-			{
-				"title": "Samsung",
-				"link": "http://www.samsung.com/es/smartphones/all-smartphones/",
-				"description": "Descubre toda la gama de smartphones Samsung Galaxy. Teléfonos Android \npotentes y resistentes con conectividad 4G, Dual SIM y pantalla de alta definición\n.",
-				"href": "http://www.samsung.com/es/smartphones/all-smartphones/",
-				"position": 3,
-				"visibility": 100
-			},
-			{
-				"title": "Samsung",
-				"link": "http://www.samsung.com/es/smartphones/",
-				"description": "Descubre toda la gama de smartphones Samsung Galaxy. Teléfonos Android \npotentes y resistentes con conectividad 4G, Dual SIM y pantalla de alta definición\n.",
-				"href": "http://www.samsung.com/es/smartphones/",
-				"position": 4,
-				"visibility": 70
-			},
-			{
-				"title": "Samsung",
-				"link": "http://www.samsung.com/mx/smartphones/",
-				"description": "Visita Samsung para encontrar smartphones. Encuentra toda la información de \nnuestros productos y soporte de Samsung.",
-				"href": "http://www.samsung.com/mx/smartphones/",
-				"position": 5,
-				"visibility": 50
-			},
-			{
-				"title": "Samsung",
-				"link": "http://www.samsung.com/co/smartphones/all-smartphones/",
-				"description": "Selecciona y compara las más recientes innovaciones y funciones disponibles \nen los smartphones.",
-				"href": "http://www.samsung.com/co/smartphones/all-smartphones/",
-				"position": 6,
-				"visibility": 30
-			},
-			{
-				"title": "Samsung",
-				"link": "http://www.samsung.com/mx/support/category/mobile/mobiledevice/smartphone",
-				"description": "Samsung Open the Menu. Close the Menu. Capa OpenSearch. Teclado para \nintroducir la búsqueda. Buscar Cerrar la capa de búsqueda. Buscar historial.",
-				"href": "http://www.samsung.com/mx/support/category/mobile/mobiledevice/smartphone",
-				"position": 7,
-				"visibility": 20
-			},
-			{
-				"title": "Samsung",
-				"link": "http://www.samsung.com/es/consumer/mobile-devices/smartphones/galaxy-s/SM-G900FZKAPHE",
-				"description": "Samsung Galaxy S5, el smartphone Android con pulsómetro, lector de huellas \ndactilares, 4G, WiFi, modo ultra ahorro de batería, resistente al agua y al polvo.",
-				"href": "http://www.samsung.com/es/consumer/mobile-devices/smartphones/galaxy-s/SM-G900FZKAPHE",
-				"position": 8,
-				"visibility": 20
-			},
-			{
-				"title": "Samsung",
-				"link": "http://www.samsung.com/ar/smartphones/",
-				"description": "Visitá Samsung para encontrar teléfonos celulares. Vas a encontrar reseñas de \nlos productos, respuestas e información de ayuda.",
-				"href": "http://www.samsung.com/ar/smartphones/",
-				"position": 9,
-				"visibility": 20
-			},
-			{
-				"title": "Google Images",
-				"link": null,
-				"description": "",
-				"href": null,
-				"position": 10,
-				"visibility": 20
-			}
-		],
-		"Searches": "1000"
-	},
-	{
-		"Keyword": "samsung smartphone",
-		"MarketShare": [
-			{
-				"title": "Samsung",
-				"link": "http://www.samsung.com/mx/smartphones/all-smartphones/",
-				"description": "Conoce las últimas características e innovaciones disponibles en los \nsmartphones de Samsung.",
-				"href": "http://www.samsung.com/mx/smartphones/all-smartphones/",
-				"position": 1,
-				"visibility": 180
-			},
-			{
-				"title": "Samsung",
-				"link": "http://www.samsung.com/mx/smartphones/",
-				"description": "Visita Samsung para encontrar smartphones. Encuentra toda la información de \nnuestros productos y soporte de Samsung.",
-				"href": "http://www.samsung.com/mx/smartphones/",
+				"title": "Amis",
+				"link": "http://www.amis.org.mx/amis/directorio.html",
+				"description": "ANA COMPAÑIA DE SEGUROS, S.A. DE C,V,. 5322-8200. Tecoyotitla No. 412, \nCol. Ex Hacienda de Guadalupe Chimalistac, Álvaro Obregón, C.P. 01050, ...",
+				"href": "http://www.amis.org.mx/amis/directorio.html",
 				"position": 2,
 				"visibility": 108
 			},
 			{
-				"title": "Samsung",
-				"link": "http://www.samsung.com/es/smartphones/all-smartphones/",
-				"description": "Descubre toda la gama de smartphones Samsung Galaxy. Teléfonos Android \npotentes y resistentes con conectividad 4G, Dual SIM y pantalla de alta definición\n.",
-				"href": "http://www.samsung.com/es/smartphones/all-smartphones/",
+				"title": "Cnsf Gob  :8090",
+				"link": "http://www.cnsf.gob.mx:8090/ListaInstituciones.aspx",
+				"description": "A.N.A. Compañía de Seguros, S.A. de C.V., Sitio de la Compañia · Nota de \nRevelación · Directorio. ABA Seguros, S.A. de C.V., Sitio de la Compañia · Nota \nde ...",
+				"href": "http://www.cnsf.gob.mx:8090/ListaInstituciones.aspx",
 				"position": 3,
 				"visibility": 72
 			},
 			{
-				"title": "Samsung",
-				"link": "http://www.samsung.com/latin/smartphones/all-smartphones/",
-				"description": "Selecciona y compara las más recientes innovaciones y funciones disponibles \nen los smartphones.",
-				"href": "http://www.samsung.com/latin/smartphones/all-smartphones/",
+				"title": "Cnsf Gob",
+				"link": "http://www.cnsf.gob.mx/EntidadesSupervisadas/InstitucionesSociedadesMutualistas/Paginas/ListaInstituciones.aspx",
+				"description": "Nombre de la Institución, Sitio Web, Notas de Revelación, Directorio. A.N.A. \nCompañía de Seguros, S.A. de C.V., Sitio de la Compañia · Nota de Revelación ...",
+				"href": "http://www.cnsf.gob.mx/EntidadesSupervisadas/InstitucionesSociedadesMutualistas/Paginas/ListaInstituciones.aspx",
 				"position": 4,
 				"visibility": 50.400000000000006
 			},
 			{
-				"title": "Google News",
-				"link": null,
-				"description": "",
-				"href": null,
+				"title": "Wikipedia",
+				"link": "https://es.wikipedia.org/wiki/Compa%C3%B1%C3%ADa_de_seguros",
+				"description": "Una compañía de seguros o aseguradora es la empresa especializada en el \nseguro, cuya actividad económica consiste en producir el servicio de seguridad,\n ...",
+				"href": "https://es.wikipedia.org/wiki/Compa%C3%B1%C3%ADa_de_seguros",
 				"position": 5,
 				"visibility": 36
 			},
 			{
-				"title": "Samsung",
-				"link": "http://www.samsung.com/es/smartphones/",
-				"description": "Descubre toda la gama de smartphones Samsung Galaxy. Teléfonos Android \npotentes y resistentes con conectividad 4G, Dual SIM y pantalla de alta definición\n.",
-				"href": "http://www.samsung.com/es/smartphones/",
+				"title": "Gnp",
+				"link": "https://www.gnp.com.mx/wps/portal/portalesgnp/anexos/temas-interes/servicios-cliente/gnp-entre-las-companias-de-seguros-en-mexico",
+				"description": "GNP (Grupo Nacional Provincial) es una de las mejores y más importantes \ncompañías de seguros en México.",
+				"href": "https://www.gnp.com.mx/wps/portal/portalesgnp/anexos/temas-interes/servicios-cliente/gnp-entre-las-companias-de-seguros-en-mexico",
 				"position": 6,
 				"visibility": 21.599999999999998
 			},
 			{
-				"title": "Samsung",
-				"link": "http://www.samsung.com/mx/support/category/mobile/mobiledevice/smartphone",
-				"description": "Teclado para introducir la búsqueda. Buscar Cerrar la capa de búsqueda. \nBuscar historial. BORRAR HISTORIAL. No hay sugerencias ...",
-				"href": "http://www.samsung.com/mx/support/category/mobile/mobiledevice/smartphone",
+				"title": "Google Images",
+				"link": null,
+				"description": "",
+				"href": null,
 				"position": 7,
 				"visibility": 14.4
 			},
 			{
-				"title": "Samsung",
-				"link": "http://www.samsung.com/co/smartphones/all-smartphones/",
-				"description": "Selecciona y compara las más recientes innovaciones y funciones disponibles \nen los smartphones.",
-				"href": "http://www.samsung.com/co/smartphones/all-smartphones/",
+				"title": "Segurosdeautos",
+				"link": "http://www.segurosdeautos.com.mx/aseguradoras.html",
+				"description": "Te podemos comentar que hay compañias de seguros que en caso que tu \nautomovil sea Perdida total, o Robado te pagaran por tu automovil el valor \ncomercial, ...",
+				"href": "http://www.segurosdeautos.com.mx/aseguradoras.html",
 				"position": 8,
 				"visibility": 14.4
 			},
 			{
-				"title": "Samsung",
-				"link": "http://www.samsung.com/us/mobile/phones/",
-				"description": "Unlocked by Samsung lets you pick more than just your smartphone. You can \nchoose your carrier, data plan, services, features and apps, so you can get your ...",
-				"href": "http://www.samsung.com/us/mobile/phones/",
+				"title": "Indeed",
+				"link": "https://www.indeed.com.mx/Empleos-de-Compa%C3%B1%C3%ADa-de-seguros-en-Ciudad-de-M%C3%A9xico,-D.-F.",
+				"description": "458 ofertas de trabajo de Compañía de seguros en Ciudad de México, D. F. | \nIndeed México - una búsqueda. todos los empleos.",
+				"href": "https://www.indeed.com.mx/Empleos-de-Compa%C3%B1%C3%ADa-de-seguros-en-Ciudad-de-M%C3%A9xico,-D.-F.",
 				"position": 9,
 				"visibility": 14.4
 			},
 			{
-				"title": "Samsung",
-				"link": "http://www.samsung.com/co/smartphones/",
-				"description": "Visita Samsung para ver los teléfonos móviles. Allí encontrarás opiniones, \nrespuestas e información de soporte de los productos.",
-				"href": "http://www.samsung.com/co/smartphones/",
+				"title": "Occ",
+				"link": "https://www.occ.com.mx/empleos-en-mexico-y-el-mundo/para-trabajar-en-Qualitas-Compania-de-Seguros",
+				"description": "105 ofertas de empleo en Qualitas Compañía de Seguros, buscar trabajo es \nsencillo en OCCMundial, las mejores vacantes están aquí. Bolsa de trabajo ...",
+				"href": "https://www.occ.com.mx/empleos-en-mexico-y-el-mundo/para-trabajar-en-Qualitas-Compania-de-Seguros",
 				"position": 10,
+				"visibility": 14.4
+			},
+			{
+				"title": "Qualitas",
+				"link": "https://www.qualitas.com.mx/",
+				"description": "Esta información corresponde únicamente a Quálitas Compañía de Seguros, \npara conocer la información de todo el Sector Asegurador, favor de acceder al ...",
+				"href": "https://www.qualitas.com.mx/",
+				"position": 11,
 				"visibility": 14.4
 			}
 		],
-		"Searches": "720"
+		"Searches": " 720"
 	},
 	{
-		"Keyword": "smartphone barato",
+		"Keyword": "aseguranza",
 		"MarketShare": [
 			{
-				"title": "Celulares Mercadolibre",
-				"link": "http://celulares.mercadolibre.com.mx/celulares-baratos",
-				"description": "Encuentra Celulares Baratos - Celulares y Smartphones en Mercado Libre \nMéxico. Descubre la mejor forma de comprar online.",
-				"href": "http://celulares.mercadolibre.com.mx/celulares-baratos",
+				"title": "Definiciona",
+				"link": "https://definiciona.com/aseguranza/",
+				"description": "11 Nov 2014 ... Definicion de aseguranza - Origen de la palabra aseguranza - Etimologia - \nSignificado de aseguranza - Concepto de aseguranza - Definicion ...",
+				"href": "https://definiciona.com/aseguranza/",
 				"position": 1,
-				"visibility": 97.5
+				"visibility": 120
 			},
 			{
-				"title": "Smartphones-Baratos",
-				"link": "http://smartphones-baratos.com/",
-				"description": "En Smartphones Baratos analizamos y comparamos los mejores móviles libres \nbaratos del mercado para que puedas elegir bien.",
-				"href": "http://smartphones-baratos.com/",
+				"title": "Forum Wordreference",
+				"link": "https://forum.wordreference.com/threads/aseguranza.197098/?hl=es",
+				"description": "Hola a todos, hace mucho tiempo que no he participado en los foros y los \nextraño. Hoy recibí una nota con la palabra aseguranza, que a mi...",
+				"href": "https://forum.wordreference.com/threads/aseguranza.197098/?hl=es",
 				"position": 2,
-				"visibility": 58.5
+				"visibility": 72
 			},
 			{
-				"title": "Cnet",
-				"link": "https://www.cnet.com/es/imagenes/celulares-buenos-bonitos-y-baratos-fotos/",
-				"description": "24 Mar 2017 ... Cuando se trata de teléfonos baratos y buenos, vivimos en un mundo donde \nestos dispositivos no escasean. Los precios han bajado y el ...",
-				"href": "https://www.cnet.com/es/imagenes/celulares-buenos-bonitos-y-baratos-fotos/",
+				"title": "Wiktionary",
+				"link": "https://es.wiktionary.org/wiki/aseguranza",
+				"description": "Referencias y notas[editar]. Volver arriba ↑ Diccionario de la lengua castellana \npor Real Academia Española. Decimacuarta edición. Madrid. Imprenta de los ...",
+				"href": "https://es.wiktionary.org/wiki/aseguranza",
 				"position": 3,
-				"visibility": 39
+				"visibility": 48
 			},
 			{
-				"title": "Xatakamovil",
-				"link": "https://www.xatakamovil.com/mercado/buenos-bonitos-y-los-mas-baratos-20-moviles-con-mucho-que-decir",
-				"description": "El único requisito para elegir a los mejores móviles más baratos, más allá de un \nprecio bajo, es que al menos cuenten con un mínimo de 1 GB de RAM y 8 GB ...",
-				"href": "https://www.xatakamovil.com/mercado/buenos-bonitos-y-los-mas-baratos-20-moviles-con-mucho-que-decir",
+				"title": "Aberracionesespanglish Blogspot",
+				"link": "http://aberracionesespanglish.blogspot.com/2011/03/aseguranza.html",
+				"description": "10 Mar 2011 ... Aseguranza. Cuidado con el uso de esta palabra, que sí que existe en castellano\n, pero con los significados de “seguridad” o “resguardo” (es ...",
+				"href": "http://aberracionesespanglish.blogspot.com/2011/03/aseguranza.html",
 				"position": 4,
-				"visibility": 27.300000000000004
+				"visibility": 33.6
 			},
 			{
-				"title": "Elandroidelibre Elespanol",
-				"link": "https://elandroidelibre.elespanol.com/2016/02/freedom-251-el-smartphone-mas-barato.html",
-				"description": "17 Feb 2016 ... En la India ya pueden reservar el smartphone más barato del mundo: el \nFreedom 251 costará únicamente 3,3€ y corre sobre Android 5.1 ...",
-				"href": "https://elandroidelibre.elespanol.com/2016/02/freedom-251-el-smartphone-mas-barato.html",
+				"title": "Lexicoon",
+				"link": "http://lexicoon.org/es/aseguranza",
+				"description": "Conoce el significado de aseguranza en el diccionario español con ejemplos de \nuso. Sinónimos y antónimos de aseguranza y traducción de aseguranza a 20 ...",
+				"href": "http://lexicoon.org/es/aseguranza",
 				"position": 5,
-				"visibility": 19.5
+				"visibility": 24
 			},
 			{
-				"title": "Linio",
-				"link": "https://www.linio.com.mx/c/celulares-y-tablets/celulares-y-smartphones",
-				"description": "Venta de celulares en México. Elige el smartphone que más te guste y \naprovecha los meses sin intereses y las ofertas de celulares ¡Compra online!",
-				"href": "https://www.linio.com.mx/c/celulares-y-tablets/celulares-y-smartphones",
+				"title": "Grupoaseguranza",
+				"link": "http://www.grupoaseguranza.com/noticias-de-seguros/",
+				"description": "El multitarificador Avant2, desarrollado por Codeoscopic, ha alcanzado un \nacuerdo con Asisa para incorporar el producto de Vida de la aseguradora a su ...",
+				"href": "http://www.grupoaseguranza.com/noticias-de-seguros/",
 				"position": 6,
-				"visibility": 11.7
+				"visibility": 14.399999999999999
 			},
 			{
-				"title": "Prensalibre",
-				"link": "http://www.prensalibre.com/tecnologia/estos-son-los-smartphones-mas-baratos-del-mundo",
-				"description": "4 Nov 2016 ... El Freedom 251, de US$4, fue presentado este año como el smartphone más \nbarato del mundo, aunque ahora hay otros fabricantes que se ...",
-				"href": "http://www.prensalibre.com/tecnologia/estos-son-los-smartphones-mas-baratos-del-mundo",
+				"title": "Grupoaseguranza",
+				"link": "http://www.grupoaseguranza.com/",
+				"description": "Esta web utiliza 'cookies' propias y de terceros para ofrecerle una mejor \nexperiencia y servicio. Al navegar por la web consideramos que acepta su uso.",
+				"href": "http://www.grupoaseguranza.com/",
 				"position": 7,
-				"visibility": 7.8
+				"visibility": 9.6
 			},
 			{
-				"title": "Xataka",
-				"link": "https://www.xataka.com/moviles/lo-barato-no-sale-caro-sale-trol-asi-es-la-experiencia-con-un-smartphone-de-24-euros",
-				"description": "15 Abr 2017 ... Lo barato no sale caro, sale trol: así es la experiencia con un ... invade la primera \nola de nostalgia a la era pre-smartphone, cuando los móviles ...",
-				"href": "https://www.xataka.com/moviles/lo-barato-no-sale-caro-sale-trol-asi-es-la-experiencia-con-un-smartphone-de-24-euros",
+				"title": "Grupoaseguranza",
+				"link": "http://www.grupoaseguranza.com/que-es-aseguranza/que-es-aseguranza",
+				"description": "ASEGURANZA es una publicación mensual dedicada a informar sobre el sector \nasegurador y financiero a los profesionales. Nació en 1996 y pretende ser un ...",
+				"href": "http://www.grupoaseguranza.com/que-es-aseguranza/que-es-aseguranza",
 				"position": 8,
-				"visibility": 7.8
+				"visibility": 9.6
 			},
 			{
-				"title": "20minutos",
-				"link": "http://www.20minutos.es/noticia/2364553/0/smartphones/baratos/telefonos/",
-				"description": "5 Feb 2015 ... En el mundo de los smartphones las grandes marcas luchan duramente por \nrecibir el mayor reconocimiento y las mejores críticas para sus ...",
-				"href": "http://www.20minutos.es/noticia/2364553/0/smartphones/baratos/telefonos/",
+				"title": "Dle Rae",
+				"link": "http://dle.rae.es/srv/search?m=30&w=aseguranza",
+				"description": "aseguranza. De asegurar. 1. f. p. us. Seguridad , resguardo . Real Academia \nEspañola © Todos los derechos reservados.",
+				"href": "http://dle.rae.es/srv/search?m=30&w=aseguranza",
 				"position": 9,
-				"visibility": 7.8
+				"visibility": 9.6
 			},
 			{
-				"title": "Expansion",
-				"link": "http://expansion.mx/negocios/2013/12/20/el-smartphone-barato-conquista-mexico",
-				"description": "24 Dic 2013 ... La baja en los precios de teléfonos inteligentes ha impulsado su penetración en \nel mercado mexicano; firmas como Alcatel han aprovechado ...",
-				"href": "http://expansion.mx/negocios/2013/12/20/el-smartphone-barato-conquista-mexico",
+				"title": "Significadode",
+				"link": "http://www.significadode.org/aseguranza.htm",
+				"description": "Aquí encontrarás los diferentes significados de aseguranza, definiciones y \nmucho contenido extra más. ¡ Anímate ! Entra, consúltalos y participa.",
+				"href": "http://www.significadode.org/aseguranza.htm",
 				"position": 10,
-				"visibility": 7.8
+				"visibility": 9.6
 			}
 		],
-		"Searches": "390"
+		"Searches": " 480"
+	},
+	{
+		"Keyword": "cotizar seguro de vida",
+		"MarketShare": [
+			{
+				"title": "Mapfre",
+				"link": "https://www.mapfre.com.mx/seguros-mx/particulares/seguros-de-vida/vida/plan-temporal/",
+				"description": "El plan de vida temporal es accesible a todos los bolsillos ya que puede \ncontratarse por el tiempo y la cantidad que el asegurado considere oportunos.",
+				"href": "https://www.mapfre.com.mx/seguros-mx/particulares/seguros-de-vida/vida/plan-temporal/",
+				"position": 1,
+				"visibility": 52.5
+			},
+			{
+				"title": "Axa",
+				"link": "https://axa.mx/web/seguro-de-vida",
+				"description": "Seguros de Vida y Ahorro de AXA Seguros. Consulta nuestros planes en \nseguros de cáncer, seguros para el retiro, seguros educativos y de ... Cotiza aquí\n.",
+				"href": "https://axa.mx/web/seguro-de-vida",
+				"position": 2,
+				"visibility": 31.5
+			},
+			{
+				"title": "Segurosgnp",
+				"link": "https://www.segurosgnp.com.mx/seguros_de_vida.php",
+				"description": "Seguros GNP | Información y Cotización de Seguros de Vida, Ciudad de México.",
+				"href": "https://www.segurosgnp.com.mx/seguros_de_vida.php",
+				"position": 3,
+				"visibility": 21
+			},
+			{
+				"title": "Segurosmexicoseguros",
+				"link": "http://www.segurosmexicoseguros.com/seguros-de-vida/cotizador-de-seguro-de-vida.php",
+				"description": "PROTECCIÓN Y AHORRO: Un Seguro de Vida Tradicional en caso de \nfallecimiento o invalidez combinando la posibilidad de ahorro con excelentes ...",
+				"href": "http://www.segurosmexicoseguros.com/seguros-de-vida/cotizador-de-seguro-de-vida.php",
+				"position": 4,
+				"visibility": 14.700000000000001
+			},
+			{
+				"title": "Metlife",
+				"link": "http://www.metlife.com.mx/personas/seguro-vida/tlbasico.html",
+				"description": "Es el seguro de vida individual que te cubre por fallecimiento durante cinco años \ny se renueva ... Para cotizar tu seguro, visita la siguiente página:",
+				"href": "http://www.metlife.com.mx/personas/seguro-vida/tlbasico.html",
+				"position": 5,
+				"visibility": 10.5
+			},
+			{
+				"title": "Metlife",
+				"link": "http://www.metlife.com.mx/personas/seguro-vida/index.html",
+				"description": "¿Qué es un seguro de vida? Protege a quienes dependen económicamente de ti \nen el caso de que llegaras a faltar, además de que te puede dar otros ...",
+				"href": "http://www.metlife.com.mx/personas/seguro-vida/index.html",
+				"position": 6,
+				"visibility": 6.3
+			},
+			{
+				"title": "Hsbc",
+				"link": "https://www.hsbc.com.mx/1/2/es/personas/seguros/seguros/individual",
+				"description": "Seguro de Vida Individual para clientes HSBC Premier.",
+				"href": "https://www.hsbc.com.mx/1/2/es/personas/seguros/seguros/individual",
+				"position": 7,
+				"visibility": 4.2
+			},
+			{
+				"title": "Cotizator",
+				"link": "http://cotizator.com/cotizador-de-seguros-de-vida/",
+				"description": "Cotiza el seguro de vida en Cotizator. Consigue el seguro para ti y tu familia. \nCompara pólizas de seguros de vida mexicanos.",
+				"href": "http://cotizator.com/cotizador-de-seguros-de-vida/",
+				"position": 8,
+				"visibility": 4.2
+			},
+			{
+				"title": "Banorte",
+				"link": "https://www.banorte.com/wps/portal/banorte/Home/seguros/seguro-vida/!ut/p/a1/lZNdb4IwFIZ_i7-A0xZKuSxQgTmF8jXlZmGZW1ycus-L_foVExOhs8xyRfI85-1pT63GWlrNrv3ePLefm_2u3Xb_Db2PMGIxCWCWCkmBB7kUdTJFQhAFrM4BFqYOcCyFAI-RJAKTP2cnHy4sbvSpDcN8HTD40kdmvwNM-Z490n9K-z4rQxs4dRBiSYykQ0b2rwKu83Wg50c-UeVlATCtFzHK3aGvA_18FxBw4c89V51thKmWrwH988sqotpLqyBzQlxSLV8H-v6sUO2JnBWsImgWnPwg4rHt3gKkdoSBs8WNXTgehoReOb96wL_m1wCM5N9ZzeCI9Rd0BEwtHgHTGzK-AgIje0ipucJxTAfAAqZqjlyMMhnGBLSIPwbNVKGskXkPc0AjXTBqrdRluRcvO3atoqvx0O4e1--tv92_fa331uqp3X6sNbeIA-AoF3XGcgIVMbmH1-psLWGTdN-Lc_j-KTmfTH4B-f4phg!!/?uri=nm:oid:vida",
+				"description": "Te ofrecemos un seguro con doble indemnización en caso de deceso por \naccidente; y a tus beneficiarios, la garantía de una puntual asistencia funeraria.",
+				"href": "https://www.banorte.com/wps/portal/banorte/Home/seguros/seguro-vida/!ut/p/a1/lZNdb4IwFIZ_i7-A0xZKuSxQgTmF8jXlZmGZW1ycus-L_foVExOhs8xyRfI85-1pT63GWlrNrv3ePLefm_2u3Xb_Db2PMGIxCWCWCkmBB7kUdTJFQhAFrM4BFqYOcCyFAI-RJAKTP2cnHy4sbvSpDcN8HTD40kdmvwNM-Z490n9K-z4rQxs4dRBiSYykQ0b2rwKu83Wg50c-UeVlATCtFzHK3aGvA_18FxBw4c89V51thKmWrwH988sqotpLqyBzQlxSLV8H-v6sUO2JnBWsImgWnPwg4rHt3gKkdoSBs8WNXTgehoReOb96wL_m1wCM5N9ZzeCI9Rd0BEwtHgHTGzK-AgIje0ipucJxTAfAAqZqjlyMMhnGBLSIPwbNVKGskXkPc0AjXTBqrdRluRcvO3atoqvx0O4e1--tv92_fa331uqp3X6sNbeIA-AoF3XGcgIVMbmH1-psLWGTdN-Lc_j-KTmfTH4B-f4phg!!/?uri=nm:oid:vida",
+				"position": 9,
+				"visibility": 4.2
+			},
+			{
+				"title": "Gnp",
+				"link": "https://www.gnp.com.mx/wps/portal/portalesgnp/anexos/temas-interes/seguros-vida/diferencia-entre-seguros-de-vida",
+				"description": "Conoces las diferencias entre Seguros de Vida? GNP te brinda asesoría para \nque compares por que de todos los Seguros en México, GNP es tu mejor opción.",
+				"href": "https://www.gnp.com.mx/wps/portal/portalesgnp/anexos/temas-interes/seguros-vida/diferencia-entre-seguros-de-vida",
+				"position": 10,
+				"visibility": 4.2
+			}
+		],
+		"Searches": " 210"
 	}
 ]

@@ -32,18 +32,18 @@
 		"visibility": 9450
 	},
 	{
-		"title": "Tienda Telmex",
-		"link": "https://tienda.telmex.com/shell/af/core/nav/categoryBrowse.do?categoryId=-9919",
-		"description": "A Kit Apple iPhone 5S 16GB Silver R9 Pantalla: 4\" Potente chip A7 con \narquitectura de 64 bits. Touch ID: identificador de huellas digitales 18 meses: \n$461.",
-		"href": "https://tienda.telmex.com/shell/af/core/nav/categoryBrowse.do?categoryId=-9919",
-		"position": 5,
-		"visibility": 6750
-	},
-	{
 		"title": "Tiendas Mediamarkt",
 		"link": "https://tiendas.mediamarkt.es/apple-iphone",
 		"description": "El iPhone de Apple en Media Markt, compra tu iPhone con la garantía de Media \nMarkt y recibelo en menos de 48h.",
 		"href": "https://tiendas.mediamarkt.es/apple-iphone",
+		"position": 5,
+		"visibility": 6750
+	},
+	{
+		"title": "Tienda Telmex",
+		"link": "https://tienda.telmex.com/shell/af/core/nav/categoryBrowse.do?categoryId=-9919",
+		"description": "A Kit Apple iPhone 5S 16GB Silver R9 Pantalla: 4\" Potente chip A7 con \narquitectura de 64 bits. Touch ID: identificador de huellas digitales 18 meses: \n$461.",
+		"href": "https://tienda.telmex.com/shell/af/core/nav/categoryBrowse.do?categoryId=-9919",
 		"position": 6,
 		"visibility": 4050
 	},
@@ -56,18 +56,18 @@
 		"visibility": 2700
 	},
 	{
-		"title": "Applesfera",
-		"link": "https://www.applesfera.com/categoria/iphone",
-		"description": "iPhone: Apple renueva su sitio web 'Switch' para animar a los usuarios de \nAndroid a dar el salto a iOS .92% de fidelidad en USA y una cuota de...",
-		"href": "https://www.applesfera.com/categoria/iphone",
+		"title": "Elpalaciodehierro",
+		"link": "http://www.elpalaciodehierro.com/tecnologia/tecnologia-celulares/tecnologia-celulares-iphone.html",
+		"description": "iPhone 7 Plus RED Special Edition 128 GB. $ 21,199.00 ... Apple. iPhone 7 Plus \nNegro Mate 32 Gb. $ 18,999.00 ... iPhone 7 Plus Oro Rosa 128 Gb. $ 21,199.00.",
+		"href": "http://www.elpalaciodehierro.com/tecnologia/tecnologia-celulares/tecnologia-celulares-iphone.html",
 		"position": 8,
 		"visibility": 2700
 	},
 	{
-		"title": "Claro",
-		"link": "http://www.claro.com.co/personas/tienda/iphone/",
-		"description": "¡Hay un iPhone para cada uno! Encuentra en Claro el iPhone con las \ncaracterísticas que te hacen feliz en el diseño que tanto amas, para que disfrutes \nuna ...",
-		"href": "http://www.claro.com.co/personas/tienda/iphone/",
+		"title": "Applesfera",
+		"link": "https://www.applesfera.com/categoria/iphone",
+		"description": "iPhone: Apple renueva su sitio web 'Switch' para animar a los usuarios de \nAndroid a dar el salto a iOS .92% de fidelidad en USA y una cuota de...",
+		"href": "https://www.applesfera.com/categoria/iphone",
 		"position": 9,
 		"visibility": 2700
 	},
@@ -160,6 +160,166 @@
 		"visibility": 444
 	},
 	{
+		"title": "Smart-Gsm",
+		"link": "http://www.smart-gsm.com/moviles/apple-iphone-5",
+		"description": "Especificaciones y caracteristicas del Apple iPhone 5, mas comentarios de \nusuarios y fotos. Características avanzadas y ratings.",
+		"href": "http://www.smart-gsm.com/moviles/apple-iphone-5",
+		"position": 1,
+		"visibility": 18500
+	},
+	{
+		"title": "Telcel",
+		"link": "http://www.telcel.com/personas/equipos/telefonos-y-smartphones/apple/iphone-5",
+		"description": "El Smartphone iPhone 5 de Apple, tiene un tamaño muy cómodo, es ligero, \ncuenta con pantalla LED de 4 pulgadas, cámara de 8 megapíxeles.",
+		"href": "http://www.telcel.com/personas/equipos/telefonos-y-smartphones/apple/iphone-5",
+		"position": 2,
+		"visibility": 11100
+	},
+	{
+		"title": "Celulares Mercadolibre",
+		"link": "http://celulares.mercadolibre.com.mx/iphone/iphone-5/",
+		"description": "Encuentra iPhone 5 en Mercado Libre México. Descubre la mejor forma de \ncomprar online.",
+		"href": "http://celulares.mercadolibre.com.mx/iphone/iphone-5/",
+		"position": 3,
+		"visibility": 7400
+	},
+	{
+		"title": "Computerhoy",
+		"link": "http://computerhoy.com/fichas/apple-iphone-5",
+		"description": "Ficha técnica del Apple iPhone 5, con características, especificaciones y mejores \nprecios, opiniones, noticias y el análisis más completo.",
+		"href": "http://computerhoy.com/fichas/apple-iphone-5",
+		"position": 4,
+		"visibility": 5180.000000000001
+	},
+	{
+		"title": "Apple",
+		"link": "https://www.apple.com/mx/iphone/",
+		"description": "Descubre el iPhone, el dispositivo móvil más poderoso del mundo. Explora el \niPhone 7, el iPhone 7 Plus y el iPhone 6s.",
+		"href": "https://www.apple.com/mx/iphone/",
+		"position": 5,
+		"visibility": 3700
+	},
+	{
+		"title": "Wikipedia",
+		"link": "https://es.wikipedia.org/wiki/IPhone_5",
+		"description": "El iPhone 5 es un teléfono inteligente de alta gama desarrollado por Apple Inc. \nFue presentado como la sexta generación de iPhone el 12 de septiembre de ...",
+		"href": "https://es.wikipedia.org/wiki/IPhone_5",
+		"position": 6,
+		"visibility": 2220
+	},
+	{
+		"title": "Simple Ripley Cl",
+		"link": "http://simple.ripley.cl/telefonia/celulares/iphones",
+		"description": "Dentro de la gama alta de smartphones encontramos en Ripley.com al iPhone y \nsus variados modelos con los que puedes navegar por internet, descargar ...",
+		"href": "http://simple.ripley.cl/telefonia/celulares/iphones",
+		"position": 7,
+		"visibility": 1480
+	},
+	{
+		"title": "Youtube",
+		"link": "https://www.youtube.com/watch?v=98bYGqNrpq8",
+		"description": "",
+		"href": "https://www.youtube.com/watch?v=98bYGqNrpq8",
+		"position": 8,
+		"visibility": 1480
+	},
+	{
+		"title": "Gsmarena",
+		"link": "http://www.gsmarena.com/apple_iphone_5-4910.php",
+		"description": "Apple iPhone 5 smartphone. Announced 2012, September. Features 3G, 4.0″ \nLED-backlit IPS LCD display, 8 MP camera, Wi-Fi, GPS, Bluetooth.",
+		"href": "http://www.gsmarena.com/apple_iphone_5-4910.php",
+		"position": 9,
+		"visibility": 1480
+	},
+	{
+		"title": "Imore",
+		"link": "http://www.imore.com/iphone-5",
+		"description": "25 Mar 2017 ... On September 12, 2012 Phil Schiller announced the biggest thing to happen to \nthe iPhone since the original iPhone. Big as in in thinner and ...",
+		"href": "http://www.imore.com/iphone-5",
+		"position": 10,
+		"visibility": 1480
+	},
+	{
+		"title": "Celulares Mercadolibre",
+		"link": "http://celulares.mercadolibre.com.mx/iphone/iphone-4/",
+		"description": "Encuentra iPhone 4 en Mercado Libre México. Descubre la mejor forma de \ncomprar online.",
+		"href": "http://celulares.mercadolibre.com.mx/iphone/iphone-4/",
+		"position": 1,
+		"visibility": 12375
+	},
+	{
+		"title": "Listado Mercadolibre",
+		"link": "http://listado.mercadolibre.com.mx/iphone-4",
+		"description": "Encuentra Iphone 4 - Celulares iPhone en Mercado Libre México. Descubre la \nmejor forma de comprar online.",
+		"href": "http://listado.mercadolibre.com.mx/iphone-4",
+		"position": 2,
+		"visibility": 7425
+	},
+	{
+		"title": "Smart-Gsm",
+		"link": "http://www.smart-gsm.com/moviles/apple-iphone-4",
+		"description": "Especificaciones y caracteristicas del Apple iPhone 4, mas comentarios de \nusuarios y fotos. Características avanzadas y ratings.",
+		"href": "http://www.smart-gsm.com/moviles/apple-iphone-4",
+		"position": 3,
+		"visibility": 4950
+	},
+	{
+		"title": "Wikipedia",
+		"link": "https://es.wikipedia.org/wiki/IPhone_4",
+		"description": "El iPhone 4 es un teléfono inteligente de gama alta, presentado como la cuarta \ngeneración de iPhone el 24 de junio de 2010. Originalmente, Apple solo lo ...",
+		"href": "https://es.wikipedia.org/wiki/IPhone_4",
+		"position": 4,
+		"visibility": 3465.0000000000005
+	},
+	{
+		"title": "Computerhoy",
+		"link": "http://computerhoy.com/fichas/apple-iphone-4",
+		"description": "Ficha técnica del Apple iPhone 4, con características, especificaciones y mejores \nprecios, opiniones, noticias y el análisis más completo.",
+		"href": "http://computerhoy.com/fichas/apple-iphone-4",
+		"position": 5,
+		"visibility": 2475
+	},
+	{
+		"title": "Support Apple",
+		"link": "https://support.apple.com/kb/SP587?viewlocale=es_ES",
+		"description": "20 Feb 2014 ... Dimensiones y peso1. Alto: 115,2 mm; Ancho: 58,6 mm; Fondo: 9,3 mm; Peso: \n137 gramos. Redes móviles e inalámbricas.",
+		"href": "https://support.apple.com/kb/SP587?viewlocale=es_ES",
+		"position": 6,
+		"visibility": 1485
+	},
+	{
+		"title": "Apple",
+		"link": "https://www.apple.com/mx/iphone/",
+		"description": "Descubre el iPhone, el dispositivo móvil más poderoso del mundo. Explora el \niPhone 7, el iPhone 7 Plus y el iPhone 6s.",
+		"href": "https://www.apple.com/mx/iphone/",
+		"position": 7,
+		"visibility": 990
+	},
+	{
+		"title": "Youtube",
+		"link": "https://www.youtube.com/watch?v=GR9o8W6yaJ4",
+		"description": "",
+		"href": "https://www.youtube.com/watch?v=GR9o8W6yaJ4",
+		"position": 8,
+		"visibility": 990
+	},
+	{
+		"title": "Gsmarena",
+		"link": "http://www.gsmarena.com/apple_iphone_4-3275.php",
+		"description": "Apple iPhone 4 smartphone. Announced 2010, June. Features 3G, 3.5″ LED-\nbacklit IPS LCD display, 5 MP camera, Wi-Fi, GPS, Bluetooth.",
+		"href": "http://www.gsmarena.com/apple_iphone_4-3275.php",
+		"position": 9,
+		"visibility": 990
+	},
+	{
+		"title": "Excelsior",
+		"link": "http://www.excelsior.com.mx/hacker/2016/11/08/1126920",
+		"description": "8 Nov 2016 ... Apple anunció que el iPhone 4 y la MacBook Air son obsoletos en la mayor parte \ndel mundo, menos en California y Turquía.",
+		"href": "http://www.excelsior.com.mx/hacker/2016/11/08/1126920",
+		"position": 10,
+		"visibility": 990
+	},
+	{
 		"title": "Macrumors",
 		"link": "https://www.macrumors.com/roundup/iphone-8/",
 		"description": "Apple has a major iPhone redesign planned for 2017, with a glass body and ... \nThe new iPhone may be sold alongside upgraded (but standard) 4.7 and 5.5-\ninch ...",
@@ -193,42 +353,26 @@
 	},
 	{
 		"title": "Apple",
-		"link": "https://www.apple.com/iphone-7/",
-		"description": "iPhone 7 dramatically improves the most important aspects of the iPhone \nexperience. It introduces advanced new camera systems. The best performance \nand ...",
-		"href": "https://www.apple.com/iphone-7/",
+		"link": "https://www.apple.com/iphone/",
+		"description": "Join the iPhone Upgrade Program. Get a new iPhone every year*; Works with \nyour carrier; Low payments from $32.41/month1; AppleCare+ coverage included.",
+		"href": "https://www.apple.com/iphone/",
 		"position": 5,
 		"visibility": 44
 	},
 	{
-		"title": "Apple",
-		"link": "https://www.apple.com/iphone/",
-		"description": "Join the iPhone Upgrade Program. Get a new iPhone every year*; Works with \nyour carrier; Low payments from $32.41/month1; AppleCare+ coverage included.",
-		"href": "https://www.apple.com/iphone/",
+		"title": "Cnet",
+		"link": "https://www.cnet.com/products/apple-iphone-8/preview/",
+		"description": "7 May 2017 ... After months of speculation, Apple delivered a very modest update of the iPhone \nlineup back in March. But the new Product Red editions of the ...",
+		"href": "https://www.cnet.com/products/apple-iphone-8/preview/",
 		"position": 6,
 		"visibility": 26.4
 	},
 	{
-		"title": "Apple",
-		"link": "https://www.apple.com/iphone/trade-up/",
-		"description": "Just trade in your eligible smartphone, and then use the credit to lower the full \ncost of a new iPhone or to reduce the monthly payments with your carrier.1 ...",
-		"href": "https://www.apple.com/iphone/trade-up/",
+		"title": "Walmart",
+		"link": "https://www.walmart.com/browse/cell-phones/new-iphone-6s/1105910_1127173_9458857",
+		"description": "Shop for New iPhone 6s in New iPhones. Buy products such as Straight Talk \nApple iPhone 6S 16GB, Apple iPhone 6S 16GB at Walmart and save.",
+		"href": "https://www.walmart.com/browse/cell-phones/new-iphone-6s/1105910_1127173_9458857",
 		"position": 7,
-		"visibility": 17.6
-	},
-	{
-		"title": "Cnet",
-		"link": "https://www.cnet.com/products/apple-iphone-8/preview/",
-		"description": "7 May 2017 ... For now, we're calling it the iPhone 8, though we don't know officially what the \ncompany will call it. As seen most recently with the new iPad ...",
-		"href": "https://www.cnet.com/products/apple-iphone-8/preview/",
-		"position": 8,
-		"visibility": 17.6
-	},
-	{
-		"title": "Google News",
-		"link": "http://www.techradar.com/news/phone-and-communications/mobile-phones/iphone-8-1329124",
-		"description": "18 May 2017 ... The iPhone 8 release date is the routine new iPhone rumor we expect to stay the \nsame every year, but Apple may do something different here, ...",
-		"href": "http://www.techradar.com/news/phone-and-communications/mobile-phones/iphone-8-1329124",
-		"position": 9,
 		"visibility": 17.6
 	},
 	{
@@ -236,31 +380,351 @@
 		"link": "https://www.walmart.com/browse/cell-phones/new-iphone-6s-plus/1105910_1127173_2946938",
 		"description": "Shop for New iPhone 6s Plus in New iPhones. Buy products such as Apple \niPhone 6S Plus 32GB GSM 4G LTE Dual-Core Smartphone with 12MP Camera ...",
 		"href": "https://www.walmart.com/browse/cell-phones/new-iphone-6s-plus/1105910_1127173_2946938",
+		"position": 8,
+		"visibility": 17.6
+	},
+	{
+		"title": "Bestbuy",
+		"link": "http://www.bestbuy.com/site/mobile-cell-phones/iphone/pcmcat305200050000.c?id=pcmcat305200050000",
+		"description": "Shop Best Buy for a new or refurbished Apple iPhone and accessories. Check \nout the new iPhone 7 and 7 Plus or compare other iPhone models.",
+		"href": "http://www.bestbuy.com/site/mobile-cell-phones/iphone/pcmcat305200050000.c?id=pcmcat305200050000",
+		"position": 9,
+		"visibility": 17.6
+	},
+	{
+		"title": "Google News",
+		"link": "http://www.techradar.com/news/phone-and-communications/mobile-phones/iphone-8-1329124",
+		"description": "18 May 2017 ... The iPhone 8 release date is the routine new iPhone rumor we expect to stay the \nsame every year, but Apple may do something different here, ...",
+		"href": "http://www.techradar.com/news/phone-and-communications/mobile-phones/iphone-8-1329124",
 		"position": 10,
 		"visibility": 17.6
 	},
 	{
-		"title": "Celulares Mercadolibre",
-		"link": "http://celulares.mercadolibre.com.mx/",
-		"description": "Encuentra Celulares y Smartphones en Mercado Libre México. Descubre la \nmejor forma de comprar online.",
-		"href": "http://celulares.mercadolibre.com.mx/",
+		"title": "Wikipedia",
+		"link": "https://es.wikipedia.org/wiki/IPhone_3GS",
+		"description": "El iPhone 3GS es un teléfono inteligente de gama alta presentado como la \ntercera generación de iPhone, sucesor del iPhone 3G, y anunciado el 8 de junio \nde ...",
+		"href": "https://es.wikipedia.org/wiki/IPhone_3GS",
 		"position": 1,
+		"visibility": 475
+	},
+	{
+		"title": "Celulares Mercadolibre",
+		"link": "http://celulares.mercadolibre.com.mx/iphone/iphone-3gs/",
+		"description": "Encuentra iPhone 3GS en Mercado Libre México. Descubre la mejor forma de \ncomprar online.",
+		"href": "http://celulares.mercadolibre.com.mx/iphone/iphone-3gs/",
+		"position": 2,
+		"visibility": 285
+	},
+	{
+		"title": "Celulares Mercadolibre",
+		"link": "http://celulares.mercadolibre.com.mx/iphone/iphone-3gs/32gb/",
+		"description": "Encuentra iPhone 3GS 32GB en Mercado Libre México. Descubre la mejor forma \nde comprar online.",
+		"href": "http://celulares.mercadolibre.com.mx/iphone/iphone-3gs/32gb/",
+		"position": 3,
+		"visibility": 190
+	},
+	{
+		"title": "Support Apple",
+		"link": "https://support.apple.com/kb/SP565?viewlocale=es_ES",
+		"description": "1 Jul 2012 ... Dimensiones y peso1. Alto: 115,5 mm; Ancho: 62,1 mm; Fondo: 12,3 mm; Peso: \n135 gramos. Redes móviles e inalámbricas. UMTS/HSDPA ...",
+		"href": "https://support.apple.com/kb/SP565?viewlocale=es_ES",
+		"position": 4,
+		"visibility": 133
+	},
+	{
+		"title": "Smart-Gsm",
+		"link": "http://www.smart-gsm.com/moviles/apple-iphone-3gs",
+		"description": "Especificaciones y caracteristicas del Apple iPhone 3G S, mas comentarios de \nusuarios y fotos. ... iPhone 3GS y iPhone 4 libres disponibles en España ...",
+		"href": "http://www.smart-gsm.com/moviles/apple-iphone-3gs",
+		"position": 5,
+		"visibility": 95
+	},
+	{
+		"title": "Google Images",
+		"link": null,
+		"description": "",
+		"href": null,
+		"position": 6,
+		"visibility": 57
+	},
+	{
+		"title": "Gsmarena",
+		"link": "http://www.gsmarena.com/apple_iphone_3gs-2826.php",
+		"description": "Apple iPhone 3GS smartphone. Announced 2009, June. Features 3G, 3.5″ TFT \ncapacitive touchscreen, 3.15 MP camera, Wi-Fi, GPS, Bluetooth.",
+		"href": "http://www.gsmarena.com/apple_iphone_3gs-2826.php",
+		"position": 7,
+		"visibility": 38
+	},
+	{
+		"title": "Youtube",
+		"link": "https://www.youtube.com/watch?v=jZZSdNda2wM",
+		"description": "",
+		"href": "https://www.youtube.com/watch?v=jZZSdNda2wM",
+		"position": 8,
+		"visibility": 38
+	},
+	{
+		"title": "Youtube",
+		"link": "https://www.youtube.com/watch?v=0owxI3EmcJ0",
+		"description": "",
+		"href": "https://www.youtube.com/watch?v=0owxI3EmcJ0",
+		"position": 9,
+		"visibility": 38
+	},
+	{
+		"title": "Parentesis",
+		"link": "http://www.parentesis.com/resenas/celulares/iPhone_3GS",
+		"description": "El iPhone 3GS cuenta con nuevas aplicaciones multimedia. El procesador de \nesta versión de iPhone es dos veces más rápido que el anterior, así que los ...",
+		"href": "http://www.parentesis.com/resenas/celulares/iPhone_3GS",
+		"position": 10,
+		"visibility": 38
+	},
+	{
+		"title": "Apple",
+		"link": "https://www.apple.com/mx/iphone/",
+		"description": "Descubre el iPhone, el dispositivo móvil más poderoso del mundo. Explora el \niPhone 7, el iPhone 7 Plus y el iPhone 6s.",
+		"href": "https://www.apple.com/mx/iphone/",
+		"position": 1,
+		"visibility": 250
+	},
+	{
+		"title": "Support Apple",
+		"link": "https://support.apple.com/es-mx/iphone",
+		"description": "Obtén información sobre cómo configurar y usar tu iPhone. Encuentra todos los \ntemas, los recursos y las opciones de contacto que necesitas para el iPhone.",
+		"href": "https://support.apple.com/es-mx/iphone",
+		"position": 2,
+		"visibility": 150
+	},
+	{
+		"title": "Google News",
+		"link": null,
+		"description": "",
+		"href": null,
+		"position": 3,
+		"visibility": 100
+	},
+	{
+		"title": "Apple",
+		"link": "https://www.apple.com/mx/shop/iphone/iphone-accessories/cases-protection",
+		"description": "Encuentra fundas y protectores para que tu iPhone esté a salvo del agua, el \npolvo y los golpes. Explora cubiertas protectoras hoy mismo. Compra online con\n ...",
+		"href": "https://www.apple.com/mx/shop/iphone/iphone-accessories/cases-protection",
+		"position": 4,
+		"visibility": 70
+	},
+	{
+		"title": "Apple",
+		"link": "https://www.apple.com/cl/iphone/",
+		"description": "Descubre el iPhone, el dispositivo móvil más poderoso del mundo. Explora el \niPhone 7, el iPhone 7 Plus y el iPhone 6s.",
+		"href": "https://www.apple.com/cl/iphone/",
+		"position": 5,
+		"visibility": 50
+	},
+	{
+		"title": "Apple",
+		"link": "https://www.apple.com/mx/iphone-7/",
+		"description": "El iPhone 7 llega con un rendimiento y una duración de batería incomparables, \nbocinas en estéreo, nuevos acabados, y es resistente al agua.",
+		"href": "https://www.apple.com/mx/iphone-7/",
+		"position": 7,
+		"visibility": 20
+	},
+	{
+		"title": "Apple",
+		"link": "https://www.apple.com/mx/shop/buy-iphone/iphone6s",
+		"description": "Elige entre los colores plata, oro, gris espacial y oro rosa. Compra el iPhone 6s o \nel iPhone 6s Plus online y obtén envío gratuito.",
+		"href": "https://www.apple.com/mx/shop/buy-iphone/iphone6s",
+		"position": 8,
+		"visibility": 20
+	},
+	{
+		"title": "Apple",
+		"link": "https://www.apple.com/mx/shop/buy-iphone/iphone-7",
+		"description": "Compra el iPhone 7 y el iPhone 7 Plus hoy mismo. Compra online en apple.com.",
+		"href": "https://www.apple.com/mx/shop/buy-iphone/iphone-7",
+		"position": 9,
+		"visibility": 20
+	},
+	{
+		"title": "Apple",
+		"link": "https://www.apple.com/mx/shop/iphone/iphone-accessories",
+		"description": "Compra accesorios para el iPhone de Apple, como fundas para el iPhone, \nadaptadores Lightning, docks, audífonos, bocinas y más.",
+		"href": "https://www.apple.com/mx/shop/iphone/iphone-accessories",
+		"position": 10,
+		"visibility": 20
+	},
+	{
+		"title": "Apple",
+		"link": "https://www.apple.com/mx/iphone-se/",
+		"description": "Con un chip A9 y una cámara de 12 MP, el iPhone SE ofrece un rendimiento \nincreíble en un popular diseño de 4 pulgadas.",
+		"href": "https://www.apple.com/mx/iphone-se/",
+		"position": 11,
+		"visibility": null
+	},
+	{
+		"title": "Celulares Mercadolibre",
+		"link": "http://celulares.mercadolibre.com.mx/iphone/iphone-3gs/",
+		"description": "Encuentra iPhone 3GS en Mercado Libre México. Descubre la mejor forma de \ncomprar online.",
+		"href": "http://celulares.mercadolibre.com.mx/iphone/iphone-3gs/",
+		"position": 1,
+		"visibility": 2025
+	},
+	{
+		"title": "Wikipedia",
+		"link": "https://es.wikipedia.org/wiki/IPhone_3GS",
+		"description": "El iPhone 3GS es un teléfono inteligente de gama alta presentado como la \ntercera generación de iPhone, sucesor del iPhone 3G, y anunciado el 8 de junio \nde ...",
+		"href": "https://es.wikipedia.org/wiki/IPhone_3GS",
+		"position": 2,
+		"visibility": 1215
+	},
+	{
+		"title": "Celulares Mercadolibre",
+		"link": "http://celulares.mercadolibre.com.mx/iphone/iphone-3",
+		"description": "Encuentra Iphone 3 - Celulares iPhone en Mercado Libre México. Descubre la \nmejor forma de comprar online.",
+		"href": "http://celulares.mercadolibre.com.mx/iphone/iphone-3",
+		"position": 3,
+		"visibility": 810
+	},
+	{
+		"title": "Wikipedia",
+		"link": "https://es.wikipedia.org/wiki/IPhone_3G",
+		"description": "Tamaño de la pantalla: 3,5\" (89 mm) 320 x 480 píxeles. Resolución de la \npantalla: 480x320 píxeles en 163 ppp, multitouch, 265k colores.",
+		"href": "https://es.wikipedia.org/wiki/IPhone_3G",
+		"position": 4,
+		"visibility": 567
+	},
+	{
+		"title": "Celulares Mercadolibre",
+		"link": "http://celulares.mercadolibre.com.mx/iphone/iphone-3gs/8gb/",
+		"description": "Encuentra iPhone 3GS 8GB en Mercado Libre México. Descubre la mejor forma \nde comprar online.",
+		"href": "http://celulares.mercadolibre.com.mx/iphone/iphone-3gs/8gb/",
+		"position": 5,
+		"visibility": 405
+	},
+	{
+		"title": "Google Images",
+		"link": null,
+		"description": "",
+		"href": null,
+		"position": 6,
+		"visibility": 243
+	},
+	{
+		"title": "Support Apple",
+		"link": "https://support.apple.com/kb/SP565?viewlocale=es_ES",
+		"description": "1 Jul 2012 ... Alimentación y batería3. Batería recargable de polímeros de litio integrada; \nCarga por conexión USB con un ordenador o adaptador de ...",
+		"href": "https://support.apple.com/kb/SP565?viewlocale=es_ES",
+		"position": 7,
+		"visibility": 162
+	},
+	{
+		"title": "Smart-Gsm",
+		"link": "http://www.smart-gsm.com/moviles/apple-iphone-3gs",
+		"description": "Especificaciones y caracteristicas del Apple iPhone 3G S, mas comentarios de ... \nCompre mi iPhone 3 en Mexico y Estoy en Ecuador, Y No Recibe el Chip de ...",
+		"href": "http://www.smart-gsm.com/moviles/apple-iphone-3gs",
+		"position": 8,
+		"visibility": 162
+	},
+	{
+		"title": "Youtube",
+		"link": "https://www.youtube.com/watch?v=jZZSdNda2wM",
+		"description": "",
+		"href": "https://www.youtube.com/watch?v=jZZSdNda2wM",
+		"position": 9,
+		"visibility": 162
+	},
+	{
+		"title": "Wikipedia",
+		"link": "https://en.wikipedia.org/wiki/IPhone_3GS",
+		"description": "The iPhone 3GS is a smartphone that was designed and marketed by Apple Inc. \nIt is the third generation iPhone, successor to the iPhone 3G. It was introduced ...",
+		"href": "https://en.wikipedia.org/wiki/IPhone_3GS",
+		"position": 10,
+		"visibility": 162
+	},
+	{
+		"title": "Vivanuncios",
+		"link": "https://www.vivanuncios.com.mx/s-venta-telefonos/iphone+3gs/v1c1089q0p1",
+		"description": "Encuentra iphone 3gs en Ceulares nuevos y usados en venta Vivanuncios, \nAnuncios Clasificados Gratuitos de México.",
+		"href": "https://www.vivanuncios.com.mx/s-venta-telefonos/iphone+3gs/v1c1089q0p1",
+		"position": 11,
+		"visibility": null
+	},
+	{
+		"title": "Wikipedia",
+		"link": "https://es.wikipedia.org/wiki/IPhone_3G",
+		"description": "El iPhone 3G es un teléfono inteligente multitáctil de gama alta actualmente \ndescontinuado, diseñado y comercializado por Apple Inc.. Fue parte de la \nsegunda ...",
+		"href": "https://es.wikipedia.org/wiki/IPhone_3G",
+		"position": 1,
+		"visibility": 600
+	},
+	{
+		"title": "Wikipedia",
+		"link": "https://en.wikipedia.org/wiki/IPhone_3G",
+		"description": "The iPhone 3G is a smartphone that was designed and marketed by Apple Inc. It \nis the second generation of iPhone, and was introduced on June 9, 2008, at the ...",
+		"href": "https://en.wikipedia.org/wiki/IPhone_3G",
+		"position": 2,
+		"visibility": 360
+	},
+	{
+		"title": "Celulares Mercadolibre",
+		"link": "http://celulares.mercadolibre.com.mx/iphone/iphone-3g/",
+		"description": "Encuentra iPhone 3G en Mercado Libre México. Descubre la mejor forma de \ncomprar online.",
+		"href": "http://celulares.mercadolibre.com.mx/iphone/iphone-3g/",
+		"position": 3,
+		"visibility": 240
+	},
+	{
+		"title": "Celulares Mercadolibre",
+		"link": "http://celulares.mercadolibre.com.mx/iphone/iphone-3g/8gb/",
+		"description": "Encuentra iPhone 3G 8GB en Mercado Libre México. Descubre la mejor forma \nde comprar online.",
+		"href": "http://celulares.mercadolibre.com.mx/iphone/iphone-3g/8gb/",
+		"position": 4,
+		"visibility": 168.00000000000003
+	},
+	{
+		"title": "Smart-Gsm",
+		"link": "http://www.smart-gsm.com/moviles/apple-iphone-3g",
+		"description": "Especificaciones y caracteristicas del Apple iPhone 3G, mas comentarios de \nusuarios y fotos. Características avanzadas y ratings.",
+		"href": "http://www.smart-gsm.com/moviles/apple-iphone-3g",
+		"position": 5,
 		"visibility": 120
 	},
 	{
-		"title": "Linio",
-		"link": "https://www.linio.com.mx/c/celulares-y-tablets/celulares-y-smartphones",
-		"description": "Venta de celulares en México. Elige el smartphone que más te guste y \naprovecha los meses sin intereses y las ofertas de celulares ¡Compra online!",
-		"href": "https://www.linio.com.mx/c/celulares-y-tablets/celulares-y-smartphones",
-		"position": 2,
+		"title": "Google Images",
+		"link": null,
+		"description": "",
+		"href": null,
+		"position": 6,
 		"visibility": 72
 	},
 	{
-		"title": "Cnet",
-		"link": "https://www.cnet.com/es/temas/celulares/los-mejores-celulares/",
-		"description": "12 May 2017 ... Lista de los mejores celulares 2016 en diferentes categorías. Los mejores \ncelulares Android, Windows, iOS (iPhone) u otros del momento.",
-		"href": "https://www.cnet.com/es/temas/celulares/los-mejores-celulares/",
-		"position": 3,
+		"title": "Xataka",
+		"link": "https://www.xataka.com.mx/celulares-y-smartphones/el-iphone-3g-ha-llegado-a-mexico-si-bienvenidos-al-11-de-julio-de-2008",
+		"description": "10 Jul 2015 ... El iPhone 3G se olvida del aluminio y cambia el diseño a una carcasa trasera de \nplástico, ya sea en color negro o blanco, esto con la intención ...",
+		"href": "https://www.xataka.com.mx/celulares-y-smartphones/el-iphone-3g-ha-llegado-a-mexico-si-bienvenidos-al-11-de-julio-de-2008",
+		"position": 7,
+		"visibility": 48
+	},
+	{
+		"title": "Gsmarena",
+		"link": "http://www.gsmarena.com/apple_iphone_3g-2424.php",
+		"description": "Apple iPhone 3G smartphone. Announced 2008, June. Features 3G, 3.5″ TFT \ncapacitive touchscreen, 2 MP camera, Wi-Fi, GPS, Bluetooth.",
+		"href": "http://www.gsmarena.com/apple_iphone_3g-2424.php",
+		"position": 8,
+		"visibility": 48
+	},
+	{
+		"title": "Apple",
+		"link": "https://www.apple.com/mx/newsroom/2008/06/09Apple-Introduces-the-New-iPhone-3G/",
+		"description": "9 Jun 2008 ... SAN FRANCISCO, 9 de junio de 2008 -Apple presentó hoy el nuevo iPhone 3G, \nque combina todas las características revolucionarias del ...",
+		"href": "https://www.apple.com/mx/newsroom/2008/06/09Apple-Introduces-the-New-iPhone-3G/",
+		"position": 9,
+		"visibility": 48
+	},
+	{
+		"title": "Apple",
+		"link": "http://www.apple.com/mx/shop/accessories/all-accessories/displays-mounts?fh=4599%2B2af1",
+		"description": "Encuentra pantallas y soportes que se ajusten perfectamente a tu Mac, iPhone, \niPad y Watch. Compra online y obtén el envío gratis.",
+		"href": "http://www.apple.com/mx/shop/accessories/all-accessories/displays-mounts?fh=4599%2B2af1",
+		"position": 10,
 		"visibility": 48
 	},
 	{
@@ -268,30 +732,134 @@
 		"link": null,
 		"description": "",
 		"href": null,
+		"position": 1,
+		"visibility": 2025
+	},
+	{
+		"title": "Wikipedia",
+		"link": "https://es.wikipedia.org/wiki/IPhone_(1.%C2%AA_generaci%C3%B3n)",
+		"description": "El iPhone es un teléfono inteligente de gama alta. Fue la 1ª generación del \ndispositivo de telefonía móvil de Apple lanzado en exclusiva para el mercado ...",
+		"href": "https://es.wikipedia.org/wiki/IPhone_(1.%C2%AA_generaci%C3%B3n)",
+		"position": 2,
+		"visibility": 1215
+	},
+	{
+		"title": "Celulares Mercadolibre",
+		"link": "http://celulares.mercadolibre.com.mx/iphone/iphone-1",
+		"description": "Encuentra Iphone 1 - Celulares iPhone en Mercado Libre México. Descubre la \nmejor forma de comprar online.",
+		"href": "http://celulares.mercadolibre.com.mx/iphone/iphone-1",
+		"position": 3,
+		"visibility": 810
+	},
+	{
+		"title": "Celulares Mercadolibre",
+		"link": "http://celulares.mercadolibre.com.mx/iphone/iphone-1-generacion",
+		"description": "Encuentra Iphone 1 Generacion - Celulares iPhone en Mercado Libre México. \nDescubre la mejor forma de comprar online.",
+		"href": "http://celulares.mercadolibre.com.mx/iphone/iphone-1-generacion",
+		"position": 4,
+		"visibility": 567
+	},
+	{
+		"title": "Celulares Mercadolibre",
+		"link": "http://celulares.mercadolibre.com.mx/iphone-1-generacion",
+		"description": "Encuentra Iphone 1 Generacion - Celulares y Smartphones en Mercado Libre \nMéxico. Descubre la mejor forma de comprar online.",
+		"href": "http://celulares.mercadolibre.com.mx/iphone-1-generacion",
+		"position": 5,
+		"visibility": 405
+	},
+	{
+		"title": "Smart-Gsm",
+		"link": "http://www.smart-gsm.com/moviles/apple-iphone",
+		"description": "Especificaciones y caracteristicas del Apple iPhone, mas comentarios de \nusuarios y fotos. ... quisiera saber porque no puedo entrar a interne en iphone 1.",
+		"href": "http://www.smart-gsm.com/moviles/apple-iphone",
+		"position": 6,
+		"visibility": 243
+	},
+	{
+		"title": "Youtube",
+		"link": "https://www.youtube.com/watch?v=OIWSU88Hlqk",
+		"description": "",
+		"href": "https://www.youtube.com/watch?v=OIWSU88Hlqk",
+		"position": 7,
+		"visibility": 162
+	},
+	{
+		"title": "Youtube",
+		"link": "https://www.youtube.com/watch?v=7NBa33YlPdI",
+		"description": "",
+		"href": "https://www.youtube.com/watch?v=7NBa33YlPdI",
+		"position": 8,
+		"visibility": 162
+	},
+	{
+		"title": "Expansion",
+		"link": "http://expansion.mx/negocios/2014/09/22/cuanto-han-vendido-los-iphone-en-su-primer-fin-de-semana",
+		"description": "22 Sep 2014 ... Han pasado siete años desde que el primer iPhone salió a la venta y la euforia \nde los fans de Apple va creciendo conforme aparecen nuevos ...",
+		"href": "http://expansion.mx/negocios/2014/09/22/cuanto-han-vendido-los-iphone-en-su-primer-fin-de-semana",
+		"position": 9,
+		"visibility": 162
+	},
+	{
+		"title": "Ebay",
+		"link": "https://www.ebay.com/p/Apple-iPhone-1st-Generation-8GB-Black-AT-T-Smartphone/101829149",
+		"description": "item 1 - Apple iPhone 1st Generation 8GB Black Smartphone in Original Box \nA1203 EUC ... item 7 - Apple iPhone 1st Generation AT&T 2G 8GB Model A1203.",
+		"href": "https://www.ebay.com/p/Apple-iPhone-1st-Generation-8GB-Black-AT-T-Smartphone/101829149",
+		"position": 10,
+		"visibility": 162
+	},
+	{
+		"title": "Linio",
+		"link": "https://www.linio.com.mx/c/celulares-y-tablets/celulares-y-smartphones",
+		"description": "Venta de celulares en México. Elige el smartphone que más te guste y \naprovecha los meses sin intereses y las ofertas de celulares ¡Compra online!",
+		"href": "https://www.linio.com.mx/c/celulares-y-tablets/celulares-y-smartphones",
+		"position": 1,
+		"visibility": 120
+	},
+	{
+		"title": "Celulares Mercadolibre",
+		"link": "http://celulares.mercadolibre.com.mx/",
+		"description": "Encuentra Celulares y Smartphones en Mercado Libre México. Descubre la \nmejor forma de comprar online.",
+		"href": "http://celulares.mercadolibre.com.mx/",
+		"position": 2,
+		"visibility": 72
+	},
+	{
+		"title": "Celulares Mercadolibre",
+		"link": "http://celulares.mercadolibre.com.mx/celular-uso-rudo",
+		"description": "Encuentra Celular Uso Rudo - Celulares y Smartphones en Mercado Libre \nMéxico. Descubre la mejor forma de comprar online.",
+		"href": "http://celulares.mercadolibre.com.mx/celular-uso-rudo",
+		"position": 3,
+		"visibility": 48
+	},
+	{
+		"title": "Cnet",
+		"link": "https://www.cnet.com/es/temas/celulares/los-mejores-celulares/",
+		"description": "12 May 2017 ... Lista de los mejores celulares 2016 en diferentes categorías. Los mejores \ncelulares Android, Windows, iOS (iPhone) u otros del momento.",
+		"href": "https://www.cnet.com/es/temas/celulares/los-mejores-celulares/",
 		"position": 4,
 		"visibility": 33.6
+	},
+	{
+		"title": "Google Images",
+		"link": null,
+		"description": "",
+		"href": null,
+		"position": 5,
+		"visibility": 24
 	},
 	{
 		"title": "Sams",
 		"link": "https://www.sams.com.mx/smartphones-y-accesorios",
 		"description": "Encuentra smartphones y celulares desbloqueados, accesorios para celulares y \nmucho más en Sam's Club México. Con tu membresía disfruta de los grandes ...",
 		"href": "https://www.sams.com.mx/smartphones-y-accesorios",
-		"position": 5,
-		"visibility": 24
+		"position": 6,
+		"visibility": 14.399999999999999
 	},
 	{
 		"title": "Informatica-Hoy   Ar",
 		"link": "http://www.informatica-hoy.com.ar/smartphones/Diferencias-smartphone-celular.php",
 		"description": "Si estas por comprar un movil, este articulo seguramente te va a aclarar algunas \ndudas. Explicamos las diferencias entre smartphone y telefono celular, que ...",
 		"href": "http://www.informatica-hoy.com.ar/smartphones/Diferencias-smartphone-celular.php",
-		"position": 6,
-		"visibility": 14.399999999999999
-	},
-	{
-		"title": "Lg",
-		"link": "http://www.lg.com/mx/celulares",
-		"description": "En LG encontrarás desde celulares Touch a celulares 3G, siempre a punta de \nvanguardia. ... LG V20 | El primer smartphone con Android 7.0 Nougat · \nLGH990T.",
-		"href": "http://www.lg.com/mx/celulares",
 		"position": 7,
 		"visibility": 9.6
 	},
@@ -312,12 +880,172 @@
 		"visibility": 9.6
 	},
 	{
-		"title": "Youtube",
-		"link": "https://www.youtube.com/watch?v=h2i2d5MND5w",
-		"description": "",
-		"href": "https://www.youtube.com/watch?v=h2i2d5MND5w",
+		"title": "Lg",
+		"link": "http://www.lg.com/mx/celulares",
+		"description": "En LG encontrarás desde celulares Touch a celulares 3G, siempre a punta de \nvanguardia. ... LG V20 | El primer smartphone con Android 7.0 Nougat · \nLGH990T.",
+		"href": "http://www.lg.com/mx/celulares",
 		"position": 10,
 		"visibility": 9.6
+	},
+	{
+		"title": "Apple",
+		"link": "https://www.apple.com/mx/iphone/",
+		"description": "Descubre el iPhone, el dispositivo móvil más poderoso del mundo. Explora el \niPhone 7, el iPhone 7 Plus y el iPhone 6s.",
+		"href": "https://www.apple.com/mx/iphone/",
+		"position": 1,
+		"visibility": 97.5
+	},
+	{
+		"title": "Google News",
+		"link": null,
+		"description": "",
+		"href": null,
+		"position": 2,
+		"visibility": 58.5
+	},
+	{
+		"title": "Apple",
+		"link": "https://www.apple.com/mx/shop/buy-iphone/iphone6s",
+		"description": "Elige entre los colores plata, oro, gris espacial y oro rosa. Compra el iPhone 6s o \nel iPhone 6s Plus online y obtén envío gratuito.",
+		"href": "https://www.apple.com/mx/shop/buy-iphone/iphone6s",
+		"position": 3,
+		"visibility": 39
+	},
+	{
+		"title": "Apple",
+		"link": "https://www.apple.com/mx/iphone-7/",
+		"description": "El iPhone 7 llega con un rendimiento y una duración de batería incomparables, \nbocinas en estéreo, nuevos acabados, y es resistente al agua.",
+		"href": "https://www.apple.com/mx/iphone-7/",
+		"position": 4,
+		"visibility": 27.300000000000004
+	},
+	{
+		"title": "Apple",
+		"link": "https://www.apple.com/mx/shop/buy-iphone/iphone-7",
+		"description": "Compra el iPhone 7 y el iPhone 7 Plus hoy mismo. Compra online en apple.com.",
+		"href": "https://www.apple.com/mx/shop/buy-iphone/iphone-7",
+		"position": 5,
+		"visibility": 19.5
+	},
+	{
+		"title": "Apple",
+		"link": "https://www.apple.com/mx/",
+		"description": "Apple es líder en innovación gracias al iPhone, iPad, Mac, Apple Watch, iOS, \nmacOS y watchOS. Ve al sitio para informarte, comprar y recibir soporte.",
+		"href": "https://www.apple.com/mx/",
+		"position": 6,
+		"visibility": 11.7
+	},
+	{
+		"title": "Apple",
+		"link": "https://www.apple.com/mx/iphone-se/",
+		"description": "Con un chip A9 y una cámara de 12 MP, el iPhone SE ofrece un rendimiento \nincreíble en un popular diseño de 4 pulgadas.",
+		"href": "https://www.apple.com/mx/iphone-se/",
+		"position": 7,
+		"visibility": 7.8
+	},
+	{
+		"title": "Apple",
+		"link": "https://www.apple.com/mx/shop/iphone/iphone-accessories",
+		"description": "Compra accesorios para el iPhone de Apple, como fundas para el iPhone, \nadaptadores Lightning, docks, audífonos, bocinas y más.",
+		"href": "https://www.apple.com/mx/shop/iphone/iphone-accessories",
+		"position": 8,
+		"visibility": 7.8
+	},
+	{
+		"title": "Apple",
+		"link": "https://www.apple.com/mx/iphone/compare/",
+		"description": "El iPhone 7 Plus viene con nuevas cámaras de 12 MP con gran angular y \nteleobjetivo, un chip A10 Fusion, una nueva pantalla Retina HD con una amplia \ngama ...",
+		"href": "https://www.apple.com/mx/iphone/compare/",
+		"position": 9,
+		"visibility": 7.8
+	},
+	{
+		"title": "Apple",
+		"link": "https://www.apple.com/mx/shop/iphone/iphone-accessories/cases-protection",
+		"description": "Encuentra fundas y protectores para que tu iPhone esté a salvo del agua, el \npolvo y los golpes. Explora cubiertas protectoras hoy mismo. Compra online con\n ...",
+		"href": "https://www.apple.com/mx/shop/iphone/iphone-accessories/cases-protection",
+		"position": 10,
+		"visibility": 7.8
+	},
+	{
+		"title": "Google Images",
+		"link": null,
+		"description": "",
+		"href": null,
+		"position": 1,
+		"visibility": 900
+	},
+	{
+		"title": "Celulares Mercadolibre",
+		"link": "http://celulares.mercadolibre.com.mx/iphone/iphone-2",
+		"description": "Encuentra Iphone 2 - Celulares iPhone en Mercado Libre México. Descubre la \nmejor forma de comprar online.",
+		"href": "http://celulares.mercadolibre.com.mx/iphone/iphone-2",
+		"position": 2,
+		"visibility": 540
+	},
+	{
+		"title": "Wikipedia",
+		"link": "https://es.wikipedia.org/wiki/IPhone_(1.%C2%AA_generaci%C3%B3n)",
+		"description": "El iPhone es un teléfono inteligente de gama alta. Fue la 1ª generación del \ndispositivo de telefonía móvil de Apple lanzado en exclusiva para el mercado \nestadounidense en 2007. Después de la aparición de las nuevas versiones fue \nconocido como iPhone 2G, iPhone original o iPhone classic.",
+		"href": "https://es.wikipedia.org/wiki/IPhone_(1.%C2%AA_generaci%C3%B3n)",
+		"position": 3,
+		"visibility": 360
+	},
+	{
+		"title": "Playgroundmag",
+		"link": "http://www.playgroundmag.net/futuro/primer-iPhone-cuesta_0_1841215880.html",
+		"description": "5 Oct 2016 ... En los tiempos que corren, cualquier tecnología con más de cinco años se \npuede considerar una reliquia. Que cada año salga un nuevo ...",
+		"href": "http://www.playgroundmag.net/futuro/primer-iPhone-cuesta_0_1841215880.html",
+		"position": 4,
+		"visibility": 252.00000000000003
+	},
+	{
+		"title": "Celulares Mercadolibre",
+		"link": "http://celulares.mercadolibre.com.co/iphone/iphone-2",
+		"description": "Encuentra Iphone 2 - iPhone en Mercado Libre Colombia. Descubre la mejor \nforma de comprar online.",
+		"href": "http://celulares.mercadolibre.com.co/iphone/iphone-2",
+		"position": 5,
+		"visibility": 180
+	},
+	{
+		"title": "Conectica",
+		"link": "https://conectica.com/2016/09/30/iphone-2g-mas-caro-iphone-7/",
+		"description": "30 Sep 2016 ... Si hacemos una búsqueda rápida en eBay nos daremos cuenta de que el \niPhone 2G es muchísimo más caro que el iPhone 7, algo que llama ...",
+		"href": "https://conectica.com/2016/09/30/iphone-2g-mas-caro-iphone-7/",
+		"position": 6,
+		"visibility": 108
+	},
+	{
+		"title": "Ebay",
+		"link": "http://www.ebay.com/bhp/iphone-2g-16gb",
+		"description": "Find great deals on eBay for iPhone 2G 16GB in Cell Phones and Smartphones. \nShop with confidence.",
+		"href": "http://www.ebay.com/bhp/iphone-2g-16gb",
+		"position": 7,
+		"visibility": 72
+	},
+	{
+		"title": "Ebay",
+		"link": "http://www.ebay.com/bhp/iphone-2g-unlocked",
+		"description": "Find great deals on eBay for iPhone 2G Unlocked in Cell Phones and \nSmartphones. Shop with confidence.",
+		"href": "http://www.ebay.com/bhp/iphone-2g-unlocked",
+		"position": 8,
+		"visibility": 72
+	},
+	{
+		"title": "Apple",
+		"link": "https://www.apple.com/mx/ipad/",
+		"description": "Descubre el iPad Pro, en sus dos tamaños, el iPad y el iPad mini. Visita el sitio \nde Apple para recibir información, comprar y obtener soporte.",
+		"href": "https://www.apple.com/mx/ipad/",
+		"position": 9,
+		"visibility": 72
+	},
+	{
+		"title": "Support Apple",
+		"link": "https://support.apple.com/es-mx/HT201222",
+		"description": "La versión más reciente de iOS es 10.3.2. Obtén información sobre cómo \nactualizar el software de iOS en un iPhone, iPad o iPod touch. La versión más \nreciente ...",
+		"href": "https://support.apple.com/es-mx/HT201222",
+		"position": 10,
+		"visibility": 72
 	},
 	{
 		"title": "Samsung",
@@ -369,26 +1097,18 @@
 	},
 	{
 		"title": "Samsung",
-		"link": "http://www.samsung.com/mx/support/category/mobile/mobiledevice/smartphone",
-		"description": "Samsung Open the Menu. Close the Menu. Capa OpenSearch. Teclado para \nintroducir la búsqueda. Buscar Cerrar la capa de búsqueda. Buscar historial.",
-		"href": "http://www.samsung.com/mx/support/category/mobile/mobiledevice/smartphone",
+		"link": "http://www.samsung.com/es/consumer/mobile-devices/smartphones/galaxy-s/SM-G900FZKAPHE",
+		"description": "Samsung Galaxy S5, el smartphone Android con pulsómetro, lector de huellas \ndactilares, 4G, WiFi, modo ultra ahorro de batería, resistente al agua y al polvo.",
+		"href": "http://www.samsung.com/es/consumer/mobile-devices/smartphones/galaxy-s/SM-G900FZKAPHE",
 		"position": 7,
 		"visibility": 20
 	},
 	{
 		"title": "Samsung",
-		"link": "http://www.samsung.com/es/consumer/mobile-devices/smartphones/galaxy-s/SM-G900FZKAPHE",
-		"description": "Samsung Galaxy S5, el smartphone Android con pulsómetro, lector de huellas \ndactilares, 4G, WiFi, modo ultra ahorro de batería, resistente al agua y al polvo.",
-		"href": "http://www.samsung.com/es/consumer/mobile-devices/smartphones/galaxy-s/SM-G900FZKAPHE",
+		"link": "http://www.samsung.com/mx/support/category/mobile/mobiledevice/smartphone",
+		"description": "Samsung Open the Menu. Close the Menu. Capa OpenSearch. Teclado para \nintroducir la búsqueda. Buscar Cerrar la capa de búsqueda. Buscar historial.",
+		"href": "http://www.samsung.com/mx/support/category/mobile/mobiledevice/smartphone",
 		"position": 8,
-		"visibility": 20
-	},
-	{
-		"title": "Samsung",
-		"link": "http://www.samsung.com/ar/smartphones/",
-		"description": "Visitá Samsung para encontrar teléfonos celulares. Vas a encontrar reseñas de \nlos productos, respuestas e información de ayuda.",
-		"href": "http://www.samsung.com/ar/smartphones/",
-		"position": 9,
 		"visibility": 20
 	},
 	{
@@ -396,6 +1116,14 @@
 		"link": null,
 		"description": "",
 		"href": null,
+		"position": 9,
+		"visibility": 20
+	},
+	{
+		"title": "Worten",
+		"link": "https://www.worten.es/productos/moviles-smartphones/smartphones/de-SAMSUNG",
+		"description": "Compra Smartphones SAMSUNG en Worten.es y recíbelo en casa o recógelo en \ntu tienda más cercana. SMARTPHONES SAMSUNG en WORTEN.ES.",
+		"href": "https://www.worten.es/productos/moviles-smartphones/smartphones/de-SAMSUNG",
 		"position": 10,
 		"visibility": 20
 	},
@@ -425,42 +1153,34 @@
 	},
 	{
 		"title": "Samsung",
-		"link": "http://www.samsung.com/latin/smartphones/all-smartphones/",
-		"description": "Selecciona y compara las más recientes innovaciones y funciones disponibles \nen los smartphones.",
-		"href": "http://www.samsung.com/latin/smartphones/all-smartphones/",
+		"link": "http://www.samsung.com/es/smartphones/",
+		"description": "Descubre toda la gama de smartphones Samsung Galaxy. Teléfonos Android \npotentes y resistentes con conectividad 4G, Dual SIM y pantalla de alta definición\n.",
+		"href": "http://www.samsung.com/es/smartphones/",
 		"position": 4,
 		"visibility": 50.400000000000006
 	},
 	{
-		"title": "Google News",
-		"link": null,
-		"description": "",
-		"href": null,
+		"title": "Samsung",
+		"link": "http://www.samsung.com/latin/smartphones/all-smartphones/",
+		"description": "Selecciona y compara las más recientes innovaciones y funciones disponibles \nen los smartphones.",
+		"href": "http://www.samsung.com/latin/smartphones/all-smartphones/",
 		"position": 5,
 		"visibility": 36
-	},
-	{
-		"title": "Samsung",
-		"link": "http://www.samsung.com/es/smartphones/",
-		"description": "Descubre toda la gama de smartphones Samsung Galaxy. Teléfonos Android \npotentes y resistentes con conectividad 4G, Dual SIM y pantalla de alta definición\n.",
-		"href": "http://www.samsung.com/es/smartphones/",
-		"position": 6,
-		"visibility": 21.599999999999998
 	},
 	{
 		"title": "Samsung",
 		"link": "http://www.samsung.com/mx/support/category/mobile/mobiledevice/smartphone",
 		"description": "Teclado para introducir la búsqueda. Buscar Cerrar la capa de búsqueda. \nBuscar historial. BORRAR HISTORIAL. No hay sugerencias ...",
 		"href": "http://www.samsung.com/mx/support/category/mobile/mobiledevice/smartphone",
-		"position": 7,
-		"visibility": 14.4
+		"position": 6,
+		"visibility": 21.599999999999998
 	},
 	{
 		"title": "Samsung",
 		"link": "http://www.samsung.com/co/smartphones/all-smartphones/",
 		"description": "Selecciona y compara las más recientes innovaciones y funciones disponibles \nen los smartphones.",
 		"href": "http://www.samsung.com/co/smartphones/all-smartphones/",
-		"position": 8,
+		"position": 7,
 		"visibility": 14.4
 	},
 	{
@@ -468,7 +1188,7 @@
 		"link": "http://www.samsung.com/us/mobile/phones/",
 		"description": "Unlocked by Samsung lets you pick more than just your smartphone. You can \nchoose your carrier, data plan, services, features and apps, so you can get your ...",
 		"href": "http://www.samsung.com/us/mobile/phones/",
-		"position": 9,
+		"position": 8,
 		"visibility": 14.4
 	},
 	{
@@ -476,8 +1196,176 @@
 		"link": "http://www.samsung.com/co/smartphones/",
 		"description": "Visita Samsung para ver los teléfonos móviles. Allí encontrarás opiniones, \nrespuestas e información de soporte de los productos.",
 		"href": "http://www.samsung.com/co/smartphones/",
+		"position": 9,
+		"visibility": 14.4
+	},
+	{
+		"title": "Samsung",
+		"link": "http://www.samsung.com/in/smartphones/all-smartphones/",
+		"description": "Best Smartphones - View complete range of Samsung smartphones with 3G, 4G, \nDual sim compatibility, android OS and more. Know price & specs of all smart ...",
+		"href": "http://www.samsung.com/in/smartphones/all-smartphones/",
 		"position": 10,
 		"visibility": 14.4
+	},
+	{
+		"title": "Xataka",
+		"link": "https://www.xataka.com/moviles/iphone-4g-imagenes-especificaciones-prototipo",
+		"description": "19 Abr 2010 ... iPhone 4G, imágenes, características y datos del que podría ser un prototipo del \niPhone 4G de Apple.",
+		"href": "https://www.xataka.com/moviles/iphone-4g-imagenes-especificaciones-prototipo",
+		"position": 1,
+		"visibility": 120
+	},
+	{
+		"title": "Celulares Mercadolibre",
+		"link": "http://celulares.mercadolibre.com.mx/iphone/iphone-4/iphone-4g",
+		"description": "Encuentra Iphone 4g - iPhone 4 en Mercado Libre México. Descubre la mejor \nforma de comprar online.",
+		"href": "http://celulares.mercadolibre.com.mx/iphone/iphone-4/iphone-4g",
+		"position": 2,
+		"visibility": 72
+	},
+	{
+		"title": "Google Images",
+		"link": null,
+		"description": "",
+		"href": null,
+		"position": 3,
+		"visibility": 48
+	},
+	{
+		"title": "Celulares Mercadolibre",
+		"link": "http://celulares.mercadolibre.com.mx/iphone/iphone-4/",
+		"description": "Celular Iphone 4 8gb * Miles Vendidos Hoy A Solo $ 1390 · Celular Iphone 4 8gb \n... Iphone 4g Blanco Sin Tapa Y Sin Tarjeta Logica · Iphone 4g Blanco Sin ...",
+		"href": "http://celulares.mercadolibre.com.mx/iphone/iphone-4/",
+		"position": 4,
+		"visibility": 33.6
+	},
+	{
+		"title": "Smart-Gsm",
+		"link": "http://www.smart-gsm.com/moviles/apple-iphone-4",
+		"description": "Especificaciones y caracteristicas del Apple iPhone 4, mas comentarios de \nusuarios y fotos. Características ... Nuevas fotos y videos del Apple iPhone 4G ...",
+		"href": "http://www.smart-gsm.com/moviles/apple-iphone-4",
+		"position": 5,
+		"visibility": 24
+	},
+	{
+		"title": "Universocelular",
+		"link": "http://universocelular.com/2010/06/09/iphone-4g-caracteristicas/",
+		"description": "9 Jun 2010 ... El iphone 4G ha sido presentado de manera oficial por parte de Apple, este \nanuncio fue realizado durante la Keynote realizada por Steve Jobs ...",
+		"href": "http://universocelular.com/2010/06/09/iphone-4g-caracteristicas/",
+		"position": 6,
+		"visibility": 14.399999999999999
+	},
+	{
+		"title": "Support Apple",
+		"link": "https://support.apple.com/es-mx/HT203124",
+		"description": "14 Mar 2017 ... Las opciones de datos celulares en tu iPhone pueden variar en ... LTE o 4G: \npermite el uso de datos celulares por medio de la red LTE o 4G ...",
+		"href": "https://support.apple.com/es-mx/HT203124",
+		"position": 7,
+		"visibility": 9.6
+	},
+	{
+		"title": "Wikipedia",
+		"link": "https://es.wikipedia.org/wiki/IPhone_4",
+		"description": "El iPhone 4 es un teléfono inteligente de gama alta, presentado como la cuarta \ngeneración de iPhone el 24 de junio de 2010. Originalmente, Apple solo lo ...",
+		"href": "https://es.wikipedia.org/wiki/IPhone_4",
+		"position": 8,
+		"visibility": 9.6
+	},
+	{
+		"title": "Lifewire",
+		"link": "https://www.lifewire.com/are-iphone-4-and-4s-4g-phones-2000681",
+		"description": "9 Mar 2017 ... These days, phone manufacturers and mobile phone carriers hype their networks \nor phones as 4G (or sometimes 4G LTE). But what does that ...",
+		"href": "https://www.lifewire.com/are-iphone-4-and-4s-4g-phones-2000681",
+		"position": 9,
+		"visibility": 9.6
+	},
+	{
+		"title": "Gadgets Ndtv",
+		"link": "http://gadgets.ndtv.com/mobiles/apple-4g-phones-supported",
+		"description": "Apple 4G phone gives you the list of all the latest and new 4G mobile phones ... \nelectronics giant entered the smartphone market with the iPhone in 2007, and ...",
+		"href": "http://gadgets.ndtv.com/mobiles/apple-4g-phones-supported",
+		"position": 10,
+		"visibility": 9.6
+	},
+	{
+		"title": "Telefonos Mercadolibre",
+		"link": "http://telefonos.mercadolibre.com.mx/iphone-2g",
+		"description": "Batería Original Iphone 2g 3g 3gs Y 4g Recargable Nuevas. $ 14500. 3 MSI de $ \n4833. MercadoLíder Platinum. Artículo nuevo; 11 vendidos; Estado De México ...",
+		"href": "http://telefonos.mercadolibre.com.mx/iphone-2g",
+		"position": 1,
+		"visibility": 325
+	},
+	{
+		"title": "Celulares Mercadolibre",
+		"link": "http://celulares.mercadolibre.com.mx/iphone/iphone-2g",
+		"description": "Encuentra Iphone 2g - Celulares iPhone en Mercado Libre México. Descubre la \nmejor forma de comprar online.",
+		"href": "http://celulares.mercadolibre.com.mx/iphone/iphone-2g",
+		"position": 2,
+		"visibility": 195
+	},
+	{
+		"title": "Wikipedia",
+		"link": "https://es.wikipedia.org/wiki/IPhone_(1.%C2%AA_generaci%C3%B3n)",
+		"description": "El iPhone es un teléfono inteligente de gama alta. Fue la 1ª generación del \ndispositivo de telefonía móvil de Apple lanzado en exclusiva para el mercado \nestadounidense en 2007. Después de la aparición de las nuevas versiones fue \nconocido como iPhone 2G, iPhone original o iPhone classic.",
+		"href": "https://es.wikipedia.org/wiki/IPhone_(1.%C2%AA_generaci%C3%B3n)",
+		"position": 3,
+		"visibility": 130
+	},
+	{
+		"title": "Google Images",
+		"link": null,
+		"description": "",
+		"href": null,
+		"position": 4,
+		"visibility": 91.00000000000001
+	},
+	{
+		"title": "Ebay",
+		"link": "http://www.ebay.com/bhp/iphone-2g-16gb",
+		"description": "Find great deals on eBay for iPhone 2G 16GB in Cell Phones and Smartphones. \nShop with confidence.",
+		"href": "http://www.ebay.com/bhp/iphone-2g-16gb",
+		"position": 5,
+		"visibility": 65
+	},
+	{
+		"title": "Conectica",
+		"link": "https://conectica.com/2016/09/30/iphone-2g-mas-caro-iphone-7/",
+		"description": "30 Sep 2016 ... Si hacemos una búsqueda rápida en eBay nos daremos cuenta de que el \niPhone 2G es muchísimo más caro que el iPhone 7, algo que llama ...",
+		"href": "https://conectica.com/2016/09/30/iphone-2g-mas-caro-iphone-7/",
+		"position": 6,
+		"visibility": 39
+	},
+	{
+		"title": "Playgroundmag",
+		"link": "http://www.playgroundmag.net/futuro/primer-iPhone-cuesta_0_1841215880.html",
+		"description": "5 Oct 2016 ... En los tiempos que corren, cualquier tecnología con más de cinco años se \npuede considerar una reliquia. Que cada año salga un nuevo ...",
+		"href": "http://www.playgroundmag.net/futuro/primer-iPhone-cuesta_0_1841215880.html",
+		"position": 7,
+		"visibility": 26
+	},
+	{
+		"title": "Amazon",
+		"link": "https://www.amazon.com/Apple-iPhone-2G-8GB-Black/dp/B004ZLV4CI",
+		"description": "Great iPhone! Basic design and VERY well-made when compared to the newer \nmodels. The 2G not compatible with iCloud so you cannot back up your contacts\n ...",
+		"href": "https://www.amazon.com/Apple-iPhone-2G-8GB-Black/dp/B004ZLV4CI",
+		"position": 8,
+		"visibility": 26
+	},
+	{
+		"title": "Vibbo",
+		"link": "http://www.vibbo.com/telefonia-moviles-de-segunda-mano/iphone-2g.htm",
+		"description": "Anuncios segunda mano de telefonía, moviles Iphone 2g . Las mejores ofertas \nen telefonía, moviles Iphone 2g de segunda mano y de ocasión solo en ...",
+		"href": "http://www.vibbo.com/telefonia-moviles-de-segunda-mano/iphone-2g.htm",
+		"position": 9,
+		"visibility": 26
+	},
+	{
+		"title": "Whited00r",
+		"link": "http://www.whited00r.com/iPhone2G?lang=es",
+		"description": "Jailbreak, agiliza , upgrade iOS. Descarga gratis Whited00r custom firmware \npara tu dispositivo: iPhone 2G.",
+		"href": "http://www.whited00r.com/iPhone2G?lang=es",
+		"position": 10,
+		"visibility": 26
 	},
 	{
 		"title": "Celulares Mercadolibre",
@@ -536,26 +1424,26 @@
 		"visibility": 7.8
 	},
 	{
-		"title": "Xataka",
-		"link": "https://www.xataka.com/moviles/lo-barato-no-sale-caro-sale-trol-asi-es-la-experiencia-con-un-smartphone-de-24-euros",
-		"description": "15 Abr 2017 ... Lo barato no sale caro, sale trol: así es la experiencia con un ... invade la primera \nola de nostalgia a la era pre-smartphone, cuando los móviles ...",
-		"href": "https://www.xataka.com/moviles/lo-barato-no-sale-caro-sale-trol-asi-es-la-experiencia-con-un-smartphone-de-24-euros",
-		"position": 8,
-		"visibility": 7.8
-	},
-	{
 		"title": "20minutos",
 		"link": "http://www.20minutos.es/noticia/2364553/0/smartphones/baratos/telefonos/",
 		"description": "5 Feb 2015 ... En el mundo de los smartphones las grandes marcas luchan duramente por \nrecibir el mayor reconocimiento y las mejores críticas para sus ...",
 		"href": "http://www.20minutos.es/noticia/2364553/0/smartphones/baratos/telefonos/",
+		"position": 8,
+		"visibility": 7.8
+	},
+	{
+		"title": "Xataka",
+		"link": "https://www.xataka.com/moviles/lo-barato-no-sale-caro-sale-trol-asi-es-la-experiencia-con-un-smartphone-de-24-euros",
+		"description": "15 Abr 2017 ... Lo barato no sale caro, sale trol: así es la experiencia con un ... invade la primera \nola de nostalgia a la era pre-smartphone, cuando los móviles ...",
+		"href": "https://www.xataka.com/moviles/lo-barato-no-sale-caro-sale-trol-asi-es-la-experiencia-con-un-smartphone-de-24-euros",
 		"position": 9,
 		"visibility": 7.8
 	},
 	{
-		"title": "Expansion",
-		"link": "http://expansion.mx/negocios/2013/12/20/el-smartphone-barato-conquista-mexico",
-		"description": "24 Dic 2013 ... La baja en los precios de teléfonos inteligentes ha impulsado su penetración en \nel mercado mexicano; firmas como Alcatel han aprovechado ...",
-		"href": "http://expansion.mx/negocios/2013/12/20/el-smartphone-barato-conquista-mexico",
+		"title": "Celrock",
+		"link": "http://www.celrock.com/smartphones-con-android-mas-economicos-y-baratos-en-mexico-con-telcel/",
+		"description": "30 Ene 2013 ... Tal vez se han preguntado por simple curiosidad o duda ¿cuáles son los \nSmartphones con Android más económicos o baratos? Puede que ...",
+		"href": "http://www.celrock.com/smartphones-con-android-mas-economicos-y-baratos-en-mexico-con-telcel/",
 		"position": 10,
 		"visibility": 7.8
 	}

@@ -16,6 +16,8 @@ exports.cleanResults = (file) => {
 		_8: .02,
 		_9: .02,
 		_10: .02,
+		_11: .02,
+		_12: .02,
 	}
 	var cleaned = json.map((elem,index)=>{
 			var result = {
@@ -56,7 +58,6 @@ exports.cleanToCsv = (json) => {
 			"MarketShare._10.title", "MarketShare._10.visibility"
 			];
 	const fieldNames = ['Keyword', 'Average Monthly Searches', "Rank 1", "0.25", "Rank 2", "0.15", "Rank 3", "0.1", "Rank 4", "0.07", "Rank 5", "0.05", "Rank 6", "0.03", "Rank 7", "0.02", "Rank 8", "0.02", "Rank 9", "0.02", "Rank 10", "0.02"];
-	// console.log(json)
 	var data = json.map((e)=>{
 		var result = {
 			Keyword: e.Keyword,
@@ -112,8 +113,9 @@ exports.marketShare = (json) => {
 			website: e.link
 		}
 		for (var i = 0; i < companies.length; i++){
-			if(e.title == companies[i].title)
+			if(e.title == companies[i].title){
 				object.visits += companies[i].visibility;
+			}
 		}
 		object.percentage = `${Math.round((object.visits/totalVisits * 100) * 100) / 100}%`;
 		return object;

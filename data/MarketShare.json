@@ -1,194 +1,302 @@
 [
 	{
-		"company": "Google News",
-		"visits": 36023.6,
-		"percentage": "30.71%",
-		"website": null
+		"company": "Condusef Gob",
+		"visits": 2336,
+		"percentage": "17.99%",
+		"website": "http://www.condusef.gob.mx/Revista/index.php/seguros/vida/499-seguro-de-vida"
 	},
 	{
-		"company": "Apple",
-		"visits": 20338,
-		"percentage": "17.34%",
-		"website": "https://www.apple.com/mx/iphone/"
+		"company": "Metlife",
+		"visits": 1746.8,
+		"percentage": "13.45%",
+		"website": "http://www.metlife.com.mx/personas/seguro-vida/index.html"
 	},
 	{
-		"company": "Wikipedia",
-		"visits": 19059.6,
-		"percentage": "16.25%",
-		"website": "https://es.wikipedia.org/wiki/IPhone"
+		"company": "Segurosbancomer",
+		"visits": 462.00000000000006,
+		"percentage": "3.56%",
+		"website": "https://www.segurosbancomer.com.mx/seguros/tleu/segurosban/vida-y-familia/index.jsp"
 	},
 	{
-		"company": "Celulares Mercadolibre",
-		"visits": 9677.1,
-		"percentage": "8.25%",
-		"website": "http://celulares.mercadolibre.com.mx/iphone/"
+		"company": "Gnp",
+		"visits": 617.8000000000001,
+		"percentage": "4.76%",
+		"website": "https://www.gnp.com.mx/wps/portal/portalesgnp/anexos/temas-interes/seguros-vida/diferencia-entre-seguros-de-vida"
 	},
 	{
-		"company": "Tienda Telmex",
-		"visits": 6750,
-		"percentage": "5.76%",
-		"website": "https://tienda.telmex.com/shell/af/core/nav/categoryBrowse.do?categoryId=-9919"
+		"company": "Mapfre",
+		"visits": 499.5,
+		"percentage": "3.85%",
+		"website": "https://www.mapfre.com.mx/seguros-mx/particulares/seguros-de-vida/vida/"
 	},
 	{
-		"company": "Tiendas Mediamarkt",
-		"visits": 4050,
-		"percentage": "3.45%",
-		"website": "https://tiendas.mediamarkt.es/apple-iphone"
+		"company": "Axa",
+		"visits": 615.5,
+		"percentage": "4.74%",
+		"website": "https://axa.mx/web/seguro-de-vida"
 	},
 	{
-		"company": "Liverpool",
-		"visits": 2700,
-		"percentage": "2.3%",
-		"website": "https://www.liverpool.com.mx/tienda/iphone/cat4720039"
-	},
-	{
-		"company": "Applesfera",
-		"visits": 2700,
-		"percentage": "2.3%",
-		"website": "https://www.applesfera.com/categoria/iphone"
-	},
-	{
-		"company": "Claro",
-		"visits": 2700,
-		"percentage": "2.3%",
-		"website": "http://www.claro.com.co/personas/tienda/iphone/"
-	},
-	{
-		"company": "Iphone Telcel",
-		"visits": 2700,
-		"percentage": "2.3%",
-		"website": "http://iphone.telcel.com/"
-	},
-	{
-		"company": "Areatecnologia",
-		"visits": 3330,
-		"percentage": "2.84%",
-		"website": "http://www.areatecnologia.com/Que-es-un-smartphone.htm"
-	},
-	{
-		"company": "Sams",
-		"visits": 1578.0000000000002,
-		"percentage": "1.35%",
-		"website": "https://www.sams.com.mx/smartphones-y-accesorios"
-	},
-	{
-		"company": "Lg",
-		"visits": 1119.6,
-		"percentage": "0.95%",
-		"website": "http://www.lg.com/mx/smartphones"
-	},
-	{
-		"company": "Samsung",
-		"visits": 1865.6000000000004,
-		"percentage": "1.59%",
-		"website": "http://www.samsung.com/mx/smartphones/"
-	},
-	{
-		"company": "Linio",
-		"visits": 527.7,
-		"percentage": "0.45%",
-		"website": "https://www.linio.com.mx/c/celulares-y-tablets/celulares-y-smartphones"
-	},
-	{
-		"company": "Xataka",
-		"visits": 451.8,
-		"percentage": "0.39%",
-		"website": "https://www.xataka.com.mx/tag/smartphone"
-	},
-	{
-		"company": "Elektra",
-		"visits": 444,
-		"percentage": "0.38%",
-		"website": "https://www.elektra.com.mx/celulares-desbloqueados/category/celulares-desbloqueados"
-	},
-	{
-		"company": "Definicion De",
-		"visits": 444,
-		"percentage": "0.38%",
-		"website": "http://definicion.de/smartphone/"
-	},
-	{
-		"company": "Macrumors",
-		"visits": 220,
-		"percentage": "0.19%",
-		"website": "https://www.macrumors.com/roundup/iphone-8/"
-	},
-	{
-		"company": "Forbes",
+		"company": "Banamex",
 		"visits": 132,
-		"percentage": "0.11%",
-		"website": "http://www.forbes.com/sites/gordonkelly/2017/05/07/iphone-8-iphone-7s-glass-design-battery-touch-id/"
+		"percentage": "1.02%",
+		"website": "https://www.banamex.com/landings/seguros-de-vida/index.htm"
 	},
 	{
-		"company": "Support Apple",
-		"visits": 88,
-		"percentage": "0.08%",
-		"website": "https://support.apple.com/explore/new-to-iphone"
+		"company": "Generaldeseguros",
+		"visits": 132,
+		"percentage": "1.02%",
+		"website": "http://www.generaldeseguros.mx/seguro-de-vida-microseguro-de-vida/"
 	},
 	{
-		"company": "Google Images",
-		"visits": 115.20000000000002,
-		"percentage": "0.1%",
+		"company": "Google News",
+		"visits": 246,
+		"percentage": "1.89%",
 		"website": null
-	},
-	{
-		"company": "Cnet",
-		"visits": 104.6,
-		"percentage": "0.09%",
-		"website": "https://www.cnet.com/products/apple-iphone-8/preview/"
-	},
-	{
-		"company": "Walmart",
-		"visits": 17.6,
-		"percentage": "0.02%",
-		"website": "https://www.walmart.com/browse/cell-phones/new-iphone-6s-plus/1105910_1127173_2946938"
-	},
-	{
-		"company": "Informatica-Hoy   Ar",
-		"visits": 14.399999999999999,
-		"percentage": "0.01%",
-		"website": "http://www.informatica-hoy.com.ar/smartphones/Diferencias-smartphone-celular.php"
-	},
-	{
-		"company": "Youtube",
-		"visits": 9.6,
-		"percentage": "0.01%",
-		"website": "https://www.youtube.com/watch?v=h2i2d5MND5w"
-	},
-	{
-		"company": "Smartphones-Baratos",
-		"visits": 58.5,
-		"percentage": "0.05%",
-		"website": "http://smartphones-baratos.com/"
-	},
-	{
-		"company": "Xatakamovil",
-		"visits": 27.300000000000004,
-		"percentage": "0.02%",
-		"website": "https://www.xatakamovil.com/mercado/buenos-bonitos-y-los-mas-baratos-20-moviles-con-mucho-que-decir"
-	},
-	{
-		"company": "Elandroidelibre Elespanol",
-		"visits": 19.5,
-		"percentage": "0.02%",
-		"website": "https://elandroidelibre.elespanol.com/2016/02/freedom-251-el-smartphone-mas-barato.html"
-	},
-	{
-		"company": "Prensalibre",
-		"visits": 7.8,
-		"percentage": "0.01%",
-		"website": "http://www.prensalibre.com/tecnologia/estos-son-los-smartphones-mas-baratos-del-mundo"
-	},
-	{
-		"company": "20minutos",
-		"visits": 7.8,
-		"percentage": "0.01%",
-		"website": "http://www.20minutos.es/noticia/2364553/0/smartphones/baratos/telefonos/"
 	},
 	{
 		"company": "Expansion",
-		"visits": 7.8,
-		"percentage": "0.01%",
-		"website": "http://expansion.mx/negocios/2013/12/20/el-smartphone-barato-conquista-mexico"
+		"visits": 132,
+		"percentage": "1.02%",
+		"website": "http://expansion.mx/mi-dinero/2015/04/30/4-opciones-de-seguro-de-vida-cual-te-conviene"
+	},
+	{
+		"company": "Amis",
+		"visits": 1119,
+		"percentage": "8.62%",
+		"website": "http://www.amis.org.mx/amis/directorio.html"
+	},
+	{
+		"company": "Cnsf Gob  :8090",
+		"visits": 642,
+		"percentage": "4.94%",
+		"website": "http://www.cnsf.gob.mx:8090/ListaInstituciones.aspx"
+	},
+	{
+		"company": "Segurosdeautos",
+		"visits": 517.4000000000001,
+		"percentage": "3.98%",
+		"website": "http://www.segurosdeautos.com.mx/aseguradoras.html"
+	},
+	{
+		"company": "Autocompara",
+		"visits": 721,
+		"percentage": "5.55%",
+		"website": "https://www.autocompara.com/ExpressoAutoCompara/aseguradoras.htm"
+	},
+	{
+		"company": "Enciclopediafinanciera",
+		"visits": 132,
+		"percentage": "1.02%",
+		"website": "http://www.enciclopediafinanciera.com/sistemafinanciero/aseguradoras.htm"
+	},
+	{
+		"company": "Nadaessegurotusegurosi",
+		"visits": 114,
+		"percentage": "0.88%",
+		"website": "http://www.nadaessegurotusegurosi.com.mx/aseguradoras.html?ID=1"
+	},
+	{
+		"company": "Abchospital",
+		"visits": 88,
+		"percentage": "0.68%",
+		"website": "http://www.abchospital.com/aseguradoras/"
+	},
+	{
+		"company": "Rankia",
+		"visits": 179,
+		"percentage": "1.38%",
+		"website": "https://www.rankia.mx/blog/aseguradoras-y-seguros/3063269-mejores-aseguradoras-auto-2017"
+	},
+	{
+		"company": "Directorio",
+		"visits": 88,
+		"percentage": "0.68%",
+		"website": "http://www.directorio.com.mx/seguros/"
+	},
+	{
+		"company": "Segurointeligente",
+		"visits": 285,
+		"percentage": "2.19%",
+		"website": "https://segurointeligente.mx/Seguros-de-auto/cotiza.aspx"
+	},
+	{
+		"company": "Cotizatuseguro Hdi",
+		"visits": 133,
+		"percentage": "1.02%",
+		"website": "https://cotizatuseguro.hdi.com.mx/"
+	},
+	{
+		"company": "Qualitas",
+		"visits": 109.4,
+		"percentage": "0.84%",
+		"website": "https://www.qualitas.com.mx/portal/fr/web/qualitas/cotizador-publico"
+	},
+	{
+		"company": "Segurosbanamex",
+		"visits": 38,
+		"percentage": "0.29%",
+		"website": "https://www.segurosbanamex.com.mx/segurosBanamex/seguro-auto-banamex-contratacion-paso-uno.jsp"
+	},
+	{
+		"company": "Wibe",
+		"visits": 38,
+		"percentage": "0.29%",
+		"website": "https://www.wibe.com/cotizadores/seguro-auto/"
+	},
+	{
+		"company": "Elaguila",
+		"visits": 38,
+		"percentage": "0.29%",
+		"website": "https://www.elaguila.com.mx/"
+	},
+	{
+		"company": "S",
+		"visits": 38,
+		"percentage": "0.29%",
+		"website": "http://www.s.com.mx/auto/cotiza.aspx"
+	},
+	{
+		"company": "Segurosbanorte",
+		"visits": 43.6,
+		"percentage": "0.34%",
+		"website": "http://www.segurosbanorte.com.mx/gastos-medicos/medico-total.html"
+	},
+	{
+		"company": "Allianz",
+		"visits": 26,
+		"percentage": "0.2%",
+		"website": "https://www.allianz.com.mx/seguro-medico"
+	},
+	{
+		"company": "Google Images",
+		"visits": 79.4,
+		"percentage": "0.61%",
+		"website": null
+	},
+	{
+		"company": "Carmudi",
+		"visits": 26,
+		"percentage": "0.2%",
+		"website": "https://www.carmudi.com.mx/journal/las-mejores-companias-aseguradoras-de-mexico/"
+	},
+	{
+		"company": "Segurossaludbancomer",
+		"visits": 17.6,
+		"percentage": "0.14%",
+		"website": "http://www.segurossaludbancomer.com/"
+	},
+	{
+		"company": "Bbvasegurossalud",
+		"visits": 17.6,
+		"percentage": "0.14%",
+		"website": "https://www.bbvasegurossalud.com.mx/"
+	},
+	{
+		"company": "Segurosatlas",
+		"visits": 17.6,
+		"percentage": "0.14%",
+		"website": "http://www.segurosatlas.com.mx/PersonaGastosMedicos.html"
+	},
+	{
+		"company": "Cnsf Gob",
+		"visits": 50.400000000000006,
+		"percentage": "0.39%",
+		"website": "http://www.cnsf.gob.mx/EntidadesSupervisadas/InstitucionesSociedadesMutualistas/Paginas/ListaInstituciones.aspx"
+	},
+	{
+		"company": "Wikipedia",
+		"visits": 36,
+		"percentage": "0.28%",
+		"website": "https://es.wikipedia.org/wiki/Compa%C3%B1%C3%ADa_de_seguros"
+	},
+	{
+		"company": "Indeed",
+		"visits": 14.4,
+		"percentage": "0.11%",
+		"website": "https://www.indeed.com.mx/Empleos-de-Compa%C3%B1%C3%ADa-de-seguros-en-Ciudad-de-M%C3%A9xico,-D.-F."
+	},
+	{
+		"company": "Occ",
+		"visits": 14.4,
+		"percentage": "0.11%",
+		"website": "https://www.occ.com.mx/empleos-en-mexico-y-el-mundo/para-trabajar-en-Qualitas-Compania-de-Seguros"
+	},
+	{
+		"company": "Definiciona",
+		"visits": 120,
+		"percentage": "0.92%",
+		"website": "https://definiciona.com/aseguranza/"
+	},
+	{
+		"company": "Forum Wordreference",
+		"visits": 72,
+		"percentage": "0.55%",
+		"website": "https://forum.wordreference.com/threads/aseguranza.197098/?hl=es"
+	},
+	{
+		"company": "Wiktionary",
+		"visits": 48,
+		"percentage": "0.37%",
+		"website": "https://es.wiktionary.org/wiki/aseguranza"
+	},
+	{
+		"company": "Aberracionesespanglish Blogspot",
+		"visits": 33.6,
+		"percentage": "0.26%",
+		"website": "http://aberracionesespanglish.blogspot.com/2011/03/aseguranza.html"
+	},
+	{
+		"company": "Lexicoon",
+		"visits": 24,
+		"percentage": "0.18%",
+		"website": "http://lexicoon.org/es/aseguranza"
+	},
+	{
+		"company": "Grupoaseguranza",
+		"visits": 33.6,
+		"percentage": "0.26%",
+		"website": "http://www.grupoaseguranza.com/noticias-de-seguros/"
+	},
+	{
+		"company": "Dle Rae",
+		"visits": 9.6,
+		"percentage": "0.07%",
+		"website": "http://dle.rae.es/srv/search?m=30&w=aseguranza"
+	},
+	{
+		"company": "Significadode",
+		"visits": 9.6,
+		"percentage": "0.07%",
+		"website": "http://www.significadode.org/aseguranza.htm"
+	},
+	{
+		"company": "Segurosgnp",
+		"visits": 21,
+		"percentage": "0.16%",
+		"website": "https://www.segurosgnp.com.mx/seguros_de_vida.php"
+	},
+	{
+		"company": "Segurosmexicoseguros",
+		"visits": 14.700000000000001,
+		"percentage": "0.11%",
+		"website": "http://www.segurosmexicoseguros.com/seguros-de-vida/cotizador-de-seguro-de-vida.php"
+	},
+	{
+		"company": "Hsbc",
+		"visits": 4.2,
+		"percentage": "0.03%",
+		"website": "https://www.hsbc.com.mx/1/2/es/personas/seguros/seguros/individual"
+	},
+	{
+		"company": "Cotizator",
+		"visits": 4.2,
+		"percentage": "0.03%",
+		"website": "http://cotizator.com/cotizador-de-seguros-de-vida/"
+	},
+	{
+		"company": "Banorte",
+		"visits": 4.2,
+		"percentage": "0.03%",
+		"website": "https://www.banorte.com/wps/portal/banorte/Home/seguros/seguro-vida/!ut/p/a1/lZNdb4IwFIZ_i7-A0xZKuSxQgTmF8jXlZmGZW1ycus-L_foVExOhs8xyRfI85-1pT63GWlrNrv3ePLefm_2u3Xb_Db2PMGIxCWCWCkmBB7kUdTJFQhAFrM4BFqYOcCyFAI-RJAKTP2cnHy4sbvSpDcN8HTD40kdmvwNM-Z490n9K-z4rQxs4dRBiSYykQ0b2rwKu83Wg50c-UeVlATCtFzHK3aGvA_18FxBw4c89V51thKmWrwH988sqotpLqyBzQlxSLV8H-v6sUO2JnBWsImgWnPwg4rHt3gKkdoSBs8WNXTgehoReOb96wL_m1wCM5N9ZzeCI9Rd0BEwtHgHTGzK-AgIje0ipucJxTAfAAqZqjlyMMhnGBLSIPwbNVKGskXkPc0AjXTBqrdRluRcvO3atoqvx0O4e1--tv92_fa331uqp3X6sNbeIA-AoF3XGcgIVMbmH1-psLWGTdN-Lc_j-KTmfTH4B-f4phg!!/?uri=nm:oid:vida"
 	}
 ]
