@@ -17,31 +17,30 @@ google.nextText = google.lang == "en" ? "Next" : "Siguiente"
 
 // scrape the results from google for each keyword
 exports.searchInGoogle = (queries) => {
-        // let time = 0;
-        // let lookup = [];
-        // for(let query of queries){
-        // 	let promise = new Promise((resolve,reject) => {
-        // 		setTimeout((query) => {
-        // 			google(query, (err, res) => {
-        // 				if (err) console.error(err)
-        // 				console.log(`Looking up ${query}`);
-        // 				resolve(res);
-        // 			});
-        // 		}, time, query.keyword);
-        // 		// delay time to avoid google from blocking the ip
-        // 		time += 30000;
-        // 	});
-        // 	lookup.push(promise);
-        // }
-        // Promise.all(lookup).then((res) => {
-        // 	this.saveResults(res);
-        // })
-        // .catch((err)=>{
-        // 	console.log(err);
-        // });
-        // console.log("Keywords Searched, starting saving them")
-        // this.cleanGoogleNews()	
-        exportData.cleanResults("./json/results.json");
+        let time = 0;
+        let lookup = [];
+        for (let query of queries) {
+            let promise = new Promise((resolve, reject) => {
+                setTimeout((query) => {
+                    google(query, (err, res) => {
+                        if (err) console.error(err)
+                        console.log(`Looking up ${query}`);
+                        resolve(res);
+                    });
+                }, time, query.keyword);
+                // delay time to avoid google from blocking the ip
+                time += 30000;
+            });
+            lookup.push(promise);
+        }
+        Promise.all(lookup).then((res) => {
+                this.saveResults(res);
+            })
+            .catch((err) => {
+                console.log(err);
+            });
+        console.log("Keywords Searched, starting saving them")
+        this.cleanGoogleNews()
     }
     // clean and save the file with all the search results and positions
 exports.saveResults = (results) => {
