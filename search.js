@@ -29,7 +29,7 @@ exports.searchInGoogle = (queries) => {
                     });
                 }, time, query.keyword);
                 // delay time to avoid google from blocking the ip
-                time += 3000;
+                time += 30000;
             });
             lookup.push(promise);
         }
