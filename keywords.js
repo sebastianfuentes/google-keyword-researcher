@@ -45,10 +45,10 @@ exports.cleanKeywords = (keywords) => {
         resolve(cleanedKeywords);
     });
     cleanKeywords.then((res) => {
-            search.searchInGoogle(res);
-            fs.writeFile("json/cleanedJson.json", JSON.stringify(res, null, 2), (err) => {
+            fs.writeFile("./json/keywords.json", JSON.stringify(res, null, 2), (err) => {
                 if (err) return console.log(err);
             });
+            search.searchInGoogle(res);
         })
         .catch((err) => {
             console.log(err);

@@ -9,8 +9,8 @@ let formatedResults = [];
 let rankedResults = [];
 let removeDomainChars = /\bpr\b|\bes\b|\ben\b|\bwww\b|\bin\b|\bcom\b|\bco\b|\buk\b|\bmx\b|\bnet\b|\borg\b|\bedu\b|\bit\b|\bbr\b|\bus\b|\bninja\b|\bme\b|\btv\b|\./ig;
 
-google.tld = process.argv[2] || ".com.mx";
-google.lang = process.argv[3] || "es";
+google.tld = "com.mx";
+google.lang = "es";
 google.resultsPerPage = 10;
 google.nextText = google.lang == "en" ? "Next" : "Siguiente"
 
@@ -29,18 +29,17 @@ exports.searchInGoogle = (queries) => {
                     });
                 }, time, query.keyword);
                 // delay time to avoid google from blocking the ip
-                time += 30000;
+                time += 3000;
             });
             lookup.push(promise);
         }
         Promise.all(lookup).then((res) => {
                 this.saveResults(res);
+                console.log("Keywords Searched, starting saving them")
             })
             .catch((err) => {
                 console.log(err);
             });
-        console.log("Keywords Searched, starting saving them")
-        this.cleanGoogleNews()
     }
     // clean and save the file with all the search results and positions
 exports.saveResults = (results) => {
@@ -74,12 +73,11 @@ exports.saveResults = (results) => {
         if (err) return console.log(err);
         console.log("The file was saved, started matching results with market share");
     });
-    exportData.cleanResults("./json/results.json")
 }
 
 exports.cleanGoogleNews = () => {
     var results = require("./json/results.json");
-    var research = require("./json/cleanedJson.json");
+    var research = require("./json/keywords.json");
     var renamed = results.map((e, i) => {
         var rankedResults = {
             Keyword: research[i].keyword,

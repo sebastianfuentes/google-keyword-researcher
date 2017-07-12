@@ -1,32 +1,32 @@
 [
 	{
 		"company": "Condusef Gob",
-		"visits": 2336,
-		"percentage": "17.99%",
+		"visits": 2692,
+		"percentage": "20.73%",
 		"website": "http://www.condusef.gob.mx/Revista/index.php/seguros/vida/499-seguro-de-vida"
 	},
 	{
 		"company": "Metlife",
-		"visits": 1746.8,
-		"percentage": "13.45%",
+		"visits": 1416.8,
+		"percentage": "10.91%",
 		"website": "http://www.metlife.com.mx/personas/seguro-vida/index.html"
 	},
 	{
-		"company": "Segurosbancomer",
-		"visits": 462.00000000000006,
-		"percentage": "3.56%",
-		"website": "https://www.segurosbancomer.com.mx/seguros/tleu/segurosban/vida-y-familia/index.jsp"
-	},
-	{
 		"company": "Gnp",
-		"visits": 617.8000000000001,
-		"percentage": "4.76%",
+		"visits": 764.2000000000002,
+		"percentage": "5.88%",
 		"website": "https://www.gnp.com.mx/wps/portal/portalesgnp/anexos/temas-interes/seguros-vida/diferencia-entre-seguros-de-vida"
 	},
 	{
+		"company": "Segurosbancomer",
+		"visits": 330,
+		"percentage": "2.54%",
+		"website": "https://www.segurosbancomer.com.mx/seguros/tleu/segurosban/vida-y-familia/index.jsp"
+	},
+	{
 		"company": "Mapfre",
-		"visits": 499.5,
-		"percentage": "3.85%",
+		"visits": 695.5,
+		"percentage": "5.36%",
 		"website": "https://www.mapfre.com.mx/seguros-mx/particulares/seguros-de-vida/vida/"
 	},
 	{
@@ -36,27 +36,21 @@
 		"website": "https://axa.mx/web/seguro-de-vida"
 	},
 	{
+		"company": "Google Images",
+		"visits": 369.4,
+		"percentage": "2.84%",
+		"website": null
+	},
+	{
 		"company": "Banamex",
 		"visits": 132,
 		"percentage": "1.02%",
 		"website": "https://www.banamex.com/landings/seguros-de-vida/index.htm"
 	},
 	{
-		"company": "Generaldeseguros",
-		"visits": 132,
-		"percentage": "1.02%",
-		"website": "http://www.generaldeseguros.mx/seguro-de-vida-microseguro-de-vida/"
-	},
-	{
-		"company": "Google News",
-		"visits": 246,
-		"percentage": "1.89%",
-		"website": null
-	},
-	{
 		"company": "Expansion",
-		"visits": 132,
-		"percentage": "1.02%",
+		"visits": 158,
+		"percentage": "1.22%",
 		"website": "http://expansion.mx/mi-dinero/2015/04/30/4-opciones-de-seguro-de-vida-cual-te-conviene"
 	},
 	{
@@ -66,16 +60,16 @@
 		"website": "http://www.amis.org.mx/amis/directorio.html"
 	},
 	{
-		"company": "Cnsf Gob  :8090",
-		"visits": 642,
-		"percentage": "4.94%",
-		"website": "http://www.cnsf.gob.mx:8090/ListaInstituciones.aspx"
+		"company": "Segurosdeautos",
+		"visits": 584.4,
+		"percentage": "4.5%",
+		"website": "http://www.segurosdeautos.com.mx/aseguradoras.html"
 	},
 	{
-		"company": "Segurosdeautos",
-		"visits": 517.4000000000001,
-		"percentage": "3.98%",
-		"website": "http://www.segurosdeautos.com.mx/aseguradoras.html"
+		"company": "Cnsf Gob  :8090",
+		"visits": 575,
+		"percentage": "4.43%",
+		"website": "http://www.cnsf.gob.mx:8090/ListaInstituciones.aspx"
 	},
 	{
 		"company": "Autocompara",
@@ -84,34 +78,28 @@
 		"website": "https://www.autocompara.com/ExpressoAutoCompara/aseguradoras.htm"
 	},
 	{
-		"company": "Enciclopediafinanciera",
-		"visits": 132,
-		"percentage": "1.02%",
-		"website": "http://www.enciclopediafinanciera.com/sistemafinanciero/aseguradoras.htm"
-	},
-	{
-		"company": "Nadaessegurotusegurosi",
-		"visits": 114,
-		"percentage": "0.88%",
-		"website": "http://www.nadaessegurotusegurosi.com.mx/aseguradoras.html?ID=1"
-	},
-	{
 		"company": "Abchospital",
 		"visits": 88,
 		"percentage": "0.68%",
 		"website": "http://www.abchospital.com/aseguradoras/"
 	},
 	{
+		"company": "Enciclopediafinanciera",
+		"visits": 88,
+		"percentage": "0.68%",
+		"website": "http://www.enciclopediafinanciera.com/sistemafinanciero/aseguradoras.htm"
+	},
+	{
 		"company": "Rankia",
-		"visits": 179,
-		"percentage": "1.38%",
+		"visits": 241,
+		"percentage": "1.86%",
 		"website": "https://www.rankia.mx/blog/aseguradoras-y-seguros/3063269-mejores-aseguradoras-auto-2017"
 	},
 	{
-		"company": "Directorio",
+		"company": "Medicasur",
 		"visits": 88,
 		"percentage": "0.68%",
-		"website": "http://www.directorio.com.mx/seguros/"
+		"website": "http://www.medicasur.com.mx/es/ms/ms_pv_pa_aseguradoras"
 	},
 	{
 		"company": "Segurointeligente",
@@ -120,16 +108,16 @@
 		"website": "https://segurointeligente.mx/Seguros-de-auto/cotiza.aspx"
 	},
 	{
-		"company": "Cotizatuseguro Hdi",
-		"visits": 133,
-		"percentage": "1.02%",
-		"website": "https://cotizatuseguro.hdi.com.mx/"
+		"company": "Qualitas",
+		"visits": 147.4,
+		"percentage": "1.14%",
+		"website": "https://www.qualitas.com.mx/portal/fr/web/qualitas/cotizador-publico"
 	},
 	{
-		"company": "Qualitas",
-		"visits": 109.4,
-		"percentage": "0.84%",
-		"website": "https://www.qualitas.com.mx/portal/fr/web/qualitas/cotizador-publico"
+		"company": "Cotizatuseguro Hdi",
+		"visits": 57,
+		"percentage": "0.44%",
+		"website": "https://cotizatuseguro.hdi.com.mx/"
 	},
 	{
 		"company": "Segurosbanamex",
@@ -162,28 +150,10 @@
 		"website": "http://www.segurosbanorte.com.mx/gastos-medicos/medico-total.html"
 	},
 	{
-		"company": "Allianz",
+		"company": "Conexionejecutiva",
 		"visits": 26,
 		"percentage": "0.2%",
-		"website": "https://www.allianz.com.mx/seguro-medico"
-	},
-	{
-		"company": "Google Images",
-		"visits": 79.4,
-		"percentage": "0.61%",
-		"website": null
-	},
-	{
-		"company": "Carmudi",
-		"visits": 26,
-		"percentage": "0.2%",
-		"website": "https://www.carmudi.com.mx/journal/las-mejores-companias-aseguradoras-de-mexico/"
-	},
-	{
-		"company": "Segurossaludbancomer",
-		"visits": 17.6,
-		"percentage": "0.14%",
-		"website": "http://www.segurossaludbancomer.com/"
+		"website": "http://conexionejecutiva.com/Bancos_y_Finanzas/Aseguradoras_Categoria138.aspx"
 	},
 	{
 		"company": "Bbvasegurossalud",
@@ -192,21 +162,27 @@
 		"website": "https://www.bbvasegurossalud.com.mx/"
 	},
 	{
-		"company": "Segurosatlas",
+		"company": "Segurossaludbancomer",
 		"visits": 17.6,
 		"percentage": "0.14%",
-		"website": "http://www.segurosatlas.com.mx/PersonaGastosMedicos.html"
+		"website": "http://www.segurossaludbancomer.com/"
 	},
 	{
-		"company": "Cnsf Gob",
+		"company": "Bupasalud",
+		"visits": 17.6,
+		"percentage": "0.14%",
+		"website": "https://www.bupasalud.com.mx/seguros-salud"
+	},
+	{
+		"company": "Carmudi",
 		"visits": 50.400000000000006,
 		"percentage": "0.39%",
-		"website": "http://www.cnsf.gob.mx/EntidadesSupervisadas/InstitucionesSociedadesMutualistas/Paginas/ListaInstituciones.aspx"
+		"website": "https://www.carmudi.com.mx/journal/las-mejores-companias-aseguradoras-de-mexico/"
 	},
 	{
 		"company": "Wikipedia",
-		"visits": 36,
-		"percentage": "0.28%",
+		"visits": 21.599999999999998,
+		"percentage": "0.17%",
 		"website": "https://es.wikipedia.org/wiki/Compa%C3%B1%C3%ADa_de_seguros"
 	},
 	{
@@ -216,10 +192,10 @@
 		"website": "https://www.indeed.com.mx/Empleos-de-Compa%C3%B1%C3%ADa-de-seguros-en-Ciudad-de-M%C3%A9xico,-D.-F."
 	},
 	{
-		"company": "Occ",
+		"company": "Eleconomista",
 		"visits": 14.4,
 		"percentage": "0.11%",
-		"website": "https://www.occ.com.mx/empleos-en-mexico-y-el-mundo/para-trabajar-en-Qualitas-Compania-de-Seguros"
+		"website": "http://eleconomista.com.mx/sistema-financiero/2013/01/01/habra-mas-empresas-seguros-cnsf"
 	},
 	{
 		"company": "Definiciona",
@@ -234,21 +210,9 @@
 		"website": "https://forum.wordreference.com/threads/aseguranza.197098/?hl=es"
 	},
 	{
-		"company": "Wiktionary",
+		"company": "Lexicoon",
 		"visits": 48,
 		"percentage": "0.37%",
-		"website": "https://es.wiktionary.org/wiki/aseguranza"
-	},
-	{
-		"company": "Aberracionesespanglish Blogspot",
-		"visits": 33.6,
-		"percentage": "0.26%",
-		"website": "http://aberracionesespanglish.blogspot.com/2011/03/aseguranza.html"
-	},
-	{
-		"company": "Lexicoon",
-		"visits": 24,
-		"percentage": "0.18%",
 		"website": "http://lexicoon.org/es/aseguranza"
 	},
 	{
@@ -258,16 +222,40 @@
 		"website": "http://www.grupoaseguranza.com/noticias-de-seguros/"
 	},
 	{
+		"company": "Wiktionary",
+		"visits": 24,
+		"percentage": "0.18%",
+		"website": "https://es.wiktionary.org/wiki/aseguranza"
+	},
+	{
+		"company": "Significadode",
+		"visits": 14.399999999999999,
+		"percentage": "0.11%",
+		"website": "http://www.significadode.org/aseguranza.htm"
+	},
+	{
+		"company": "Aberracionesespanglish Blogspot",
+		"visits": 9.6,
+		"percentage": "0.07%",
+		"website": "http://aberracionesespanglish.blogspot.com/2011/03/aseguranza.html"
+	},
+	{
 		"company": "Dle Rae",
 		"visits": 9.6,
 		"percentage": "0.07%",
 		"website": "http://dle.rae.es/srv/search?m=30&w=aseguranza"
 	},
 	{
-		"company": "Significadode",
+		"company": "Progressive",
 		"visits": 9.6,
 		"percentage": "0.07%",
-		"website": "http://www.significadode.org/aseguranza.htm"
+		"website": "https://www.progressive.com/agent/local-agent/texas/arlington/usa-aseguranza/"
+	},
+	{
+		"company": "Freewayseguros",
+		"visits": 9.6,
+		"percentage": "0.07%",
+		"website": "http://www.freewayseguros.com/"
 	},
 	{
 		"company": "Segurosgnp",
@@ -288,15 +276,15 @@
 		"website": "https://www.hsbc.com.mx/1/2/es/personas/seguros/seguros/individual"
 	},
 	{
-		"company": "Cotizator",
-		"visits": 4.2,
-		"percentage": "0.03%",
-		"website": "http://cotizator.com/cotizador-de-seguros-de-vida/"
-	},
-	{
 		"company": "Banorte",
 		"visits": 4.2,
 		"percentage": "0.03%",
 		"website": "https://www.banorte.com/wps/portal/banorte/Home/seguros/seguro-vida/!ut/p/a1/lZNdb4IwFIZ_i7-A0xZKuSxQgTmF8jXlZmGZW1ycus-L_foVExOhs8xyRfI85-1pT63GWlrNrv3ePLefm_2u3Xb_Db2PMGIxCWCWCkmBB7kUdTJFQhAFrM4BFqYOcCyFAI-RJAKTP2cnHy4sbvSpDcN8HTD40kdmvwNM-Z490n9K-z4rQxs4dRBiSYykQ0b2rwKu83Wg50c-UeVlATCtFzHK3aGvA_18FxBw4c89V51thKmWrwH988sqotpLqyBzQlxSLV8H-v6sUO2JnBWsImgWnPwg4rHt3gKkdoSBs8WNXTgehoReOb96wL_m1wCM5N9ZzeCI9Rd0BEwtHgHTGzK-AgIje0ipucJxTAfAAqZqjlyMMhnGBLSIPwbNVKGskXkPc0AjXTBqrdRluRcvO3atoqvx0O4e1--tv92_fa331uqp3X6sNbeIA-AoF3XGcgIVMbmH1-psLWGTdN-Lc_j-KTmfTH4B-f4phg!!/?uri=nm:oid:vida"
+	},
+	{
+		"company": "Cotizator",
+		"visits": 4.2,
+		"percentage": "0.03%",
+		"website": "http://cotizator.com/cotizador-de-seguros-de-vida/"
 	}
 ]
