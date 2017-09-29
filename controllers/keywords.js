@@ -1,46 +1,53 @@
 "use strict"
 
-const csv2json = require('csv2json');
+const csvtojson = require('csvtojson');
 const fs = require('fs');
-const search = require('./search');
+const path = require("path");
 
-exports.csvToJson = (req, res, next) => {
-    // default parameters in case csv is already parsed
-    // read the csv and parse it to json
-    fs.createReadStream(file)
-        .pipe(csv2json({
-            // Defaults to comma. 
-            separator: ','
-        }))
-        .pipe(fs.createWriteStream('json/keywords.json'))
-        .on('finish', () => {
-            // if finished parsing read the json into a variable
-            next()
-        });
+const keywords = require("../models/keywords")
+
+exports.getJson = (req, res, next) => {
+    console.log('Parsing CSV file to JSON');
+    csvtojson({
+            flatKeys: true,
+            headers: ['keyword', 'average']
+        })
+        .fromFile(path.join(__dirname, "..", req.body.file))
+        .on('done', (error) => {
+            if (error)
+                console.log('error: ', error);
+        })
+        .on('end_parsed', (obj) => {
+            req.json = obj;
+            next();
+        })
+
 };
 
-exports.cleanKeywords = (keywords) => {
-    let cleanKeywords = new Promise((resolve, reject) => {
-        let cleanedKeywords = [];
-        for (let keyword of keywords) {
-            // remove unuseful parameters
-            let newKeyword = {
-                keyword: keyword.Keyword,
-                average: keyword['Avg. Monthly Searches (exact match only)']
-            };
-            // clean empty keywords or with less than 200 hundred monthly average searches
-            if (newKeyword.average > 200 && newKeyword.keyword.length > 0 && !newKeyword.keyword.match(/\uFFFD/g))
-                cleanedKeywords.push(newKeyword);
-        }
-        resolve(cleanedKeywords);
+// we only want to keep valid keywords and above 200 queries a month and 
+exports.clean = (req, res, next) => {
+    req.json = req.json.reduce((acc, ele) => {
+        ele.average = Number(ele.average);
+        if (ele.average > 200 && ele.keyword.length > 0 && !ele.keyword.match(/\uFFFD/g))
+            acc.push(ele)
+        return acc;
+    }, []);
+    next()
+};
+
+// create an array of promises so we can handle separately in case 
+// we encounter errors in the database so it won't affect the saving process
+exports.save = (req, res, next) => {
+    let promises = [];
+    for (let object of req.json) {
+        console.log(`Saving ${object.keyword} to the database`);
+        let promise = keywords.saveKeyword(object);
+        promises.push(promise);
+    }
+    Promise.all(promises).then(() => {
+        console.log('------------------------------------');
+        console.log("All Keywords saved");
+        console.log('------------------------------------');
+        next();
     });
-    cleanKeywords.then((res) => {
-            fs.writeFile("./json/keywords.json", JSON.stringify(res, null, 2), (err) => {
-                if (err) return console.log(err);
-            });
-            search.searchInGoogle(res);
-        })
-        .catch((err) => {
-            console.log(err);
-        });
 };

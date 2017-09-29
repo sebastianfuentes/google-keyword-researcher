@@ -16,63 +16,69 @@ google.nextText = google.lang == "en" ? "Next" : "Siguiente"
 
 
 // scrape the results from google for each keyword
-exports.searchInGoogle = (queries) => {
+exports.lookup = (req, res, next) => {
         let time = 0;
-        let lookup = [];
-        for (let query of queries) {
-            let promise = new Promise((resolve, reject) => {
-                setTimeout((query) => {
-                    google(query, (err, res) => {
-                        if (err) console.error(err)
-                        console.log(`Looking up ${query}`);
-                        resolve(res);
-                    });
-                }, time, query.keyword);
-                // delay time to avoid google from blocking the ip
-                time += 30000;
-            });
-            lookup.push(promise);
+        let search = [];
+        for (let query of req.json) {
+            search.push(this.googleIt(query.keyword, time))
+            time += 3000;
         }
-        Promise.all(lookup).then((res) => {
-                this.saveResults(res);
-                console.log("Keywords Searched, starting saving them")
-            })
-            .catch((err) => {
-                console.log(err);
-            });
+        console.log('------------------------------------');
+        console.log(search);
+        console.log('------------------------------------');
+        Promise.all(search).then(data => {
+            this.save(data);
+            console.log('------------------------------------');
+            console.log("All Keywords searched");
+            console.log('------------------------------------');
+            next();
+        });
     }
     // clean and save the file with all the search results and positions
-exports.saveResults = (results) => {
 
-    for (let i = 0; i < results.length; i++) {
-        let result = {
-            Keyword: results[i].query,
-            MarketShare: results[i].links
-        }
-        for (let j = 0; j < result.MarketShare.length; j++) {
-            let page = result.MarketShare[j];
-            if (page.title.match(/(images|im[A-zÀ-ú]genes)\s(.*)\s/ig) && !page.link) page.title = "Google Images";
-            if (page.title.match(/(news|noticias)\s(.*)\s/ig) && !page.link) page.title = "Google News";
-            else if (page.link == null) {
-                page.title = page.title ? page.title : "Bug Page";
-            } else {
-                let newTitle = page.link ? url.parse(page.link) : page.link;
-                newTitle = newTitle.host
-                    .replace(removeDomainChars, " ")
-                    .trim();
-                page.title = newTitle.replace(/\b\w/g, l => l.toUpperCase());
-            }
-            page.position = j + 1;
-            rankedResults.push(page);
-        }
-        result.MarketShare = rankedResults;
-        rankedResults = [];
-        formatedResults.push(result);
-    }
-    fs.writeFile("./json/results.json", JSON.stringify(formatedResults, "", "\t"), (err) => {
-        if (err) return console.log(err);
-        console.log("The file was saved, started matching results with market share");
+exports.googleIt = (query, time) => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            console.log(`Looking up ${query}`);
+            google(query, (err, data) => {
+                if (err) console.error(err)
+                resolve(data);
+            });
+        }, time);
     });
+}
+exports.save = (data) => {
+    console.log('result: ', data.links);
+
+    // for (let i = 0; i < results.length; i++) {
+    //     let result = {
+    //         Keyword: results[i].query,
+    //         MarketShare: results[i].links
+    //     }
+    //     for (let j = 0; j < result.MarketShare.length; j++) {
+    //         let page = result.MarketShare[j];
+    //         if (page.title.match(/(images|im[A-zÀ-ú]genes)\s(.*)\s/ig) && !page.link) page.title = "Google Images";
+    //         if (page.title.match(/(news|noticias)\s(.*)\s/ig) && !page.link) page.title = "Google News";
+    //         else if (page.link == null) {
+    //             page.title = page.title ? page.title : "Bug Page";
+    //         } else {
+    //             let newTitle = page.link ? url.parse(page.link) : page.link;
+    //             newTitle = newTitle.host
+    //                 .replace(removeDomainChars, " ")
+    //                 .trim();
+    //             page.title = newTitle.replace(/\b\w/g, l => l.toUpperCase());
+    //         }
+    //         page.position = j + 1;
+    //         rankedResults.push(page);
+    //     }
+    //     result.MarketShare = rankedResults;
+    //     rankedResults = [];
+    //     formatedResults.push(result);
+    // }
+    // fs.writeFile("./json/results.json", JSON.stringify(formatedResults, "", "\t"), (err) => {
+    //     if (err) return console.log(err);
+    //     console.log("The file was saved, started matching results with market share");
+    // });
 }
 
 exports.cleanGoogleNews = () => {
