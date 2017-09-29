@@ -4,29 +4,19 @@ const csv2json = require('csv2json');
 const fs = require('fs');
 const search = require('./search');
 
-exports.init = (file = './csv/keywords.csv', newFile = true) => {
+exports.csvToJson = (req, res, next) => {
     // default parameters in case csv is already parsed
-    if (newFile) {
-        // read the csv and parse it to json
-        fs.createReadStream(file)
-            .pipe(csv2json({
-                // Defaults to comma. 
-                separator: ','
-            }))
-            .pipe(fs.createWriteStream('json/keywords.json'))
-            .on('finish', () => {
-                // if finished parsing read the json into a variable
-                this.readJson('json/keywords.json');
-            });
-    } else this.cleanKeywords(require('./json/keywords.json'));
-    // if json already parsed just read it
-};
-
-exports.readJson = (file) => {
-    fs.readFile(file, 'utf8', (err, data) => {
-        if (err) throw err;
-        this.cleanKeywords(JSON.parse(data));
-    });
+    // read the csv and parse it to json
+    fs.createReadStream(file)
+        .pipe(csv2json({
+            // Defaults to comma. 
+            separator: ','
+        }))
+        .pipe(fs.createWriteStream('json/keywords.json'))
+        .on('finish', () => {
+            // if finished parsing read the json into a variable
+            next()
+        });
 };
 
 exports.cleanKeywords = (keywords) => {

@@ -117,7 +117,7 @@ exports.marketShare = (json) => {
                 object.visits += companies[i].visibility;
             }
         }
-        object.percentage = `${Math.round((object.visits/totalVisits * 100) * 100) / 100}%`;
+        object.percentage = `${Math.rgound((object.visits/totalVisits * 100) * 100) / 100}%`;
         return object;
     });
     fs.writeFile('./data/MarketShare.json', JSON.stringify(MarketShare, "", "\t"), function(err) {
