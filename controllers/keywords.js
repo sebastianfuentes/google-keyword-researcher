@@ -4,7 +4,7 @@ const csvtojson = require('csvtojson');
 const fs = require('fs');
 const path = require("path");
 
-const keywords = require("../models/keywords")
+const Keywords = require("../models/keywords")
 
 exports.getJson = (req, res, next) => {
     console.log('Parsing CSV file to JSON');
@@ -24,7 +24,7 @@ exports.getJson = (req, res, next) => {
 
 };
 
-// we only want to keep valid keywords and above 200 queries a month and 
+// we only want to keep valid Keywords and above 200 queries a month and 
 exports.clean = (req, res, next) => {
     req.json = req.json.reduce((acc, ele) => {
         ele.average = Number(ele.average);
@@ -41,7 +41,7 @@ exports.save = (req, res, next) => {
     let promises = [];
     for (let object of req.json) {
         console.log(`Saving ${object.keyword} to the database`);
-        let promise = keywords.saveKeyword(object);
+        let promise = Keywords.saveKeyword(object);
         promises.push(promise);
     }
     Promise.all(promises).then(() => {

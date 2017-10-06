@@ -3,7 +3,11 @@
 const google = require('google');
 const fs = require('fs');
 const url = require('url');
+const _ = require('lodash');
 const exportData = require('./exportData');
+
+const Results = require("../models/results")
+
 
 let formatedResults = [];
 let rankedResults = [];
@@ -23,14 +27,8 @@ exports.lookup = (req, res, next) => {
             search.push(this.googleIt(query.keyword, time))
             time += 3000;
         }
-        console.log('------------------------------------');
-        console.log(search);
-        console.log('------------------------------------');
         Promise.all(search).then(data => {
-            this.save(data);
-            console.log('------------------------------------');
-            console.log("All Keywords searched");
-            console.log('------------------------------------');
+            this.clean(data);
             next();
         });
     }
@@ -42,73 +40,53 @@ exports.googleIt = (query, time) => {
             console.log(`Looking up ${query}`);
             google(query, (err, data) => {
                 if (err) console.error(err)
-                resolve(data);
+                resolve({
+                    keyword: query,
+                    data: data.links
+                });
             });
         }, time);
     });
 }
-exports.save = (data) => {
-    console.log('result: ', data.links);
-
-    // for (let i = 0; i < results.length; i++) {
-    //     let result = {
-    //         Keyword: results[i].query,
-    //         MarketShare: results[i].links
-    //     }
-    //     for (let j = 0; j < result.MarketShare.length; j++) {
-    //         let page = result.MarketShare[j];
-    //         if (page.title.match(/(images|im[A-zÀ-ú]genes)\s(.*)\s/ig) && !page.link) page.title = "Google Images";
-    //         if (page.title.match(/(news|noticias)\s(.*)\s/ig) && !page.link) page.title = "Google News";
-    //         else if (page.link == null) {
-    //             page.title = page.title ? page.title : "Bug Page";
-    //         } else {
-    //             let newTitle = page.link ? url.parse(page.link) : page.link;
-    //             newTitle = newTitle.host
-    //                 .replace(removeDomainChars, " ")
-    //                 .trim();
-    //             page.title = newTitle.replace(/\b\w/g, l => l.toUpperCase());
-    //         }
-    //         page.position = j + 1;
-    //         rankedResults.push(page);
-    //     }
-    //     result.MarketShare = rankedResults;
-    //     rankedResults = [];
-    //     formatedResults.push(result);
-    // }
-    // fs.writeFile("./json/results.json", JSON.stringify(formatedResults, "", "\t"), (err) => {
-    //     if (err) return console.log(err);
-    //     console.log("The file was saved, started matching results with market share");
-    // });
-}
-
-exports.cleanGoogleNews = () => {
-    var results = require("./json/results.json");
-    var research = require("./json/keywords.json");
-    var renamed = results.map((e, i) => {
-        var rankedResults = {
-            Keyword: research[i].keyword,
-            MarketShare: []
-        };
-        for (let j = 0; j < e.MarketShare.length; j++) {
-            let page = e.MarketShare[j];
-            if (page.title.match(/(images|im[A-zÀ-ú]genes)\s(.*)\s/ig) && !page.link) page.title = "Google Images";
-            if (page.title.match(/(news|noticias)\s(.*)\s/ig) && !page.link) page.title = "Google News";
-            else if (page.link == null) {
-                page.title = page.title ? page.title : "Bug Page";
+exports.clean = (results) => {
+    let data = results.reduce((accumulator, object) => {
+        let position = 0;
+        object.data = object.data.reduce((acc, ele) => {
+            if (ele.title.match(/(images|im[A-zÀ-ú]genes)\s(.*)\s/ig) && !ele.link) ele.title = "Google Images";
+            if (ele.title.match(/(news|noticias)\s(.*)\s/ig) && !ele.link) ele.title = "Google News";
+            else if (ele.link == null) {
+                ele.title = ele.title ? ele.title : "Bug Page";
             } else {
-                let newTitle = page.link ? url.parse(page.link) : page.link;
+                let newTitle = ele.link ? url.parse(ele.link) : ele.link;
                 newTitle = newTitle.host
                     .replace(removeDomainChars, " ")
                     .trim();
-                page.title = newTitle.replace(/\b\w/g, l => l.toUpperCase());
+                ele.title = newTitle.replace(/\b\w/g, l => l.toUpperCase());
             }
-            page.position = j + 1;
-            rankedResults.MarketShare.push(page);
-        }
-        return rankedResults;
-    });
-    fs.writeFile("./json/results.json", JSON.stringify(renamed, "", "\t"), (err) => {
-        if (err) return console.log(err);
-        console.log("The file was saved, started matching results with market share");
+            if (ele.title != "Bug Page") {
+                ele.position = position + 1;
+                position += 1;
+                ele.keyword = object.keyword;
+                acc.push(ele);
+            }
+            return acc;
+        }, [])
+        return accumulator.concat(object.data);
+    }, []);
+    this.save(data);
+}
+
+exports.save = (results) => {
+    let promises = [];
+    for (let object of results) {
+        console.log(`Saving position ${object.position} from ${object.keyword} to the database`);
+        let promise = Results.saveResult(object);
+        promises.push(promise);
+    }
+    Promise.all(promises).then(() => {
+        console.log('------------------------------------');
+        console.log("All Results saved");
+        console.log('------------------------------------');
+        next();
     });
 };
