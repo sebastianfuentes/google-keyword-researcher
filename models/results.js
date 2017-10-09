@@ -1,17 +1,20 @@
-var mongoose = require('mongoose');
+const mongoose = require('mongoose');
+const db = require('./config');
 
-var db = require('./config');
 
 let ResultSchema = mongoose.Schema({
     title: { type: String, required: true },
     link: String,
     description: String,
+    clicks: Number,
+    visibility: Number,
     href: String,
     position: Number,
     keyword: { type: String, required: true }
 });
 
 ResultSchema.index({ keyword: 1, title: 1, link: 1 });
+
 
 let Result = mongoose.model('Result', ResultSchema);
 

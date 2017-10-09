@@ -8,6 +8,21 @@ const exportData = require('./exportData');
 
 const Results = require("../models/results")
 
+const multipliers = {
+    _1: .25,
+    _2: .15,
+    _3: .1,
+    _4: .07,
+    _5: .05,
+    _6: .03,
+    _7: .02,
+    _8: .02,
+    _9: .02,
+    _10: .02,
+    _11: .02,
+    _12: .02,
+};
+
 
 let formatedResults = [];
 let rankedResults = [];
@@ -28,7 +43,7 @@ exports.lookup = (req, res, next) => {
             time += 3000;
         }
         Promise.all(search).then(data => {
-            this.clean(data);
+            this.clean(data, req.averages);
             next();
         });
     }
@@ -48,7 +63,7 @@ exports.googleIt = (query, time) => {
         }, time);
     });
 }
-exports.clean = (results) => {
+exports.clean = (results, averages) => {
     let data = results.reduce((accumulator, object) => {
         let position = 0;
         object.data = object.data.reduce((acc, ele) => {
@@ -66,6 +81,8 @@ exports.clean = (results) => {
             if (ele.title != "Bug Page") {
                 ele.position = position + 1;
                 position += 1;
+                ele.visibility = multipliers[`_${ele.position}`];
+                ele.clicks = Math.round(averages[object.keyword] * ele.visibility);
                 ele.keyword = object.keyword;
                 acc.push(ele);
             }
@@ -83,10 +100,9 @@ exports.save = (results) => {
         let promise = Results.saveResult(object);
         promises.push(promise);
     }
-    Promise.all(promises).then(() => {
+    Promise.all(promises).then((response) => {
         console.log('------------------------------------');
         console.log("All Results saved");
         console.log('------------------------------------');
-        next();
     });
 };

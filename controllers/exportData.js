@@ -2,44 +2,45 @@ const fs = require('fs');
 const json2csv = require('json2csv');
 const _ = require("lodash");
 
-exports.cleanResults = (file) => {
-    const json = require(file);
-    const market = require("./json/keywords.json");
-    const multipliers = {
-        _1: .25,
-        _2: .15,
-        _3: .1,
-        _4: .07,
-        _5: .05,
-        _6: .03,
-        _7: .02,
-        _8: .02,
-        _9: .02,
-        _10: .02,
-        _11: .02,
-        _12: .02,
-    }
-    var cleaned = json.map((elem, index) => {
-        var result = {
-            Keyword: elem.Keyword,
-            MarketShare: [],
-            Searches: market[index].average
-        }
-        for (var i = 0; i < elem.MarketShare.length; i++) {
-            if (elem.MarketShare[i].title != "Bug Page") {
-                elem.MarketShare[i].position = i + 1;
-                elem.MarketShare[i]["visibility"] = market[index].average * multipliers[`_${elem.MarketShare[i].position}`];
-                result.MarketShare.push(elem.MarketShare[i])
-            }
-        }
-        return result;
+const Keywords = require("../models/keywords");
+const Results = require("../models/results");
+
+exports.init = (req, res, next) => {
+    req.json.map(ele => {
+        Results.findResultByKeyword(ele.keyword).then(response => { this.marketShare(response) });
     });
-    fs.writeFile("./json/results.json", JSON.stringify(cleaned), (err) => {
-        if (err) return console.log(err);
-        console.log("The file with matched market share and google results is saved!");
-        console.log("Starting to move data to csv form");
+    // this.cleanToCsv(cleaned);
+};
+
+exports.marketShare = (json) => {
+
+    var data = _.uniqBy(_.flattenDeep(json), function(e) {
+        return e.title;
     });
-    this.cleanToCsv(cleaned);
+    console.log('data: ', data);
+
+    var totalVisits = Math.round((req.json.reduce((a, b) => a + parseInt(b.average), 0) * .73) * 100) / 100
+        // var totalVisits = .reduce((a, b)=> a + b.average , 0);
+
+    // var MarketShare = uniqCompanies.map((e) => {
+    //     var object = {
+    //         company: e.title,
+    //         visits: 0,
+    //         percentage: 0,
+    //         website: e.link
+    //     }
+    //     for (var i = 0; i < companies.length; i++) {
+    //         if (e.title == companies[i].title) {
+    //             object.visits += companies[i].visibility;
+    //         }
+    //     }
+    //     object.percentage = `${Math.round((object.visits/totalVisits * 100) * 100) / 100}%`;
+    //     return object;
+    // });
+    // fs.writeFile('./data/MarketShare.json', JSON.stringify(MarketShare, "", "\t"), function(err) {
+    //     if (err) throw err;
+    // });
+    // this.exportMarketShare(MarketShare);
 };
 
 exports.cleanToCsv = (json) => {
@@ -91,40 +92,6 @@ exports.cleanToCsv = (json) => {
     this.marketShare(json);
 }
 
-exports.marketShare = (json) => {
-    var companies = json.map((elem) => {
-        return elem.MarketShare;
-    });
-    companies = [].concat.apply([], companies);
-
-    var uniqCompanies = _.uniqBy(companies, function(e) {
-        return e.title;
-    });
-    var totalVisits = require("./json/keywords.json");
-
-    totalVisits = Math.round((totalVisits.reduce((a, b) => a + parseInt(b.average), 0) * .73) * 100) / 100
-        // var totalVisits = .reduce((a, b)=> a + b.average , 0);
-
-    var MarketShare = uniqCompanies.map((e) => {
-        var object = {
-            company: e.title,
-            visits: 0,
-            percentage: 0,
-            website: e.link
-        }
-        for (var i = 0; i < companies.length; i++) {
-            if (e.title == companies[i].title) {
-                object.visits += companies[i].visibility;
-            }
-        }
-        object.percentage = `${Math.rgound((object.visits/totalVisits * 100) * 100) / 100}%`;
-        return object;
-    });
-    fs.writeFile('./data/MarketShare.json', JSON.stringify(MarketShare, "", "\t"), function(err) {
-        if (err) throw err;
-    });
-    this.exportMarketShare(MarketShare);
-};
 
 exports.exportMarketShare = (MarketShare) => {
     const fields = [

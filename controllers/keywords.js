@@ -4,7 +4,7 @@ const csvtojson = require('csvtojson');
 const fs = require('fs');
 const path = require("path");
 
-const Keywords = require("../models/keywords")
+const Keywords = require("../models/keywords");
 
 exports.getJson = (req, res, next) => {
     console.log('Parsing CSV file to JSON');
@@ -39,8 +39,10 @@ exports.clean = (req, res, next) => {
 // we encounter errors in the database so it won't affect the saving process
 exports.save = (req, res, next) => {
     let promises = [];
+    req.averages = {};
     for (let object of req.json) {
         console.log(`Saving ${object.keyword} to the database`);
+        req.averages[object.keyword] = object.average;
         let promise = Keywords.saveKeyword(object);
         promises.push(promise);
     }
