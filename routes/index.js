@@ -15,8 +15,8 @@ router.post('/',
     keywords.getJson,
     keywords.clean,
     keywords.save,
-    search.lookup,
-    // dataHandler.init,
+    // search.lookup,
+    dataHandler.init,
     function(req, res, next) {
         res.render('index', { title: 'Express' });
     }

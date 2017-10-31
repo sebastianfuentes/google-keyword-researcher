@@ -4,43 +4,56 @@ const _ = require("lodash");
 
 const Keywords = require("../models/keywords");
 const Results = require("../models/results");
+const MarketShare = require("../models/marketshare");
 
 exports.init = (req, res, next) => {
     req.json.map(ele => {
-        Results.findResultByKeyword(ele.keyword).then(response => { this.marketShare(response) });
+        Results.findByMultipleKeywords(ele.keyword).then(response => { this.marketShare(response, req.json) });
     });
-    // this.cleanToCsv(cleaned);
+    next()
+        // this.cleanToCsv(cleaned);
 };
 
-exports.marketShare = (json) => {
+exports.marketShare = (json, keywords) => {
 
-    var data = _.uniqBy(_.flattenDeep(json), function(e) {
+    var results = _.flattenDeep(json);
+
+    var uniqCompanies = _.uniqBy(results, function(e) {
         return e.title;
     });
-    console.log('data: ', data);
 
-    var totalVisits = Math.round((req.json.reduce((a, b) => a + parseInt(b.average), 0) * .73) * 100) / 100
+    var totalVisits = Math.round((keywords.reduce((a, b) => a + parseInt(b.average), 0) * .73) * 100) / 100
         // var totalVisits = .reduce((a, b)=> a + b.average , 0);
 
-    // var MarketShare = uniqCompanies.map((e) => {
-    //     var object = {
-    //         company: e.title,
-    //         visits: 0,
-    //         percentage: 0,
-    //         website: e.link
-    //     }
-    //     for (var i = 0; i < companies.length; i++) {
-    //         if (e.title == companies[i].title) {
-    //             object.visits += companies[i].visibility;
-    //         }
-    //     }
-    //     object.percentage = `${Math.round((object.visits/totalVisits * 100) * 100) / 100}%`;
-    //     return object;
-    // });
-    // fs.writeFile('./data/MarketShare.json', JSON.stringify(MarketShare, "", "\t"), function(err) {
-    //     if (err) throw err;
-    // });
+    var MarketShare = uniqCompanies.map((e) => {
+        var object = {
+            company: e.title,
+            visits: 0,
+            percentage: 0,
+            website: e.link
+        }
+        for (var i = 0; i < results.length; i++) {
+            if (e.title == results[i].title && results[i].clicks) {
+                object.visits += results[i].clicks;
+            }
+        }
+        object.percentage = `${Math.round((object.visits/totalVisits * 100) * 100) / 100}%`;
+        return object;
+    });
+    this.save(MarketShare);
     // this.exportMarketShare(MarketShare);
+};
+
+exports.save = data => {
+    let promises = [];
+    for (let marketshare of data) {
+        promises.push(MarketShare.save(marketshare));
+    }
+    Promise.all(promises).then((response) => {
+        console.log('------------------------------------');
+        console.log("All  saved");
+        console.log('------------------------------------');
+    });
 };
 
 exports.cleanToCsv = (json) => {

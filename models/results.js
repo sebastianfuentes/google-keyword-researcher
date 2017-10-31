@@ -4,6 +4,7 @@ const db = require('./config');
 
 let ResultSchema = mongoose.Schema({
     title: { type: String, required: true },
+    updated: { type: Date, default: Date.now(), required: true },
     link: String,
     description: String,
     clicks: Number,
@@ -16,11 +17,11 @@ let ResultSchema = mongoose.Schema({
 ResultSchema.index({ keyword: 1, title: 1, link: 1 });
 
 
-let Result = mongoose.model('Result', ResultSchema);
+exports.Result = mongoose.model('Result', ResultSchema);
 
 exports.findResults = () => {
     return new Promise((resolve, reject) =>
-        Result.find((err, data) => {
+        this.Result.find((err, data) => {
             if (err) reject(err);
             resolve(data);
         })
@@ -29,7 +30,16 @@ exports.findResults = () => {
 
 exports.findResultByTitle = (title) => {
     return new Promise((resolve, reject) =>
-        Result.find({ title: title }, (err, data) => {
+        this.Result.find({ title: title }, (err, data) => {
+            if (err) reject(err);
+            resolve(data);
+        })
+    );
+}
+
+exports.findByMultipleKeywords = (keywords) => {
+    return new Promise((resolve, reject) =>
+        this.Result.find({ keyword: { $in: keywords } }, (err, data) => {
             if (err) reject(err);
             resolve(data);
         })
@@ -38,7 +48,7 @@ exports.findResultByTitle = (title) => {
 
 exports.findResultByKeyword = (keyword) => {
     return new Promise((resolve, reject) =>
-        Result.find({ keyword: keyword }, (err, data) => {
+        this.Result.find({ keyword: keyword }, (err, data) => {
             if (err) reject(err);
             resolve(data);
         })
@@ -47,7 +57,7 @@ exports.findResultByKeyword = (keyword) => {
 
 exports.saveResult = (object) => {
     return new Promise((resolve, reject) =>
-        Result.findOneAndUpdate({ keyword: object.keyword, link: object.link }, object, { upsert: true }, (err, data) => {
+        this.Result.findOneAndUpdate({ keyword: object.keyword, link: object.link }, object, { upsert: true }, (err, data) => {
             if (err) console.log(err);
             resolve(data);
         })

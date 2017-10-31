@@ -24,6 +24,8 @@ const multipliers = {
 };
 
 
+let date = new Date();
+
 let formatedResults = [];
 let rankedResults = [];
 let removeDomainChars = /\bpr\b|\bes\b|\ben\b|\bwww\b|\bin\b|\bcom\b|\bco\b|\buk\b|\bmx\b|\bnet\b|\borg\b|\bedu\b|\bit\b|\bbr\b|\bus\b|\bninja\b|\bme\b|\btv\b|\./ig;
@@ -82,6 +84,7 @@ exports.clean = (results, averages) => {
                 ele.position = position + 1;
                 position += 1;
                 ele.visibility = multipliers[`_${ele.position}`];
+                ele.updated = date.toDateString();
                 ele.clicks = Math.round(averages[object.keyword] * ele.visibility);
                 ele.keyword = object.keyword;
                 acc.push(ele);
