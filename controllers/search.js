@@ -40,12 +40,17 @@ google.nextText = google.lang == "en" ? "Next" : "Siguiente"
 exports.lookup = (req, res, next) => {
         let time = 0;
         let search = [];
+        if (req.body.results)
+            google.resultsPerPage = req.body.results;
         for (let query of req.json) {
             search.push(this.googleIt(query.keyword, time))
+                // this.googleIt(query.keyword, time).then(data => this.clean(data, req.averages))
             time += 3000;
         }
         Promise.all(search).then(data => {
+            console.log('data: ', data);
             this.clean(data, req.averages);
+
             next();
         });
     }
@@ -55,6 +60,9 @@ exports.googleIt = (query, time) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             console.log(`Looking up ${query}`);
+            console.log('------------------------------------');
+            console.log(google.resultsPerPage);
+            console.log('------------------------------------');
             google(query, (err, data) => {
                 if (err) console.error(err)
                 resolve({
@@ -69,17 +77,9 @@ exports.clean = (results, averages) => {
     let data = results.reduce((accumulator, object) => {
         let position = 0;
         object.data = object.data.reduce((acc, ele) => {
-            if (ele.title.match(/(images|im[A-zÀ-ú]genes)\s(.*)\s/ig) && !ele.link) ele.title = "Google Images";
-            if (ele.title.match(/(news|noticias)\s(.*)\s/ig) && !ele.link) ele.title = "Google News";
-            else if (ele.link == null) {
-                ele.title = ele.title ? ele.title : "Bug Page";
-            } else {
-                let newTitle = ele.link ? url.parse(ele.link) : ele.link;
-                newTitle = newTitle.host
-                    .replace(removeDomainChars, " ")
-                    .trim();
-                ele.title = newTitle.replace(/\b\w/g, l => l.toUpperCase());
-            }
+
+            this.cleanCards(ele);
+
             if (ele.title != "Bug Page") {
                 ele.position = position + 1;
                 position += 1;
@@ -94,7 +94,22 @@ exports.clean = (results, averages) => {
         return accumulator.concat(object.data);
     }, []);
     this.save(data);
-}
+    console.log('data: ', data);
+};
+
+exports.cleanCards = ele => {
+    if (ele.title.match(/(images|im[A-zÀ-ú]genes)\s(.*)\s/ig) && !ele.link) ele.title = "Google Images";
+    if (ele.title.match(/(news|noticias)\s(.*)\s/ig) && !ele.link) ele.title = "Google News";
+    else if (ele.link == null) {
+        ele.title = ele.title ? ele.title : "Bug Page";
+    } else {
+        let newTitle = ele.link ? url.parse(ele.link) : ele.link;
+        newTitle = newTitle.host
+            .replace(removeDomainChars, " ")
+            .trim();
+        ele.title = newTitle.replace(/\b\w/g, l => l.toUpperCase());
+    }
+};
 
 exports.save = (results) => {
     let promises = [];

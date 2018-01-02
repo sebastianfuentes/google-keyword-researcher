@@ -9,8 +9,8 @@ let MarketShareSchema = mongoose.Schema({
     title: { type: String, required: true },
     updated: { type: Date },
     href: String,
-    keywords: [{ keyword: mongoose.Schema.Types.ObjectId, ref: "Keyword" }],
-    results: [{ result: mongoose.Schema.Types.ObjectId, ref: "Result" }]
+    keywords: [{ keyword: "string", by: mongoose.Schema.Types.ObjectId }],
+    results: [{ result: "string", by: mongoose.Schema.Types.ObjectId }]
 });
 
 let MarketShare = mongoose.model('MarketShare', MarketShareSchema);

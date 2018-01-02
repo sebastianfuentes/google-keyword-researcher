@@ -7,7 +7,7 @@ const search = require("../controllers/search");
 const dataHandler = require("../controllers/exportData");
 
 /* GET home page. */
-router.get('/', keywords.getJson, function(req, res, next) {
+router.get('/', function(req, res, next) {
     res.render('index', { title: 'Express' });
 });
 
@@ -16,6 +16,17 @@ router.post('/',
     keywords.clean,
     keywords.save,
     // search.lookup,
+    dataHandler.init,
+    function(req, res, next) {
+        res.render('index', { title: 'Express' });
+    }
+);
+
+router.post('/positions',
+    keywords.getJson,
+    keywords.clean,
+    keywords.save,
+    search.lookup,
     dataHandler.init,
     function(req, res, next) {
         res.render('index', { title: 'Express' });

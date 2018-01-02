@@ -41,7 +41,7 @@ exports.save = (req, res, next) => {
     let promises = [];
     req.averages = {};
     for (let object of req.json) {
-        console.log(`Saving ${object.keyword} to the database`);
+        console.log(`Saving \"${object.keyword}\" to the database`);
         req.averages[object.keyword] = object.average;
         let promise = Keywords.save(object);
         promises.push(promise);
