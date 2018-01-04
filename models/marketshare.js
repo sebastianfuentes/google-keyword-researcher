@@ -6,26 +6,36 @@ const ResultSchema = require('./results');
 
 
 let MarketShareSchema = mongoose.Schema({
-    title: { type: String, required: true },
-    updated: { type: Date },
-    href: String,
-    keywords: [{ keyword: "string", by: mongoose.Schema.Types.ObjectId }],
-    results: [{ result: "string", by: mongoose.Schema.Types.ObjectId }]
+    title: { type: String },
+    updated: { type: Date, default: Date.now() },
+    type: { type: String, required: true, default: "Market Share", enum: ["Market Share", "Position Report"] },
+    keywords: [{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Keyword"
+    }],
+    results: [{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Result"
+    }]
 });
 
-let MarketShare = mongoose.model('MarketShare', MarketShareSchema);
+exports.MarketShare = mongoose.model('MarketShare', MarketShareSchema);
 
 exports.findResults = () => {
     return new Promise((resolve, reject) =>
-        MarketShare.find((err, data) => {
+        this.MarketShare.find((err, data) => {
             if (err) reject(err);
             resolve(data);
         })
     );
 }
 
-exports.findResults = () => {
+exports.save = (object) => {
     return new Promise((resolve, reject) => {
-        MarketShare.find({})
+        object.updated = Date.now();
+        this.MarketShare.findOneAndUpdate({ title: object.title }, object, { upsert: true }, (err, data) => {
+            if (err) reject(err);
+            resolve(data);
+        })
     });
 }

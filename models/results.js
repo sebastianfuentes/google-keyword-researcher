@@ -1,9 +1,10 @@
 const mongoose = require('mongoose');
 const db = require('./config');
 
+const KeywordSchema = require('./keywords');
 
 let ResultSchema = mongoose.Schema({
-    title: { type: String, required: true },
+    pageTitle: { type: String, required: true },
     updated: { type: Date, default: Date.now(), required: true },
     link: String,
     description: String,
@@ -11,7 +12,10 @@ let ResultSchema = mongoose.Schema({
     visibility: Number,
     href: String,
     position: Number,
-    keyword: { type: String, required: true }
+    keyword: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Keyword"
+    }
 });
 
 ResultSchema.index({ keyword: 1, title: 1, link: 1 });
@@ -56,10 +60,11 @@ exports.findResultByKeyword = (keyword) => {
 }
 
 exports.saveResult = (object) => {
-    return new Promise((resolve, reject) =>
-        this.Result.findOneAndUpdate({ keyword: object.keyword, link: object.link }, object, { upsert: true }, (err, data) => {
-            if (err) console.log(err);
+    return new Promise((resolve, reject) => {
+        object.updated = Date.now();
+        this.Result.findOneAndUpdate({ keyword: object.keyword }, object, { upsert: true }, (err, data) => {
+            if (err) reject(err);
             resolve(data);
         })
-    );
+    });
 }

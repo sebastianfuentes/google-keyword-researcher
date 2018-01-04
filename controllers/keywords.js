@@ -46,7 +46,8 @@ exports.save = (req, res, next) => {
         let promise = Keywords.save(object);
         promises.push(promise);
     }
-    Promise.all(promises).then(() => {
+    Promise.all(promises).then(keywords => {
+        req.storedKeywords = keywords;
         console.log('------------------------------------');
         console.log("All Keywords saved");
         console.log('------------------------------------');

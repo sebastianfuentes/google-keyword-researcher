@@ -27,7 +27,7 @@ router.post('/positions',
     keywords.clean,
     keywords.save,
     search.lookup,
-    dataHandler.init,
+    // dataHandler.init,
     function(req, res, next) {
         res.render('index', { title: 'Express' });
     }

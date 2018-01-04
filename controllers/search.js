@@ -7,6 +7,7 @@ const _ = require('lodash');
 const exportData = require('./exportData');
 
 const Results = require("../models/results")
+const MarketShare = require("../models/marketshare")
 
 const multipliers = {
     _1: .25,
@@ -24,11 +25,9 @@ const multipliers = {
 };
 
 
-let date = new Date();
-
-let formatedResults = [];
-let rankedResults = [];
-let removeDomainChars = /\bpr\b|\bes\b|\ben\b|\bwww\b|\bin\b|\bcom\b|\bco\b|\buk\b|\bmx\b|\bnet\b|\borg\b|\bedu\b|\bit\b|\bbr\b|\bus\b|\bninja\b|\bme\b|\btv\b|\./ig;
+const removeDomainChars = /\bpr\b|\bes\b|\ben\b|\bwww\b|\bin\b|\bcom\b|\bco\b|\buk\b|\bmx\b|\bnet\b|\borg\b|\bedu\b|\bit\b|\bbr\b|\bus\b|\bninja\b|\bme\b|\btv\b|\./ig;
+let reportTitle = "";
+let storedKeywords;
 
 google.tld = "com.mx";
 google.lang = "es";
@@ -40,17 +39,17 @@ google.nextText = google.lang == "en" ? "Next" : "Siguiente"
 exports.lookup = (req, res, next) => {
         let time = 0;
         let search = [];
+
+        reportTitle = req.body.title || Date.now();
+        storedKeywords = req.storedKeywords;
         if (req.body.results)
             google.resultsPerPage = req.body.results;
-        for (let query of req.json) {
-            search.push(this.googleIt(query.keyword, time))
-                // this.googleIt(query.keyword, time).then(data => this.clean(data, req.averages))
+        for (let i = 0; i < storedKeywords.length; i++) {
+            search.push(this.googleIt(storedKeywords[i], time))
             time += 3000;
         }
         Promise.all(search).then(data => {
-            console.log('data: ', data);
             this.clean(data, req.averages);
-
             next();
         });
     }
@@ -59,11 +58,8 @@ exports.lookup = (req, res, next) => {
 exports.googleIt = (query, time) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            console.log(`Looking up ${query}`);
-            console.log('------------------------------------');
-            console.log(google.resultsPerPage);
-            console.log('------------------------------------');
-            google(query, (err, data) => {
+            console.log(`Looking up ${query.word}`);
+            google(query.word, (err, data) => {
                 if (err) console.error(err)
                 resolve({
                     keyword: query,
@@ -77,15 +73,16 @@ exports.clean = (results, averages) => {
     let data = results.reduce((accumulator, object) => {
         let position = 0;
         object.data = object.data.reduce((acc, ele) => {
-
             this.cleanCards(ele);
 
             if (ele.title != "Bug Page") {
                 ele.position = position + 1;
                 position += 1;
-                ele.visibility = multipliers[`_${ele.position}`];
-                ele.updated = date.toDateString();
-                ele.clicks = Math.round(averages[object.keyword] * ele.visibility);
+                if (google.resultsPerPage <= 10) {
+                    ele.visibility = multipliers[`_${ele.position}`];
+                    ele.clicks = Math.round(object.keyword.average * ele.visibility);
+                }
+                ele.updated = Date.now();
                 ele.keyword = object.keyword;
                 acc.push(ele);
             }
@@ -94,7 +91,6 @@ exports.clean = (results, averages) => {
         return accumulator.concat(object.data);
     }, []);
     this.save(data);
-    console.log('data: ', data);
 };
 
 exports.cleanCards = ele => {
@@ -114,13 +110,24 @@ exports.cleanCards = ele => {
 exports.save = (results) => {
     let promises = [];
     for (let object of results) {
-        console.log(`Saving position ${object.position} from ${object.keyword} to the database`);
         let promise = Results.saveResult(object);
         promises.push(promise);
     }
-    Promise.all(promises).then((response) => {
-        console.log('------------------------------------');
-        console.log("All Results saved");
-        console.log('------------------------------------');
-    });
+    Promise.all(promises)
+        .then(marketshare => {
+
+            let report = {
+                title: reportTitle,
+                type: google.resultsPerPage > 10 ? "Positions Report" : "Market Share",
+                results: marketshare,
+                keywords: storedKeywords
+            }
+
+            MarketShare.save(report)
+
+            console.log('------------------------------------');
+            console.log("All Results saved");
+            console.log('------------------------------------');
+        })
+        .catch(err => console.log(err));
 };
