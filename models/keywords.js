@@ -19,16 +19,25 @@ exports.findAll = () => {
     );
 }
 
-exports.findOne = (keyword) => {
+exports.findById = id => {
+    return new Promise((resolve, reject) => {
+        this.Keyword.findById(id, (err, keyword) => {
+            if (err) reject(err);
+            resolve(keyword)
+        });
+    });
+};
+
+exports.findOne = keyword => {
     return new Promise((resolve, reject) =>
-        this.Keyword.find({ word: keyword }, (err, word) => {
+        this.Keyword.findOne({ word: keyword }, (err, word) => {
             if (err) reject(err);
             resolve(word);
         })
     );
 }
 
-exports.save = (object) => {
+exports.save = object => {
     return new Promise((resolve, reject) => {
         object.updated = Date.now();
         this.Keyword.findOneAndUpdate({ word: object.keyword }, object, { upsert: true }, (err, word) => {

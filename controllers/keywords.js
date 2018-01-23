@@ -18,7 +18,7 @@ exports.getJson = (req, res, next) => {
                 console.log('error: ', error);
         })
         .on('end_parsed', (obj) => {
-            req.json = obj;
+            req.storedKeywords = obj;
             next();
         })
 
@@ -26,7 +26,7 @@ exports.getJson = (req, res, next) => {
 
 // we only want to keep valid Keywords and above 200 queries a month and 
 exports.clean = (req, res, next) => {
-    req.json = req.json.reduce((acc, ele) => {
+    req.storedKeywords = req.storedKeywords.reduce((acc, ele) => {
         ele.average = Number(ele.average);
         if (ele.average > 200 && ele.keyword.length > 0 && !ele.keyword.match(/\uFFFD/g))
             acc.push(ele)
@@ -40,7 +40,7 @@ exports.clean = (req, res, next) => {
 exports.save = (req, res, next) => {
     let promises = [];
     req.averages = {};
-    for (let object of req.json) {
+    for (let object of req.storedKeywords) {
         console.log(`Saving \"${object.keyword}\" to the database`);
         req.averages[object.keyword] = object.average;
         let promise = Keywords.save(object);

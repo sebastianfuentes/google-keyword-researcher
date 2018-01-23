@@ -4,14 +4,11 @@ const _ = require("lodash");
 
 const Keywords = require("../models/keywords");
 const Results = require("../models/results");
-const MarketShare = require("../models/marketshare");
+const Report = require("../models/report");
 
 exports.init = (req, res, next) => {
-    req.json.map(ele => {
-        Results.findByMultipleKeywords(ele.keyword).then(response => { this.marketShare(response, req.json) });
-    });
-    next()
-        // this.cleanToCsv(cleaned);
+    req.cleanedResults = this.marketShare(req.cleanedResults, req.storedKeywords)
+    next();
 };
 
 exports.marketShare = (json, keywords) => {
@@ -40,18 +37,19 @@ exports.marketShare = (json, keywords) => {
         object.percentage = `${Math.round((object.visits/totalVisits * 100) * 100) / 100}%`;
         return object;
     });
-    this.save(MarketShare);
+    return MarketShare;
+    // this.save(MarketShare);
     // this.exportMarketShare(MarketShare);
 };
 
 exports.save = data => {
     let promises = [];
     for (let marketshare of data) {
-        promises.push(MarketShare.save(marketshare));
+        promises.push(Report.save(marketshare));
     }
     Promise.all(promises).then((response) => {
         console.log('------------------------------------');
-        console.log("All  saved");
+        console.log("All saved");
         console.log('------------------------------------');
     });
 };

@@ -4,7 +4,7 @@ const db = require('./config');
 const KeywordSchema = require('./keywords');
 
 let ResultSchema = mongoose.Schema({
-    pageTitle: { type: String, required: true },
+    title: { type: String, required: true },
     updated: { type: Date, default: Date.now(), required: true },
     link: String,
     description: String,
@@ -50,19 +50,19 @@ exports.findByMultipleKeywords = (keywords) => {
     );
 }
 
-exports.findResultByKeyword = (keyword) => {
+exports.findByKeyword = (keyword) => {
     return new Promise((resolve, reject) =>
         this.Result.find({ keyword: keyword }, (err, data) => {
             if (err) reject(err);
             resolve(data);
-        })
+        }).populate("keyword")
     );
 }
 
 exports.saveResult = (object) => {
     return new Promise((resolve, reject) => {
-        object.updated = Date.now();
-        this.Result.findOneAndUpdate({ keyword: object.keyword }, object, { upsert: true }, (err, data) => {
+        this.Result.findOneAndUpdate({ link: object.link }, object, { upsert: true }, (err, data) => {
+            object.updated = Date.now();
             if (err) reject(err);
             resolve(data);
         })

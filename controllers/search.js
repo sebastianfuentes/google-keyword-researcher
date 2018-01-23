@@ -7,7 +7,8 @@ const _ = require('lodash');
 const exportData = require('./exportData');
 
 const Results = require("../models/results")
-const MarketShare = require("../models/marketshare")
+const Keywords = require("../models/keywords")
+const Report = require("../models/report")
 
 const multipliers = {
     _1: .25,
@@ -45,15 +46,32 @@ exports.lookup = (req, res, next) => {
         if (req.body.results)
             google.resultsPerPage = req.body.results;
         for (let i = 0; i < storedKeywords.length; i++) {
-            search.push(this.googleIt(storedKeywords[i], time))
+            search.push(this.checkIfScrapped(storedKeywords[i], time))
             time += 3000;
         }
         Promise.all(search).then(data => {
-            this.clean(data, req.averages);
+            req.cleanedResults = this.clean(data, req.averages);
+            this.save(req.cleanedResults)
             next();
         });
     }
     // clean and save the file with all the search results and positions
+
+exports.checkIfScrapped = (query, time) => {
+    return new Promise((resolve, reject) => {
+        Results.findByKeyword(query._id)
+            .then(result => {
+                let today = new Date();
+                if (result.length > 0)
+                    resolve({
+                        keyword: query,
+                        data: result
+                    })
+                else
+                    resolve(this.googleIt(query, time));
+            });
+    });
+}
 
 exports.googleIt = (query, time) => {
     return new Promise((resolve, reject) => {
@@ -74,7 +92,6 @@ exports.clean = (results, averages) => {
         let position = 0;
         object.data = object.data.reduce((acc, ele) => {
             this.cleanCards(ele);
-
             if (ele.title != "Bug Page") {
                 ele.position = position + 1;
                 position += 1;
@@ -90,10 +107,11 @@ exports.clean = (results, averages) => {
         }, [])
         return accumulator.concat(object.data);
     }, []);
-    this.save(data);
+    return data;
 };
 
 exports.cleanCards = ele => {
+    if (!ele.title) ele.title = "Google Card";
     if (ele.title.match(/(images|im[A-zÀ-ú]genes)\s(.*)\s/ig) && !ele.link) ele.title = "Google Images";
     if (ele.title.match(/(news|noticias)\s(.*)\s/ig) && !ele.link) ele.title = "Google News";
     else if (ele.link == null) {
@@ -111,11 +129,13 @@ exports.save = (results) => {
     let promises = [];
     for (let object of results) {
         let promise = Results.saveResult(object);
+        console.log('------------------------------------');
+        console.log(object);
+        console.log('------------------------------------');
         promises.push(promise);
     }
     Promise.all(promises)
         .then(marketshare => {
-
             let report = {
                 title: reportTitle,
                 type: google.resultsPerPage > 10 ? "Positions Report" : "Market Share",
@@ -123,7 +143,7 @@ exports.save = (results) => {
                 keywords: storedKeywords
             }
 
-            MarketShare.save(report)
+            Report.save(report)
 
             console.log('------------------------------------');
             console.log("All Results saved");
