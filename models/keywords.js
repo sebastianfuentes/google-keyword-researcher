@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-var db = require('./config');
+var db = require('../utils/config');
 
 let KeywordSchema = mongoose.Schema({
     word: { type: String, required: true, unique: true },

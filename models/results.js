@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const db = require('./config');
+var db = require('../utils/config');
 
 const KeywordSchema = require('./keywords');
 

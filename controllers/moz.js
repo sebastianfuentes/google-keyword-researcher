@@ -1,72 +1,68 @@
 "use strict"
 
-// const path = require("path");
-// const Mozscape = require('mozscape').Mozscape;
+const path = require("path");
+const Mozscape = require('mozscape').Mozscape;
 
-// let moz = new Mozscape(process.env.MOZ_ID, process.env.MOZ_KEY)
+const dictionary = require('../utils/moz.dictionary')
+const dummy = require('../utils/moz.dummy-data')
 
-// exports.fetchUrl = (req, res, next) => {
-//     moz.links('www.google.com', 'page_to_page', {}, function(err, response) {
-//         if (err) {
-//             console.log(err);
-//             return;
-//         }
-//         console.log(response)
-//         req.moz = response;
-//     });
-//     next()
-// };
+let moz = new Mozscape(process.env.MOZ_ID, process.env.MOZ_KEY)
 
-'use strict';
-
-var crypto = require('crypto');
-var http = require('http');
-
-// Set your expires times for several minutes into the future.
-// An expires time excessively far in the future will not be honored by the Mozscape API.
-// Divide the result of Date.now() by 1000 to make sure your result is in seconds.
-var expires = Math.floor((Date.now() / 1000)) + 300;
-var accessId = process.env.MOZ_ID;
-var secretKey = process.env.MOZ_KEY;
-
-// 'cols' is the sum of the bit flags representing each field you want returned.
-// Learn more here: https://moz.com/help/guides/moz-api/mozscape/api-reference/url-metrics
-var cols = "68719476736";
-
-// Put each parameter on a new line.
-var stringToSign = accessId + "\n" + expires;
-
-//create the hmac hash and Base64-encode it.
-var signature = crypto.createHmac('sha1', secretKey).update(stringToSign).digest('base64');
-//URL-encode the result of the above.
-signature = encodeURIComponent(signature);
-
-var postData = JSON.stringify(['www.moz.com', 'www.apple.com', 'www.pizza.com']);
-
-var options = {
-    hostname: 'lsapi.seomoz.com',
-    path: '/linkscape/url-metrics/?Cols=' +
-        cols + '&AccessID=' + accessId +
-        '&Expires=' + expires + '&Signature=' + signature,
-    method: 'POST',
-    headers: {
-        'Content-Type': 'application/json',
-        'Content-Length': postData.length
-    }
+exports.fetchUrls = (req, res, next) => {
+    moz.bulkUrlMetrics(['turninternational.co.uk', 'verbling.com', 'es.verbling.com', 'www.google.com'], [
+        'url',
+        'title',
+        'subdomain',
+        'root_domain',
+        'external_equity_links',
+        'subdomain_external_links',
+        'domain_external_links',
+        'juice_passing_links',
+        'subdomains_linking',
+        'domains_linking',
+        'links',
+        'subdomain_subs_linking',
+        'domain_domains_linking',
+        'mozRank',
+        'subdomain_mozRank',
+        'domain_mozRank',
+        'mozTrust',
+        'subdomain_mozTrust',
+        'domain_mozTrust',
+        'external_mozRank',
+        'subdomain_external_juice',
+        'domain_external_juice',
+        'subdomain_domain_juice',
+        'domain_domain_juice',
+        'spam_score',
+        'social',
+        'canonical_url',
+        'http_status',
+        'subdomain_links',
+        'domain_links',
+        'domains_linking_to_subdomain',
+        'page_authority',
+        'domain_authority',
+        'external_links',
+        'external_links_to_subdomain',
+        'external_links_to_root',
+        'linking_c_blocks',
+        'time_last_crawled',
+    ], (err, response) => {
+        if (err) {
+            console.log(err);
+            return;
+        }
+        req.moz = this.interpreter(JSON.parse(response.body));
+        next()
+    });
 };
 
-var responseData = "";
-
-var req = http.request(options, function(response) {
-    response.setEncoding('utf8');
-    response.on('data', function(chunk) {
-        responseData += chunk;
-    });
-    response.on('end', function() {
-        console.log(responseData);
-    });
-});
-
-//Make the request.
-req.write(postData);
-req.end();
+exports.interpreter = results => {
+    return results.map((page) => {
+        let result = {}
+        for (let key in dictionary)
+            result[dictionary[key]] = page[key];
+        return result;
+    })
+};

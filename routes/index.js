@@ -36,7 +36,7 @@ router.post('/positions',
 );
 
 router.get('/moz',
-    moz.fetchUrl,
+    moz.fetchUrls,
     function(req, res, next) {
         res.send(req.moz)
     }
