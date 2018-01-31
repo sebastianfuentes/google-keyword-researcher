@@ -17,9 +17,10 @@ router.post('/',
     keywords.clean,
     keywords.save,
     search.lookup,
+    search.save,
     dataHandler.init,
     function(req, res, next) {
-        res.send(req.cleanedResults);
+        res.send(req.report);
     }
 );
 
@@ -35,8 +36,11 @@ router.post('/positions',
     }
 );
 
-router.get('/moz',
-    moz.fetchUrls,
+router.post('/moz',
+    moz.findReport,
+    moz.batchUrls,
+    moz.getResults,
+    moz.save,
     function(req, res, next) {
         res.send(req.moz)
     }

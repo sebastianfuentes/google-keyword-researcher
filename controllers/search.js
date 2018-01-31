@@ -5,9 +5,12 @@ const fs = require('fs');
 const url = require('url');
 const _ = require('lodash');
 const exportData = require('./exportData');
+const domain = require("extract-domain");
 
 const Results = require("../models/results")
 const Keywords = require("../models/keywords")
+const Urls = require("../models/url")
+const Domains = require("../models/domain")
 const Report = require("../models/report")
 
 const multipliers = {
@@ -40,7 +43,6 @@ google.nextText = google.lang == "en" ? "Next" : "Siguiente"
 exports.lookup = (req, res, next) => {
         let time = 0;
         let search = [];
-
         reportTitle = req.body.title || Date.now();
         storedKeywords = req.storedKeywords;
         if (req.body.results)
@@ -49,9 +51,8 @@ exports.lookup = (req, res, next) => {
             search.push(this.checkIfScrapped(storedKeywords[i], time))
             time += 3000;
         }
-        Promise.all(search).then(data => {
-            req.cleanedResults = this.clean(data, req.averages);
-            this.save(req.cleanedResults)
+        Promise.all(search).then(async data => {
+            req.cleanedResults = await this.clean(data, req.averages);
             next();
         });
     }
@@ -87,7 +88,7 @@ exports.googleIt = (query, time) => {
         }, time);
     });
 }
-exports.clean = (results, averages) => {
+exports.clean = async(results, averages) => {
     let data = results.reduce((accumulator, object) => {
         let position = 0;
         object.data = object.data.reduce((acc, ele) => {
@@ -103,6 +104,9 @@ exports.clean = (results, averages) => {
                 ele.keyword = object.keyword;
                 acc.push(ele);
             }
+            if (ele.type == "organic" && typeof ele.domain != "object") {
+                ele.domain = domain(ele.href);
+            }
             return acc;
         }, [])
         return accumulator.concat(object.data);
@@ -112,42 +116,74 @@ exports.clean = (results, averages) => {
 
 exports.cleanCards = ele => {
     if (!ele.title) ele.title = "Google Card";
-    if (ele.title.match(/(images|im[A-zÀ-ú]genes)\s(.*)\s/ig) && !ele.link) ele.title = "Google Images";
-    if (ele.title.match(/(news|noticias)\s(.*)\s/ig) && !ele.link) ele.title = "Google News";
-    else if (ele.link == null) {
-        ele.title = ele.title ? ele.title : "Bug Page";
-    } else {
+    if (ele.title.match(/(images|im[A-zÀ-ú]genes)\s(.*)\s/ig) && !ele.link) {
+        ele.title = "Google Images"
+        ele.type = "card";
+    }
+    if (ele.title.match(/(news|noticias)\s(.*)\s/ig) && !ele.link) {
+        ele.title = "Google News"
+        ele.type = "card";
+    } else if (ele.link == null && !ele.title) {
+        ele.title = ele.title ? ele.title : "Bug Page"
+        ele.type = "none";
+    } else if (typeof ele.link == "string") {
         let newTitle = ele.link ? url.parse(ele.link) : ele.link;
         newTitle = newTitle.host
             .replace(removeDomainChars, " ")
             .trim();
         ele.title = newTitle.replace(/\b\w/g, l => l.toUpperCase());
+        ele.type = "organic"
     }
 };
 
-exports.save = (results) => {
+exports.save = async(req, res, next) => {
     let promises = [];
-    for (let object of results) {
+    for (let object of req.cleanedResults) {
+        let link, domain
+        link = await this.saveUrl(object);
+        object.link = link;
+
+        if (object.type == "organic") {
+            domain = await this.saveDomain(object, link);
+            object.domain = domain;
+        }
+
         let promise = Results.saveResult(object);
-        console.log('------------------------------------');
-        console.log(object);
-        console.log('------------------------------------');
         promises.push(promise);
     }
-    Promise.all(promises)
-        .then(marketshare => {
+    await Promise.all(promises)
+        .then(async marketshare => {
             let report = {
                 title: reportTitle,
                 type: google.resultsPerPage > 10 ? "Positions Report" : "Market Share",
                 results: marketshare,
                 keywords: storedKeywords
             }
-
-            Report.save(report)
-
+            req.report = await Report.save(report)
             console.log('------------------------------------');
             console.log("All Results saved");
             console.log('------------------------------------');
+            next();
         })
         .catch(err => console.log(err));
+};
+
+exports.saveUrl = async object => {
+    let url;
+    try {
+        url = await Urls.save(object);
+        return url;
+    } catch (e) {
+        console.log(e);
+    }
+};
+
+exports.saveDomain = async(object, link) => {
+    let domain;
+    try {
+        domain = await Domains.save(object, link);
+        return domain;
+    } catch (e) {
+        console.log(e);
+    }
 };

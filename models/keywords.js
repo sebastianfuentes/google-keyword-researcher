@@ -40,7 +40,7 @@ exports.findOne = keyword => {
 exports.save = object => {
     return new Promise((resolve, reject) => {
         object.updated = Date.now();
-        this.Keyword.findOneAndUpdate({ word: object.keyword }, object, { upsert: true }, (err, word) => {
+        this.Keyword.findOneAndUpdate({ word: object.keyword }, object, { new: true, upsert: true }, (err, word) => {
             if (err) reject(err);
             resolve(word);
         })

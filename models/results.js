@@ -2,15 +2,23 @@ const mongoose = require('mongoose');
 var db = require('../utils/config');
 
 const KeywordSchema = require('./keywords');
+const UrlSchema = require('./url');
 
 let ResultSchema = mongoose.Schema({
     title: { type: String, required: true },
     updated: { type: Date, default: Date.now(), required: true },
-    link: String,
+    link: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Url"
+    },
+    type: String,
     description: String,
     clicks: Number,
     visibility: Number,
-    href: String,
+    domain: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Domain"
+    },
     position: Number,
     keyword: {
         type: mongoose.Schema.Types.ObjectId,
@@ -19,7 +27,6 @@ let ResultSchema = mongoose.Schema({
 });
 
 ResultSchema.index({ keyword: 1, title: 1, link: 1 });
-
 
 exports.Result = mongoose.model('Result', ResultSchema);
 
@@ -55,16 +62,22 @@ exports.findByKeyword = (keyword) => {
         this.Result.find({ keyword: keyword }, (err, data) => {
             if (err) reject(err);
             resolve(data);
-        }).populate("keyword")
+        }).populate("keyword link")
     );
 }
 
 exports.saveResult = (object) => {
+    object.updated = Date.now();
+    let result = new this.Result(object);
     return new Promise((resolve, reject) => {
-        this.Result.findOneAndUpdate({ link: object.link }, object, { upsert: true }, (err, data) => {
-            object.updated = Date.now();
+        result.save((err, data) => {
             if (err) reject(err);
             resolve(data);
-        })
+        });
+        // this.Result.findOneAndUpdate({ link: object.link }, object, { new: true, upsert: true }, (err, data) => {
+        //     if (err) reject(err);
+        //     resolve(data);
+        // })
     });
+
 }

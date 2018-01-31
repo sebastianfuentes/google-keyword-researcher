@@ -30,12 +30,20 @@ exports.findResults = () => {
     );
 }
 
+exports.findById = id => {
+    return new Promise((resolve, reject) =>
+        this.Report.findById(id, (err, data) => {
+            if (err) reject(err);
+            resolve(data);
+        }).populate("results")
+    );
+}
 exports.save = (object) => {
     return new Promise((resolve, reject) => {
         object.updated = Date.now();
-        this.Report.findOneAndUpdate({ title: object.title }, object, { upsert: true }, (err, data) => {
+        this.Report.findOneAndUpdate({ title: object.title }, object, { new: true, upsert: true }, (err, data) => {
             if (err) reject(err);
-            resolve(data);
+            resolve(data.id);
         })
     });
 }

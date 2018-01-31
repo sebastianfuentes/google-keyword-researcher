@@ -1,17 +1,19 @@
 "use strict"
 
 const path = require("path");
-const Mozscape = require('mozscape').Mozscape;
+const Mozscape = require('../utils/moz.scape').Mozscape;
+const dictionary = require('../utils/moz.dictionary');
+const dummy = require('../utils/moz.interpreted');
 
-const dictionary = require('../utils/moz.dictionary')
-const dummy = require('../utils/moz.dummy-data')
+const Reports = require('../models/report');
+const Urls = require('../models/url');
 
 let moz = new Mozscape(process.env.MOZ_ID, process.env.MOZ_KEY)
 
-exports.fetchUrls = (req, res, next) => {
-    moz.bulkUrlMetrics(['turninternational.co.uk', 'verbling.com', 'es.verbling.com', 'www.google.com'], [
-        'url',
+exports.fetchUrls = async chunk => {
+    let mozData = new Promise((resolve, reject) => moz.bulkUrlMetrics(chunk, [
         'title',
+        'url',
         'subdomain',
         'root_domain',
         'external_equity_links',
@@ -36,7 +38,6 @@ exports.fetchUrls = (req, res, next) => {
         'domain_domain_juice',
         'spam_score',
         'social',
-        'canonical_url',
         'http_status',
         'subdomain_links',
         'domain_links',
@@ -47,15 +48,14 @@ exports.fetchUrls = (req, res, next) => {
         'external_links_to_subdomain',
         'external_links_to_root',
         'linking_c_blocks',
-        'time_last_crawled',
+        // 'time_last_crawled',
     ], (err, response) => {
         if (err) {
             console.log(err);
-            return;
         }
-        req.moz = this.interpreter(JSON.parse(response.body));
-        next()
-    });
+        resolve(this.interpreter(JSON.parse(response.body)))
+    }))
+    return await mozData;
 };
 
 exports.interpreter = results => {
@@ -65,4 +65,57 @@ exports.interpreter = results => {
             result[dictionary[key]] = page[key];
         return result;
     })
+};
+
+exports.findReport = async(req, res, next) => {
+    req.moz = await Reports.findById(req.body.report)
+    next();
+}
+
+exports.batchUrls = async(req, res, next) => {
+    let links = [];
+    let chunks = [];
+
+    for (let result of req.moz.results) {
+        let link = await Urls.findById(result.link);
+        links.push(link.url)
+    }
+
+    links = links.filter(link => {
+        if (link.includes("http"))
+            return link;
+    });
+
+    while (links.length > 0) {
+        let chunk = links.splice(0, 10)
+        chunks.push(chunk)
+    }
+    req.chunks = chunks;
+    next();
+}
+
+exports.getResults = async(req, res, next) => {
+    let time = 0;
+    let promises = [];
+
+    // for (let chunk of req.chunks) {
+    //     let promise;
+    //     promise = new Promise(resolve => setTimeout(() => { resolve(this.fetchUrls(chunk)) }, time))
+    //     this.fetchUrls(chunk)
+    //     promises.push(promise)
+    //     time += 11000;
+    // }
+
+    // Promise.all(promises).then(results => {
+    //     req.moz = results;
+    //     next()
+    // });
+
+    req.moz = dummy;
+    next();
+};
+
+exports.save = async(req, res, next) => {
+    req.moz = [].concat.apply([], req.moz);
+    next();
 };
