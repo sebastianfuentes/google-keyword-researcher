@@ -1,13 +1,14 @@
-var mongoose = require('mongoose');
+const mongoose = require('mongoose');
 
-var db = require('../utils/config');
+const db = require('../utils/config');
+const Score = require('../models/score');
 
 let UrlSchema = mongoose.Schema({
     url: { type: String, required: true, unique: true },
-    // score: {
-    //     type: mongoose.Schema.Types.ObjectId,
-    //     ref: "Score"
-    // },
+    score: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Score"
+    },
     updated: { type: Date, required: true, default: Date.now }
 })
 
@@ -55,5 +56,21 @@ exports.save = object => {
                     resolve(data);
                 });
         })
+    });
+};
+
+exports.saveScore = score => {
+    return new Promise((resolve, reject) => {
+        this.Url.findOne({ url: score.url }, (err, data) => {
+            if (err) {
+                reject(err)
+            }
+            let url = new this.Url(data);
+            url.score = score;
+            url.save((err, saved) => {
+                if (err) reject(err);
+                resolve(data)
+            });
+        });
     });
 };

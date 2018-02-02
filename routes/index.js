@@ -1,6 +1,5 @@
 const express = require('express');
 const router = express.Router();
-const models = require("../models/keywords")
 
 const keywords = require("../controllers/keywords");
 const search = require("../controllers/search");

@@ -7,8 +7,8 @@ const _ = require('lodash');
 const exportData = require('./exportData');
 const domain = require("extract-domain");
 
-const Results = require("../models/results")
-const Keywords = require("../models/keywords")
+const Result = require("../models/result")
+const Keywords = require("../models/keyword")
 const Urls = require("../models/url")
 const Domains = require("../models/domain")
 const Report = require("../models/report")
@@ -60,7 +60,7 @@ exports.lookup = (req, res, next) => {
 
 exports.checkIfScrapped = (query, time) => {
     return new Promise((resolve, reject) => {
-        Results.findByKeyword(query._id)
+        Result.findByKeyword(query._id)
             .then(result => {
                 let today = new Date();
                 if (result.length > 0)
@@ -148,7 +148,7 @@ exports.save = async(req, res, next) => {
             object.domain = domain;
         }
 
-        let promise = Results.saveResult(object);
+        let promise = Result.saveResult(object);
         promises.push(promise);
     }
     await Promise.all(promises)

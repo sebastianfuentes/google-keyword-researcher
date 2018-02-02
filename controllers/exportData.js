@@ -2,8 +2,8 @@ const fs = require('fs');
 const json2csv = require('json2csv');
 const _ = require("lodash");
 
-const Keywords = require("../models/keywords");
-const Results = require("../models/results");
+const Keywords = require("../models/keyword");
+const Results = require("../models/result");
 const Report = require("../models/report");
 
 exports.init = (req, res, next) => {

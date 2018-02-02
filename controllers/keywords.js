@@ -4,7 +4,7 @@ const csvtojson = require('csvtojson');
 const fs = require('fs');
 const path = require("path");
 
-const Keywords = require("../models/keywords");
+const Keywords = require("../models/keyword");
 
 exports.getJson = (req, res, next) => {
     console.log('Parsing CSV file to JSON');

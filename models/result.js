@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 var db = require('../utils/config');
 
-const KeywordSchema = require('./keywords');
+const KeywordSchema = require('./keyword');
 const UrlSchema = require('./url');
 
 let ResultSchema = mongoose.Schema({

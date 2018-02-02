@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 
 var db = require('../utils/config');
-const KeywordSchema = require('./keywords');
-const ResultSchema = require('./results');
+const KeywordSchema = require('./keyword');
+const ResultSchema = require('./result');
 
 let MarkerShareSchema = mongoose.Schema({
     title: { type: String },

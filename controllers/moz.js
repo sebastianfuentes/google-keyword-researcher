@@ -5,8 +5,9 @@ const Mozscape = require('../utils/moz.scape').Mozscape;
 const dictionary = require('../utils/moz.dictionary');
 const dummy = require('../utils/moz.interpreted');
 
-const Reports = require('../models/report');
-const Urls = require('../models/url');
+const Report = require('../models/report');
+const Url = require('../models/url');
+const Score = require('../models/score');
 
 let moz = new Mozscape(process.env.MOZ_ID, process.env.MOZ_KEY)
 
@@ -68,7 +69,7 @@ exports.interpreter = results => {
 };
 
 exports.findReport = async(req, res, next) => {
-    req.moz = await Reports.findById(req.body.report)
+    req.moz = await Report.findById(req.body.report)
     next();
 }
 
@@ -77,7 +78,7 @@ exports.batchUrls = async(req, res, next) => {
     let chunks = [];
 
     for (let result of req.moz.results) {
-        let link = await Urls.findById(result.link);
+        let link = await Url.findById(result.link);
         links.push(link.url)
     }
 
@@ -116,6 +117,19 @@ exports.getResults = async(req, res, next) => {
 };
 
 exports.save = async(req, res, next) => {
+    let promises = [];
     req.moz = [].concat.apply([], req.moz);
-    next();
+
+    for (let score of req.moz) {
+        let saved = await Score.save(score);
+        let promise = await Url.saveScore(saved);
+        promises.push(promise);
+    }
+
+    Promise.all(promises)
+        .then(saved => {
+            req.moz = saved;
+            next();
+        })
+        .catch(err => console.log(err));
 };
