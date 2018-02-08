@@ -17,6 +17,7 @@
     "mongoose": "^4.11.13",
     "morgan": "~1.7.0",
     "mozscape": "^0.1.6",
+    "open-graph": "^0.2.3",
     "pug": "~2.0.0-beta10",
     "request": "^2.83.0",
     "serve-favicon": "~2.3.2",

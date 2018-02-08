@@ -1,4 +1,4 @@
-module.exports = {
+exports = {
     uu: 'url',
     ut: 'title',
     ufq: 'subdomain',

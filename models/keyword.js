@@ -38,11 +38,33 @@ exports.findOne = keyword => {
 }
 
 exports.save = object => {
+    let savable = new this.Keyword(object)
+    object.updated = Date.now();
     return new Promise((resolve, reject) => {
-        object.updated = Date.now();
-        this.Keyword.findOneAndUpdate({ word: object.keyword }, object, { new: true, upsert: true }, (err, word) => {
+        this.Keyword.findOne({ word: savable.key }, (err, response) => {
             if (err) reject(err);
-            resolve(word);
+            if (response) {
+                resolve(response);
+            } else if (!response && typeof savable.url == "string")
+                savable.save((err, data) => {
+                    if (err) reject(err);
+                    resolve(data);
+                });
         })
     });
 }
+
+exports.save = object => {
+    return new Promise((resolve, reject) => {
+        this.Url.findOne({ url: savable.url }, (err, response) => {
+            if (err) reject(err);
+            if (response) {
+                resolve(response);
+            } else if (!response && typeof savable.url == "string")
+                savable.save((err, data) => {
+                    if (err) reject(err);
+                    resolve(data);
+                });
+        })
+    });
+};

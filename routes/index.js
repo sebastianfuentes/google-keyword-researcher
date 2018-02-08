@@ -5,6 +5,7 @@ const keywords = require("../controllers/keywords");
 const search = require("../controllers/search");
 const dataHandler = require("../controllers/exportData");
 const moz = require("../controllers/moz");
+const og = require("../controllers/open-graph.js");
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -36,12 +37,21 @@ router.post('/positions',
 );
 
 router.post('/moz',
-    moz.findReport,
-    moz.batchUrls,
-    moz.getResults,
-    moz.save,
+    moz.test,
+    // moz.findReport,
+    // moz.batchUrls,
+    // moz.getResults,
+    // moz.save,
     function(req, res, next) {
         res.send(req.moz)
+    }
+)
+
+router.get('/open-graph',
+    og.fetchUrl,
+    // og.save,
+    function(req, res, next) {
+        res.send(req.og)
     }
 )
 

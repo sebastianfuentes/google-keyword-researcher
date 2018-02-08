@@ -298,7 +298,7 @@ exports.Mozscape = Mozscape;
     this.LINK_FLAGS = {
         flags: 2,
         anchor_text: 4,
-        moxRank_passed: 16,
+        mozRank_passed: 16,
     };
 
     /**
